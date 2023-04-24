@@ -1,4 +1,4 @@
-#!/home/fabian/SBB-Speech-Synthesis-Lab/.venv/bin/python
+#!/home/fabian/SBB-Speech-Synthesis-Lab/.venv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys

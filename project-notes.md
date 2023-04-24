@@ -19,9 +19,13 @@
 - @Tuesday Find out Presentation Guidelines / Project report for Note-taking & Preparation
 
 ## Current Tasks
-- Introduce variations 
-	- SSML fields + Noise
-- Produce Text inputs
+- Avoid duplicates in output (skip if already exists by file-name)
+
+Improve Set
+- Filter foreign understandable voices
+- Add different pronounciations (e.g. zwo)
+- Foreign better at slow rate
+- Add background noise
 
 ## TODOs
 

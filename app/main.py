@@ -39,11 +39,11 @@ def generate_ssml_text(text, pitch, rate, voice, role, style):
     voice_element = ET.Element("voice")
     voice_element.set("name", voice)
 
-    express_as_element = ET.SubElement(voice_element, "mstts:express-as")
-    express_as_element.set("role", role)  # Add role attribute
-    express_as_element.set("style", style)  # Add style attribute
+    # express_as_element = ET.SubElement(voice_element, "mstts:express-as")
+    # express_as_element.set("role", role) 
+    # express_as_element.set("style", style)
 
-    prosody_element = ET.SubElement(express_as_element, "prosody")
+    prosody_element = ET.SubElement(voice_element, "prosody")
     prosody_element.set("pitch", prosody["pitch"])
     prosody_element.set("rate", prosody["rate"])
     prosody_element.text = text
@@ -63,11 +63,9 @@ def synthesize_speech(text, pitch, rate, voice, role, style, output_filename):
     )
 
     ssml_string = generate_ssml_text(text, pitch, rate, voice, role, style)
-    # print(ssml_string)
     result = speech_synthesizer.speak_ssml_async(ssml_string).get()
 
     stream = speechsdk.AudioDataStream(result)
-
     stream.save_to_wav_file(output_filepath)
 
     if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
@@ -92,6 +90,6 @@ with open("combinations.csv", "r", newline="", encoding="utf-8") as csvfile:
         role = row["role"]  # Read role option
         style = row["style"]  # Read style option
 
-        output_filename = f"{index}_{voice}_style-{style}_role-{role}.wav"
+        output_filename = f"{index}_{voice}.wav"
         output_filepath = os.path.join(output_dir, output_filename)
         synthesize_speech(text, pitch, rate, voice, role, style, output_filename)

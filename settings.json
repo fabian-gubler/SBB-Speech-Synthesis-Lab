@@ -1,0 +1,37 @@
+{
+    "speech_key": "98b6bdd8791d40889e42933be6ced7cd",
+    "service_region": "westeurope",
+    "combinations_count": 50,
+    "language_distribution": {
+		"de-DE": 0.50,
+		"fr-FR": 0.25,
+		"it-IT": 0.25,
+		"en-US": 0.075,
+		"pt-PT": 0.025,
+		"es-ES": 0.025,
+		"ta-IN": 0.025,
+		"tr-TR": 0.025,
+		"ar-EG": 0.025
+    },
+  "local_voices": [
+    {"name": "", "gender": "Female"},
+    {"name": "de-DE-KatjaNeural", "gender": "Female"},
+    {"name": "de-DE-ConradNeural", "gender": "Male"}
+  ],
+  "foreign_voices": [
+    {"name": "fr-FR-DeniseNeural", "language": "fr-FR", "gender": "Female"},
+    {"name": "it-IT-IsabellaNeural", "language": "it-IT", "gender": "Female"},
+    {"name": "ar-EG-SalmaNeural", "language": "ar-EG", "gender": "Female"}
+  ],
+    "text_inputs": [
+        "This is a sample text input.",
+        "Another example of text input.",
+        "Yet another text input for testing.",
+        "Trying different combinations of text.",
+        "One more text input to experiment with."
+    ],
+	"pitch_options": ["low", "medium", "high"],
+    "rate_options": ["slow", "medium", "fast"],
+	"role_options": [ "YoungAdultFemale", "YoungAdultMale", "OlderAdultFemale", "OlderAdultMale", "SeniorFemale", "SeniorMale"],
+	"style_options": [ "serious", "shouting", "whispering", "gentle", "excited", "disgruntled", "calm", "angry"]
+}

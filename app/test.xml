@@ -1,3 +1,0 @@
-<speak version="1.0" xml:lang="de-DE" xmlns:mstts="http://www.w3.org/2001/mstts">
-	<voice name="fast">
-		<mstts:express-as role="YoungAdultFemale" style="calm"><prosody pitch="ar-EG-ShakirNeural" rate="medium">This is a sample text input.</prosody></mstts:express-as></voice></speak>

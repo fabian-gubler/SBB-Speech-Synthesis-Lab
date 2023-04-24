@@ -13,8 +13,8 @@
 		"tr-TR": 0.025,
 		"ar-EG": 0.025
     },
-	"pitch_options": ["low", "medium", "high"],
-    "rate_options": ["slow", "medium", "fast"],
+	"pitch_options": ["low", "medium" ],
+    "rate_options": ["slow", "medium" ],
 	"role_options": [ "YoungAdultFemale", "YoungAdultMale", "OlderAdultFemale", "OlderAdultMale", "SeniorFemale", "SeniorMale"],
 	"style_options": [ "serious", "shouting", "whispering", "gentle", "excited", "disgruntled", "calm", "angry"]
 }

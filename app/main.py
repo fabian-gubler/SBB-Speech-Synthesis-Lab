@@ -1,8 +1,14 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
+"""
+This script is used to generate synthetic speech given a CSV file 
+with randomized input parameters for the TTS service.
+"""
+
+import json
 import csv
 import azure.cognitiveservices.speech as speechsdk
-
-speech_key, service_region = "98b6bdd8791d40889e42933be6ced7cd", "westeurope"
-speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 # Loop over csv
 # - retrieve output text
@@ -20,7 +26,14 @@ speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_r
     # - optional: background audio
     # - transform fields into xml
 
-speech_key, service_region = "98b6bdd8791d40889e42933be6ced7cd", "westeurope"
+# Read settings from JSON file
+with open("settings.json") as settings_file:
+    settings = json.load(settings_file)
+
+speech_key = settings["speech_key"]
+service_region = settings["service_region"]
+
+# Configure speech service
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 
@@ -44,7 +57,7 @@ def synthesize_speech(text, voice, output_filename):
 with open('combinations.csv', 'r', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
 
-    for index, row in enumerate(reader):
+    for index, row in enumerate(reader, start=1):
         text = row['text']
         voice = row['voice']
         accent = row['accent']

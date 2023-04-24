@@ -6,33 +6,24 @@ This script is used to generate all possible combinations of the
 input parameters for the TTS service.
 """
 
+import json
 import csv
 import random
 import uuid
 
-# Optional: Retrieve voices from the service
-# Dummy voices
-voices = ['de-DE-AmalaNeural', 
-          'de-DE-BerndNeural', 
-          'de-DE-ChristophNeural', 
-          'de-DE-ElkeNeural']
+# Read settings from JSON file
+with open("settings.json") as settings_file:
+    settings = json.load(settings_file)
 
-# Dummy accents
-accents = ['de-DE']
+combinations_count = settings["combinations_count"]
+voices = settings["voices"]
+accents = settings["accents"]
+text_inputs = settings["text_inputs"]
 
-# Blocks of words as textual input
-text_inputs = [
-    'This is a sample text input.',
-    'Another example of text input.',
-    'Yet another text input for testing.',
-    'Trying different combinations of text.',
-    'One more text input to experiment with.',
-]
-
-# Generate 20 possible combinations
+# Generate possible combinations
 combinations = []
 
-for _ in range(20):
+for _ in range(combinations_count):
     combination = {
         'uuid': str(uuid.uuid4()),
         'text': random.choice(text_inputs),
@@ -50,4 +41,4 @@ with open('combinations.csv', 'w', newline='', encoding='utf-8') as csvfile:
     for combination in combinations:
         writer.writerow(combination)
 
-print("CSV file created with 20 possible combinations.")
+print(f"CSV file created with {combinations_count} possible combinations.")

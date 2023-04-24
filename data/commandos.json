@@ -1,0 +1,402 @@
+[
+  {
+    "raw": "Rangierfahrt von Gleis romeo 5 6 nach Gleis x-ray 3 1.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"strong\">romeo</emphasis> 5 <emphasis level=\"moderate\">6</emphasis> nach <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">x-ray</emphasis> <emphasis level=\"moderate\">3</emphasis> <emphasis level=\"strong\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von 6 8 0 via 8 1 5 nach lima 2.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> 6 <emphasis level=\"strong\">8</emphasis> <emphasis level=\"strong\">0</emphasis> via <break strength=\"x-weak\" /> <emphasis level=\"strong\">8</emphasis> 1 <emphasis level=\"reduced\">5</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">lima</emphasis> <emphasis level=\"strong\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von zulu 6 nach zulu 4.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">zulu</emphasis> <emphasis level=\"strong\">6</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"moderate\">zulu</emphasis> <emphasis level=\"strong\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von alpha 9 nach yankee 6.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> alpha <break strength=\"weak\" /> <emphasis level=\"reduced\">9</emphasis> <emphasis level=\"strong\">nach</emphasis> yankee <break strength=\"x-weak\" /> <emphasis level=\"moderate\">6.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis whiskey 1 via mike 2 nach Gleis x-ray 3.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">whiskey</emphasis> <emphasis level=\"moderate\">1</emphasis> <emphasis level=\"strong\">via</emphasis> mike <break strength=\"medium\" /> <emphasis level=\"reduced\">2</emphasis> nach Gleis x-ray <break strength=\"weak\" /> <emphasis level=\"strong\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis kilo 1 5 nach Gleis tango 4.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"moderate\">von</emphasis> Gleis <emphasis level=\"moderate\">kilo</emphasis> 1 <emphasis level=\"strong\">5</emphasis> <emphasis level=\"strong\">nach</emphasis> Gleis tango <break strength=\"weak\" /> <emphasis level=\"strong\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von whiskey 1 nach india 8.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"reduced\">whiskey</emphasis> <emphasis level=\"reduced\">1</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"strong\">india</emphasis> <emphasis level=\"strong\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von india 2 nach victor 2 9.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"reduced\">india</emphasis> <emphasis level=\"reduced\">2</emphasis> nach <emphasis level=\"strong\">victor</emphasis> <emphasis level=\"moderate\">2</emphasis> <emphasis level=\"reduced\">9.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von golf 3 nach hotel 1.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"moderate\">golf</emphasis> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">hotel</emphasis> 1."
+  },
+  {
+    "raw": "Rangierfahrt von golf 3 0 via mike 8 3 nach delta 2 0.",
+    "breaks_emphasis": "Rangierfahrt von <emphasis level=\"strong\">golf</emphasis> 3 <emphasis level=\"strong\">0</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"reduced\">mike</emphasis> <emphasis level=\"strong\">8</emphasis> <emphasis level=\"moderate\">3</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"strong\">delta</emphasis> 2 <emphasis level=\"strong\">0.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von delta 9 3 via juliett 2 9 nach 9 8 2.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"strong\">delta</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"reduced\">3</emphasis> via <emphasis level=\"moderate\">juliett</emphasis> <emphasis level=\"moderate\">2</emphasis> <emphasis level=\"reduced\">9</emphasis> <emphasis level=\"strong\">nach</emphasis> 9 <emphasis level=\"moderate\">8</emphasis> <emphasis level=\"strong\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von zulu 3 0 nach tango 2.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"moderate\">zulu</emphasis> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"reduced\">0</emphasis> nach tango <break strength=\"medium\" /> 2."
+  },
+  {
+    "raw": "Rangierfahrt von yankee 6 via 2 8 nach kilo 9 9.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> yankee <break strength=\"x-weak\" /> 6 <emphasis level=\"strong\">via</emphasis> 2 <emphasis level=\"reduced\">8</emphasis> nach <emphasis level=\"strong\">kilo</emphasis> <emphasis level=\"strong\">9</emphasis> 9."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis sierra 6 via tango 7 nach Gleis bravo 2 8.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"strong\">sierra</emphasis> 6 <emphasis level=\"strong\">via</emphasis> tango <break strength=\"medium\" /> <emphasis level=\"reduced\">7</emphasis> <emphasis level=\"reduced\">nach</emphasis> Gleis <emphasis level=\"strong\">bravo</emphasis> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"reduced\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis lima 2 nach Gleis victor 2.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"moderate\">lima</emphasis> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"strong\">nach</emphasis> Gleis <emphasis level=\"reduced\">victor</emphasis> <emphasis level=\"strong\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von kilo 5 via charlie 9 nach 2 6 1.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> kilo <break strength=\"x-weak\" /> 5 <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"strong\">charlie</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"moderate\">2</emphasis> <emphasis level=\"reduced\">6</emphasis> 1."
+  },
+  {
+    "raw": "Rangierfahrt von x-ray 4 9 nach quebec 8.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"moderate\">x-ray</emphasis> <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"moderate\">9</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"moderate\">quebec</emphasis> <emphasis level=\"strong\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von lima 7 nach delta 3.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"strong\">von</emphasis> <emphasis level=\"moderate\">lima</emphasis> <emphasis level=\"strong\">7</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"reduced\">delta</emphasis> <emphasis level=\"strong\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von echo 4 nach whiskey 1 3.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> von <emphasis level=\"strong\">echo</emphasis> <emphasis level=\"strong\">4</emphasis> <emphasis level=\"moderate\">nach</emphasis> whiskey <break strength=\"medium\" /> <emphasis level=\"strong\">1</emphasis> <emphasis level=\"moderate\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 9 8 9 nach Gleis zulu 5 3.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"moderate\">nach</emphasis> Gleis <emphasis level=\"moderate\">zulu</emphasis> <emphasis level=\"reduced\">5</emphasis> <emphasis level=\"strong\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis oscar 1 nach Gleis sierra 3 8.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> von <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"moderate\">oscar</emphasis> 1 <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"strong\">sierra</emphasis> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"reduced\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von 6 4 2 nach 8 4 1.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <break strength=\"medium\" /> <emphasis level=\"reduced\">6</emphasis> 4 <emphasis level=\"moderate\">2</emphasis> nach <break strength=\"strong\" /> <emphasis level=\"strong\">8</emphasis> <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"moderate\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis tango 5 9 nach Gleis yankee 9.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> Gleis <emphasis level=\"moderate\">tango</emphasis> <emphasis level=\"reduced\">5</emphasis> <emphasis level=\"reduced\">9</emphasis> <emphasis level=\"strong\">nach</emphasis> Gleis <emphasis level=\"moderate\">yankee</emphasis> <emphasis level=\"moderate\">9.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von delta 1 4 nach 1 4 3.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> von <emphasis level=\"strong\">delta</emphasis> <emphasis level=\"reduced\">1</emphasis> 4 <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"strong\">1</emphasis> <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"moderate\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von delta 8 nach bravo 1.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"reduced\">delta</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"strong\">bravo</emphasis> <emphasis level=\"reduced\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von india 9 via 8 9 2 nach november 1.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> von <emphasis level=\"strong\">india</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"moderate\">2</emphasis> nach november <break strength=\"strong\" /> <emphasis level=\"strong\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von victor 3 nach lima 1 6.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"moderate\">victor</emphasis> 3 nach lima <break strength=\"medium\" /> <emphasis level=\"strong\">1</emphasis> <emphasis level=\"strong\">6.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis lima 6 via yankee 9 nach Gleis alpha 5 7.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">lima</emphasis> <emphasis level=\"moderate\">6</emphasis> <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"strong\">yankee</emphasis> 9 <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"moderate\">alpha</emphasis> 5 7."
+  },
+  {
+    "raw": "Rangierfahrt von uniform 2 9 via 1 9 5 nach uniform 9.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"reduced\">uniform</emphasis> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"reduced\">9</emphasis> <emphasis level=\"moderate\">via</emphasis> 1 <emphasis level=\"reduced\">9</emphasis> 5 <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"moderate\">uniform</emphasis> <emphasis level=\"moderate\">9.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis x-ray 2 6 nach Gleis tango 7.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">x-ray</emphasis> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"moderate\">6</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">tango</emphasis> 7."
+  },
+  {
+    "raw": "Rangierfahrt von charlie 2 5 nach papa 6 0.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"moderate\">charlie</emphasis> 2 <emphasis level=\"moderate\">5</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">papa</emphasis> <emphasis level=\"strong\">6</emphasis> <emphasis level=\"strong\">0.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von india 9 nach 8 4 4.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"moderate\">india</emphasis> <emphasis level=\"reduced\">9</emphasis> nach <break strength=\"strong\" /> <emphasis level=\"strong\">8</emphasis> <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"reduced\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von golf 1 9 via delta 7 nach foxtrot 3 9.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">golf</emphasis> <emphasis level=\"moderate\">1</emphasis> <emphasis level=\"reduced\">9</emphasis> via delta <break strength=\"strong\" /> <emphasis level=\"strong\">7</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"strong\">foxtrot</emphasis> <emphasis level=\"reduced\">3</emphasis> 9."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 3 3 3 via november 8 nach Gleis 8 8 1.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> Gleis <break strength=\"medium\" /> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"moderate\">3</emphasis> <emphasis level=\"moderate\">3</emphasis> <emphasis level=\"reduced\">via</emphasis> <emphasis level=\"moderate\">november</emphasis> <emphasis level=\"strong\">8</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> 8 <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"reduced\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis november 8 nach Gleis charlie 3.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> november <break strength=\"weak\" /> <emphasis level=\"moderate\">8</emphasis> <emphasis level=\"reduced\">nach</emphasis> Gleis <emphasis level=\"moderate\">charlie</emphasis> <emphasis level=\"strong\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von 9 5 2 via delta 5 nach tango 7.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> 9 <emphasis level=\"strong\">5</emphasis> 2 <emphasis level=\"moderate\">via</emphasis> delta <break strength=\"weak\" /> <emphasis level=\"reduced\">5</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"strong\">tango</emphasis> 7."
+  },
+  {
+    "raw": "Rangierfahrt von india 6 via 8 3 4 nach whiskey 4.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"strong\">india</emphasis> <emphasis level=\"moderate\">6</emphasis> <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"strong\">8</emphasis> <emphasis level=\"reduced\">3</emphasis> <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"moderate\">nach</emphasis> whiskey <break strength=\"medium\" /> <emphasis level=\"moderate\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von x-ray 9 via bravo 1 9 nach 1 4 8.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> x-ray <break strength=\"strong\" /> 9 <emphasis level=\"strong\">via</emphasis> bravo <break strength=\"weak\" /> <emphasis level=\"moderate\">1</emphasis> 9 <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"reduced\">1</emphasis> <emphasis level=\"strong\">4</emphasis> <emphasis level=\"reduced\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von 2 7 5 via uniform 6 nach 2 1 8.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"strong\">7</emphasis> <emphasis level=\"moderate\">5</emphasis> <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"reduced\">uniform</emphasis> 6 <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"strong\">2</emphasis> 1 <emphasis level=\"moderate\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von alpha 1 nach oscar 4 4.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> alpha <break strength=\"weak\" /> <emphasis level=\"strong\">1</emphasis> nach <emphasis level=\"strong\">oscar</emphasis> <emphasis level=\"strong\">4</emphasis> <emphasis level=\"moderate\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis yankee 5 7 nach Gleis india 1.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"reduced\">yankee</emphasis> <emphasis level=\"reduced\">5</emphasis> <emphasis level=\"strong\">7</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"strong\">india</emphasis> <emphasis level=\"reduced\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 7 5 2 via india 7 0 nach Gleis yankee 5.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"strong\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">7</emphasis> <emphasis level=\"moderate\">5</emphasis> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"reduced\">india</emphasis> 7 <emphasis level=\"reduced\">0</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"reduced\">yankee</emphasis> <emphasis level=\"strong\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis whiskey 1 via 2 9 9 nach Gleis foxtrot 4.",
+    "breaks_emphasis": "Rangierfahrt von <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"moderate\">whiskey</emphasis> <emphasis level=\"moderate\">1</emphasis> via <break strength=\"strong\" /> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">foxtrot</emphasis> 4."
+  },
+  {
+    "raw": "Rangierfahrt von charlie 2 via victor 2 0 nach 8 7.",
+    "breaks_emphasis": "Rangierfahrt von <emphasis level=\"reduced\">charlie</emphasis> 2 <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"moderate\">victor</emphasis> <emphasis level=\"reduced\">2</emphasis> 0 nach <break strength=\"x-weak\" /> 8 <emphasis level=\"reduced\">7.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von echo 4 nach 6.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> echo <break strength=\"weak\" /> <emphasis level=\"reduced\">4</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"strong\">6.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis papa 2 1 via victor 7 nach Gleis 9 2 6.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"moderate\">papa</emphasis> 2 1 <emphasis level=\"reduced\">via</emphasis> <emphasis level=\"strong\">victor</emphasis> <emphasis level=\"strong\">7</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"strong\">2</emphasis> 6."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis tango 7 nach Gleis kilo 2 6.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> von Gleis <emphasis level=\"moderate\">tango</emphasis> <emphasis level=\"moderate\">7</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">kilo</emphasis> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"moderate\">6.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von 7 3 0 via yankee 9 4 nach 1 2.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"strong\">von</emphasis> <emphasis level=\"reduced\">7</emphasis> <emphasis level=\"moderate\">3</emphasis> <emphasis level=\"moderate\">0</emphasis> <emphasis level=\"moderate\">via</emphasis> yankee <break strength=\"weak\" /> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"reduced\">4</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"reduced\">1</emphasis> <emphasis level=\"strong\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis oscar 1 via victor 2 nach Gleis juliett 8 4.",
+    "breaks_emphasis": "Rangierfahrt von <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"moderate\">oscar</emphasis> <emphasis level=\"moderate\">1</emphasis> <emphasis level=\"strong\">via</emphasis> victor <break strength=\"medium\" /> <emphasis level=\"moderate\">2</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"reduced\">juliett</emphasis> 8 4."
+  },
+  {
+    "raw": "Rangierfahrt von x-ray 6 nach kilo 7 2.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"reduced\">x-ray</emphasis> <emphasis level=\"strong\">6</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"moderate\">kilo</emphasis> 7 <emphasis level=\"reduced\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 3 2 7 nach Gleis mike 2 7.",
+    "breaks_emphasis": "Rangierfahrt von <emphasis level=\"reduced\">Gleis</emphasis> 3 2 <emphasis level=\"strong\">7</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"reduced\">mike</emphasis> 2 7."
+  },
+  {
+    "raw": "Rangierfahrt von echo 7 2 via golf 8 9 nach mike 4.",
+    "breaks_emphasis": "Rangierfahrt von <emphasis level=\"strong\">echo</emphasis> 7 <emphasis level=\"moderate\">2</emphasis> via <emphasis level=\"reduced\">golf</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"moderate\">9</emphasis> nach <emphasis level=\"reduced\">mike</emphasis> 4."
+  },
+  {
+    "raw": "Rangierfahrt von november 6 via mike 8 nach delta 4.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> november <break strength=\"strong\" /> 6 <emphasis level=\"reduced\">via</emphasis> <emphasis level=\"reduced\">mike</emphasis> <emphasis level=\"strong\">8</emphasis> nach <emphasis level=\"moderate\">delta</emphasis> <emphasis level=\"strong\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis india 1 6 via 9 7 8 nach Gleis 3 7 5.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"moderate\">india</emphasis> <emphasis level=\"strong\">1</emphasis> <emphasis level=\"reduced\">6</emphasis> via <break strength=\"weak\" /> 9 <emphasis level=\"strong\">7</emphasis> <emphasis level=\"strong\">8</emphasis> nach <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"strong\">7</emphasis> 5."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis x-ray 4 nach Gleis 9 6 2.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> Gleis <emphasis level=\"moderate\">x-ray</emphasis> <emphasis level=\"reduced\">4</emphasis> nach <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"reduced\">6</emphasis> <emphasis level=\"moderate\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von lima 9 via foxtrot 2 nach echo 2 4.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"strong\">lima</emphasis> <emphasis level=\"moderate\">9</emphasis> <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"reduced\">foxtrot</emphasis> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">echo</emphasis> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"strong\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 6 5 7 nach Gleis papa 6 1.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">6</emphasis> 5 <emphasis level=\"moderate\">7</emphasis> <emphasis level=\"moderate\">nach</emphasis> Gleis <emphasis level=\"reduced\">papa</emphasis> <emphasis level=\"strong\">6</emphasis> <emphasis level=\"strong\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis tango 2 nach Gleis lima 2 5.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"moderate\">tango</emphasis> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">lima</emphasis> 2 <emphasis level=\"moderate\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von november 9 3 nach 5 8.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> november <break strength=\"x-weak\" /> <emphasis level=\"reduced\">9</emphasis> <emphasis level=\"strong\">3</emphasis> nach <break strength=\"weak\" /> 5 8."
+  },
+  {
+    "raw": "Rangierfahrt von 2 6 nach bravo 7 3.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"reduced\">6</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">bravo</emphasis> 7 <emphasis level=\"moderate\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von kilo 6 5 nach sierra 2.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"moderate\">kilo</emphasis> 6 <emphasis level=\"moderate\">5</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"strong\">sierra</emphasis> <emphasis level=\"strong\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von alpha 1 nach romeo 5.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> alpha <break strength=\"weak\" /> 1 <emphasis level=\"reduced\">nach</emphasis> romeo <break strength=\"weak\" /> <emphasis level=\"moderate\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis x-ray 4 6 via papa 8 8 nach Gleis uniform 6 3.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"moderate\">x-ray</emphasis> <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"moderate\">6</emphasis> via <emphasis level=\"reduced\">papa</emphasis> <emphasis level=\"strong\">8</emphasis> <emphasis level=\"moderate\">8</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">uniform</emphasis> 6 <emphasis level=\"moderate\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von bravo 2 3 nach mike 8.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"moderate\">bravo</emphasis> <emphasis level=\"moderate\">2</emphasis> 3 <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"strong\">mike</emphasis> <emphasis level=\"strong\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis lima 8 2 via whiskey 9 nach Gleis alpha 8 4.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"moderate\">von</emphasis> Gleis <emphasis level=\"reduced\">lima</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"strong\">2</emphasis> via <emphasis level=\"strong\">whiskey</emphasis> 9 <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">alpha</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"reduced\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von november 1 nach delta 8.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"strong\">von</emphasis> <emphasis level=\"moderate\">november</emphasis> <emphasis level=\"strong\">1</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"moderate\">delta</emphasis> <emphasis level=\"reduced\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis delta 5 nach Gleis hotel 8 2.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> von <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"moderate\">delta</emphasis> <emphasis level=\"strong\">5</emphasis> <emphasis level=\"strong\">nach</emphasis> Gleis <emphasis level=\"strong\">hotel</emphasis> 8 <emphasis level=\"reduced\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von victor 1 nach romeo 6 4.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"reduced\">victor</emphasis> <emphasis level=\"strong\">1</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">romeo</emphasis> <emphasis level=\"strong\">6</emphasis> <emphasis level=\"strong\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 3 4 5 via victor 9 nach Gleis charlie 2.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> von Gleis <break strength=\"medium\" /> <emphasis level=\"reduced\">3</emphasis> <emphasis level=\"reduced\">4</emphasis> 5 <emphasis level=\"strong\">via</emphasis> victor <break strength=\"strong\" /> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">charlie</emphasis> <emphasis level=\"moderate\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von papa 1 via echo 5 nach oscar 1.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">papa</emphasis> <emphasis level=\"moderate\">1</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"moderate\">echo</emphasis> <emphasis level=\"moderate\">5</emphasis> <emphasis level=\"strong\">nach</emphasis> oscar <break strength=\"x-weak\" /> <emphasis level=\"moderate\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von charlie 5 2 via juliett 3 nach romeo 8.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"moderate\">charlie</emphasis> 5 <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"moderate\">juliett</emphasis> 3 <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"strong\">romeo</emphasis> <emphasis level=\"moderate\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis alpha 9 nach Gleis yankee 7.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"moderate\">alpha</emphasis> <emphasis level=\"moderate\">9</emphasis> nach Gleis <emphasis level=\"reduced\">yankee</emphasis> <emphasis level=\"strong\">7.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis echo 7 via yankee 3 nach Gleis 2 5 3.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> von <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"moderate\">echo</emphasis> <emphasis level=\"reduced\">7</emphasis> <emphasis level=\"reduced\">via</emphasis> <emphasis level=\"reduced\">yankee</emphasis> <emphasis level=\"reduced\">3</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"moderate\">2</emphasis> 5 <emphasis level=\"reduced\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von oscar 6 via alpha 1 7 nach uniform 1.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">oscar</emphasis> <emphasis level=\"moderate\">6</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"moderate\">alpha</emphasis> <emphasis level=\"reduced\">1</emphasis> <emphasis level=\"strong\">7</emphasis> nach <emphasis level=\"moderate\">uniform</emphasis> <emphasis level=\"strong\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von lima 2 via juliett 1 9 nach charlie 1.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> lima <break strength=\"x-weak\" /> <emphasis level=\"reduced\">2</emphasis> via <emphasis level=\"moderate\">juliett</emphasis> <emphasis level=\"moderate\">1</emphasis> <emphasis level=\"reduced\">9</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"strong\">charlie</emphasis> <emphasis level=\"strong\">1.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis zulu 3 1 via echo 7 0 nach Gleis victor 2 5.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> zulu <break strength=\"strong\" /> 3 1 via echo <break strength=\"weak\" /> <emphasis level=\"reduced\">7</emphasis> 0 <emphasis level=\"strong\">nach</emphasis> Gleis <emphasis level=\"moderate\">victor</emphasis> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"strong\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis november 3 nach Gleis delta 5.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"strong\">november</emphasis> <emphasis level=\"moderate\">3</emphasis> nach <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"strong\">delta</emphasis> 5."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis oscar 7 via victor 8 nach Gleis romeo 6.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"strong\">oscar</emphasis> <emphasis level=\"reduced\">7</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"moderate\">victor</emphasis> 8 <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> romeo <break strength=\"strong\" /> <emphasis level=\"strong\">6.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis yankee 4 3 nach Gleis 4 9.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> yankee <break strength=\"weak\" /> <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> 4 9."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis echo 8 2 via sierra 5 nach Gleis 4 0 2.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> Gleis echo <break strength=\"x-weak\" /> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"moderate\">sierra</emphasis> <emphasis level=\"moderate\">5</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">4</emphasis> <emphasis level=\"moderate\">0</emphasis> <emphasis level=\"reduced\">2.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von yankee 6 nach tango 8.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"strong\">yankee</emphasis> <emphasis level=\"strong\">6</emphasis> nach tango <break strength=\"x-weak\" /> <emphasis level=\"strong\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis whiskey 5 nach Gleis bravo 5.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">whiskey</emphasis> <emphasis level=\"moderate\">5</emphasis> <emphasis level=\"moderate\">nach</emphasis> Gleis <emphasis level=\"moderate\">bravo</emphasis> <emphasis level=\"reduced\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von india 9 via foxtrot 1 nach lima 8.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"moderate\">von</emphasis> <emphasis level=\"strong\">india</emphasis> <emphasis level=\"reduced\">9</emphasis> via foxtrot <break strength=\"x-weak\" /> <emphasis level=\"reduced\">1</emphasis> <emphasis level=\"strong\">nach</emphasis> lima <break strength=\"weak\" /> <emphasis level=\"strong\">8.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von foxtrot 3 via 2 8 0 nach quebec 3.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> von <emphasis level=\"reduced\">foxtrot</emphasis> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"reduced\">via</emphasis> <emphasis level=\"strong\">2</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"moderate\">0</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"reduced\">quebec</emphasis> <emphasis level=\"reduced\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 2 1 6 via 1 7 3 nach Gleis sierra 5.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">2</emphasis> 1 6 <emphasis level=\"strong\">via</emphasis> <emphasis level=\"moderate\">1</emphasis> <emphasis level=\"strong\">7</emphasis> <emphasis level=\"strong\">3</emphasis> nach <emphasis level=\"reduced\">Gleis</emphasis> sierra <break strength=\"weak\" /> <emphasis level=\"reduced\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 7 0 0 nach Gleis quebec 6 0.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> von <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"moderate\">7</emphasis> <emphasis level=\"reduced\">0</emphasis> <emphasis level=\"reduced\">0</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> quebec <break strength=\"x-weak\" /> <emphasis level=\"strong\">6</emphasis> <emphasis level=\"reduced\">0.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 3 1 3 via 7 7 5 nach Gleis 8 1 7.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> von Gleis <break strength=\"weak\" /> <emphasis level=\"reduced\">3</emphasis> <emphasis level=\"strong\">1</emphasis> 3 <emphasis level=\"reduced\">via</emphasis> <emphasis level=\"reduced\">7</emphasis> <emphasis level=\"strong\">7</emphasis> 5 <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">8</emphasis> <emphasis level=\"reduced\">1</emphasis> <emphasis level=\"strong\">7.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von 8 4 6 via 7 6 5 nach 9 3 7.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> 8 4 <emphasis level=\"moderate\">6</emphasis> <emphasis level=\"strong\">via</emphasis> <emphasis level=\"moderate\">7</emphasis> <emphasis level=\"moderate\">6</emphasis> <emphasis level=\"reduced\">5</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">9</emphasis> <emphasis level=\"strong\">3</emphasis> <emphasis level=\"strong\">7.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 3 4 nach Gleis hotel 1 6.",
+    "breaks_emphasis": "Rangierfahrt von <emphasis level=\"moderate\">Gleis</emphasis> 3 <emphasis level=\"moderate\">4</emphasis> <emphasis level=\"reduced\">nach</emphasis> <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"reduced\">hotel</emphasis> <emphasis level=\"strong\">1</emphasis> <emphasis level=\"reduced\">6.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von lima 1 nach golf 6 4.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"reduced\">lima</emphasis> <emphasis level=\"moderate\">1</emphasis> nach <emphasis level=\"reduced\">golf</emphasis> <emphasis level=\"strong\">6</emphasis> <emphasis level=\"strong\">4.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von bravo 4 via 3 9 nach 2 9 6.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"strong\">bravo</emphasis> <emphasis level=\"reduced\">4</emphasis> <emphasis level=\"moderate\">via</emphasis> 3 <emphasis level=\"strong\">9</emphasis> <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"moderate\">2</emphasis> <emphasis level=\"reduced\">9</emphasis> 6."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis papa 3 3 nach Gleis oscar 2 1.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> von Gleis <emphasis level=\"reduced\">papa</emphasis> <emphasis level=\"reduced\">3</emphasis> <emphasis level=\"moderate\">3</emphasis> nach <emphasis level=\"strong\">Gleis</emphasis> oscar <break strength=\"strong\" /> <emphasis level=\"moderate\">2</emphasis> 1."
+  },
+  {
+    "raw": "Rangierfahrt von oscar 5 6 nach golf 7.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> oscar <break strength=\"medium\" /> <emphasis level=\"strong\">5</emphasis> 6 nach <emphasis level=\"strong\">golf</emphasis> <emphasis level=\"reduced\">7.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis kilo 2 8 via delta 1 4 nach Gleis kilo 5.",
+    "breaks_emphasis": "Rangierfahrt <emphasis level=\"strong\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> kilo <break strength=\"medium\" /> <emphasis level=\"moderate\">2</emphasis> <emphasis level=\"moderate\">8</emphasis> via <emphasis level=\"strong\">delta</emphasis> 1 <emphasis level=\"strong\">4</emphasis> <emphasis level=\"moderate\">nach</emphasis> Gleis <emphasis level=\"reduced\">kilo</emphasis> <emphasis level=\"moderate\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von echo 8 via alpha 6 nach mike 5.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> echo <break strength=\"medium\" /> 8 <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"moderate\">alpha</emphasis> <emphasis level=\"moderate\">6</emphasis> <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"moderate\">mike</emphasis> <emphasis level=\"strong\">5.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von november 2 via 4 0 3 nach 9 3 0.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> von november <break strength=\"strong\" /> <emphasis level=\"reduced\">2</emphasis> <emphasis level=\"moderate\">via</emphasis> <emphasis level=\"strong\">4</emphasis> <emphasis level=\"moderate\">0</emphasis> 3 <emphasis level=\"moderate\">nach</emphasis> <emphasis level=\"moderate\">9</emphasis> <emphasis level=\"moderate\">3</emphasis> <emphasis level=\"moderate\">0.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 7 2 6 nach Gleis 7 9 7.",
+    "breaks_emphasis": "<emphasis level=\"strong\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"strong\">Gleis</emphasis> <emphasis level=\"strong\">7</emphasis> <emphasis level=\"moderate\">2</emphasis> <emphasis level=\"moderate\">6</emphasis> nach <emphasis level=\"moderate\">Gleis</emphasis> 7 9 7."
+  },
+  {
+    "raw": "Rangierfahrt von Gleis papa 6 via whiskey 6 6 nach Gleis echo 3.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> <emphasis level=\"strong\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">papa</emphasis> <emphasis level=\"strong\">6</emphasis> via <emphasis level=\"strong\">whiskey</emphasis> 6 <emphasis level=\"strong\">6</emphasis> nach <emphasis level=\"reduced\">Gleis</emphasis> <emphasis level=\"strong\">echo</emphasis> <emphasis level=\"strong\">3.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis foxtrot 1 nach Gleis whiskey 6.",
+    "breaks_emphasis": "<emphasis level=\"reduced\">Rangierfahrt</emphasis> von <emphasis level=\"reduced\">Gleis</emphasis> foxtrot <break strength=\"strong\" /> <emphasis level=\"strong\">1</emphasis> nach <emphasis level=\"reduced\">Gleis</emphasis> whiskey <break strength=\"weak\" /> <emphasis level=\"reduced\">6.</emphasis>"
+  },
+  {
+    "raw": "Rangierfahrt von Gleis 1 7 6 nach Gleis hotel 9 4.",
+    "breaks_emphasis": "<emphasis level=\"moderate\">Rangierfahrt</emphasis> <emphasis level=\"reduced\">von</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">1</emphasis> <emphasis level=\"moderate\">7</emphasis> 6 <emphasis level=\"strong\">nach</emphasis> <emphasis level=\"moderate\">Gleis</emphasis> <emphasis level=\"reduced\">hotel</emphasis> <emphasis level=\"strong\">9</emphasis> <emphasis level=\"reduced\">4.</emphasis>"
+  }
+]

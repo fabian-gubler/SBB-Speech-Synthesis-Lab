@@ -2,13 +2,15 @@
 # coding: utf-8
 
 """
-This script is used to generate all possible combinations of the
+This script is used to generate randomly created combinations of the
 input parameters for the TTS service.
 """
 
 import json
 import csv
 import random
+
+random.seed(1337)
 
 # Read settings from JSON file
 with open("settings.json") as settings_file:
@@ -18,9 +20,14 @@ with open("settings.json") as settings_file:
 with open("data/voices.json") as voices_file:
     all_voices = json.load(voices_file)
 
+# Load commandos from commandos.json
+with open("data/commandos.json") as commandos_file:
+    commandos = json.load(commandos_file)
+
 # Set variables according to settings
 combinations_count = settings["combinations_count"]
-text_inputs = settings["text_inputs"]
+# text_inputs = [commando["breaks_emphasis"] for commando in commandos]
+text_inputs = [commando["raw"] for commando in commandos]
 language_distribution = settings["language_distribution"]
 pitch_options = settings["pitch_options"]
 rate_options = settings["rate_options"]

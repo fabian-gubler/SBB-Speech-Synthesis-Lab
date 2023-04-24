@@ -2,19 +2,23 @@
 # coding: utf-8
 
 """
-This script gets the list of available voices for the specified locale.
+This script gets the list of available voices from azure voice pool
+for each specified language in settings.json.
 """
 
 import requests
 import json
+
 
 def load_settings():
     with open("settings.json") as f:
         settings = json.load(f)
     return settings
 
+
 def get_voices_by_locale(locale, voices):
     return [voice for voice in voices if voice["Locale"] == locale]
+
 
 settings = load_settings()
 subscription_key = settings["speech_key"]
@@ -28,9 +32,7 @@ for locale in mandatory_locales:
         locales.append(locale)
 
 url = f"https://{service_region}.tts.speech.microsoft.com/cognitiveservices/voices/list"
-headers = {
-    "Ocp-Apim-Subscription-Key": subscription_key
-}
+headers = {"Ocp-Apim-Subscription-Key": subscription_key}
 
 response = requests.get(url, headers=headers)
 filtered_voices = []
@@ -41,10 +43,7 @@ if response.status_code == 200:
     for locale in locales:
         locale_voices = get_voices_by_locale(locale, voices)
         for voice in locale_voices:
-            filtered_voice = {
-                "name": voice["ShortName"],
-                "language": voice["Locale"]
-            }
+            filtered_voice = {"name": voice["ShortName"], "language": voice["Locale"]}
             filtered_voices.append(filtered_voice)
 
     with open("data/voices.json", "w") as f:

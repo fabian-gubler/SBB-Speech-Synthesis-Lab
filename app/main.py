@@ -70,13 +70,6 @@ def generate_ssml_text(text, voice, pitch, rate):
     xml_string = ET.tostring(root_element, encoding="unicode")
     return xml_string
 
-def md5_hash_of_file(file_path):
-    md5_hash = hashlib.md5()
-    with open(file_path, "rb") as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            md5_hash.update(chunk)
-    return md5_hash.hexdigest()
-
 def synthesize_speech(text, pitch, rate, voice, output_filename):
     speech_synthesizer = speechsdk.SpeechSynthesizer(
         speech_config=speech_config, audio_config=None

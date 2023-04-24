@@ -7,10 +7,11 @@
 - [API Documentation](https://github.com/fliki-ai/documentation)
 
 ### AZURE Speech Services
+- [Azure Samples](https://github.com/Azure-Samples/Cognitive-Speech-TTS)
 - [T2S Overview](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/index-text-to-speech)
-- [T2S Coding Quickstart](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/get-started-text-to-speech?pivots=programming-language-python&tabs=linux%2Cterminal)
-- [Fine-tune with SSML](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup)
-- [Speech from File](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-speech-synthesis?tabs=browserjs%2Cterminal&pivots=programming-language-python)
+	- [T2S Coding Quickstart](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/get-started-text-to-speech?pivots=programming-language-python&tabs=linux%2Cterminal)
+	- [Fine-tune with SSML](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup)
+	- [Speech from File](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-speech-synthesis?tabs=browserjs%2Cterminal&pivots=programming-language-python)
 
 ## Blockers
 - Check prerequisites for samples for 2 Models

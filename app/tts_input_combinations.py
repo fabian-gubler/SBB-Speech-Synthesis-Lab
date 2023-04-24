@@ -31,6 +31,7 @@ local_voices = [voice for voice in all_voices if voice["language"] in local_lang
 foreign_voices = [voice for voice in all_voices if voice["language"] not in local_languages]
 
 # Helper function
+
 def is_duplicate(new_combination, existing_combinations):
     for combination in existing_combinations:
         if all([combination[key] == new_combination[key] for key in ['voice', 'text', 'pitch', 'rate']]):
@@ -40,6 +41,7 @@ def is_duplicate(new_combination, existing_combinations):
 
 # Generate possible combinations
 combinations = []
+duplicate_count = 0
 
 for _ in range(combinations_count):
 
@@ -61,6 +63,8 @@ for _ in range(combinations_count):
     }
     if not is_duplicate(combination, combinations):
         combinations.append(combination)
+    else:
+        duplicate_count += 1
 
     combinations.append(combination)
 
@@ -73,4 +77,5 @@ with open('combinations.csv', 'w', newline='', encoding='utf-8') as csvfile:
     for combination in combinations:
         writer.writerow(combination)
 
-print(f"CSV file created with {combinations_count} possible combinations.")
+print(f"CSV file created with {combinations_count} unique possible combinations.")
+print(f"{duplicate_count} duplicates were removed.")

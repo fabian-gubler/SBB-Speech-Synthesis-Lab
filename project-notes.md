@@ -19,7 +19,11 @@
 - @Tuesday Find out Presentation Guidelines / Project report for Note-taking & Preparation
 
 ## Current Tasks
-- Read more about Fliki API
+- Introduce variations 
+	- SSML fields + Noise
+- Produce Text inputs
+	- With correct namings, I will be able to detect/measure duplicates
+		? Hash instead of id?
 
 ## TODOs
 

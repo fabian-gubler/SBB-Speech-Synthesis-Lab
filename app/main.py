@@ -54,8 +54,8 @@ def generate_ssml_text(text, voice):
     # </speak>
 
     prosody = {
-        "pitch": "high",  # low, medium, high
-        "rate": "slow",  # slow, medium, fast
+        "pitch": "medium",  # low, medium, high
+        "rate": "medium",  # slow, medium, fast
     }
 
     voice_element = ET.Element("voice")

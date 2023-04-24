@@ -7,6 +7,7 @@
 - [API Documentation](https://github.com/fliki-ai/documentation)
 
 ### AZURE Speech Services
+- [Voice Gallery](https://speech.microsoft.com/portal/voicegallery)
 - [Azure Samples](https://github.com/Azure-Samples/Cognitive-Speech-TTS)
 - [T2S Overview](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/index-text-to-speech)
 	- [T2S Coding Quickstart](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/get-started-text-to-speech?pivots=programming-language-python&tabs=linux%2Cterminal)

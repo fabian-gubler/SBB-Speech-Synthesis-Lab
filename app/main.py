@@ -58,8 +58,6 @@ def generate_ssml_text(text, voice):
         "rate": "slow",  # slow, medium, fast
     }
 
-    emphasis = "strong"
-
     voice_element = ET.Element("voice")
     voice_element.set("name", voice)
 
@@ -67,11 +65,6 @@ def generate_ssml_text(text, voice):
     prosody_element.set("pitch", prosody["pitch"])
     prosody_element.set("rate", prosody["rate"])
     prosody_element.text = text
-
-    emphasis_element = ET.SubElement(prosody_element, "emphasis")
-    emphasis_element.set("level", emphasis)
-    emphasis_element.text = text
-
 
     root_element = ET.Element("speak")
     root_element.set("version", "1.0")

@@ -15,10 +15,6 @@
 
 ## Blockers
 - Check prerequisites for samples for 2 Models
-- Find out estimated length of synthesized samples
-- Fliki 600 minutes -> 36,000 seconds / 15 seconds = 2,400 samples
-	-> How long to generate (given 10 seconds, 5K -> 14 hours)
-
 - @Tuesday Find out Presentation Guidelines / Project report for Note-taking & Preparation
 
 ## Current Tasks
@@ -27,7 +23,6 @@
 ## TODOs
 
 Architecture
-- Calculate expected # hours
 - Fields in csv
 - Files
 	- Main File

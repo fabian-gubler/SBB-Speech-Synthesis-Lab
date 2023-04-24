@@ -61,9 +61,6 @@ def generate_ssml_text(text, voice):
     voice_element = ET.Element("voice")
     voice_element.set("name", voice)
     
-    lang_tag = ET.Element("lang", attrib={"xml:lang": "de-DE"})
-    lang_tag.text = text
-
     prosody_element = ET.SubElement(voice_element, "prosody")
     prosody_element.set("pitch", prosody["pitch"])
     prosody_element.set("rate", prosody["rate"])

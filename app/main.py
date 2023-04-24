@@ -43,17 +43,26 @@ output_dir = 'output'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
+# Function to generate SSML string with variations
+# def generate_ssml_text(text, prosody, emphasis):
+#     prosody_tags = f'<prosody rate="{prosody["rate"]}" pitch="{prosody["pitch"]}" volume="{prosody["volume"]}">'
+#     emphasis_tag = f'<emphasis level="{emphasis}">'
+#     return f'<speak>{prosody_tags}{emphasis_tag}{text}</emphasis></prosody></speak>'
+
+def generate_ssml_text(text, voice):
+    return f'<speak version="1.0" xml:lang="en-US" xmlns:mstts="http://www.w3.org/2001/mstts"><voice name="{voice}">{text}</voice></speak>'
+
 def synthesize_speech(text, voice, output_filename):
-    speech_config.speech_synthesis_voice_name = voice
-    audio_output_config = speechsdk.audio.AudioOutputConfig(filename=output_filename)
 
-    # speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_output_config)
-    # result = speech_synthesizer.speak_text_async(text).get()
+    speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=None)
 
-    speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_output_config)
-
-    ssml_string = open("ssml.xml", "r").read()
+    # ssml_string = open("ssml.xml", "r").read()
+    ssml_string = generate_ssml_text(text, voice)
+    print(ssml_string)
     result = speech_synthesizer.speak_ssml_async(ssml_string).get()
+
+    stream = speechsdk.AudioDataStream(result)
+    stream.save_to_wav_file(output_filepath)
 
 
     if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
@@ -73,16 +82,10 @@ with open('combinations.csv', 'r', newline='', encoding='utf-8') as csvfile:
     for index, row in enumerate(reader, start=1):
         text = row['text']
         voice = row['voice']
-        accent = row['accent']
+        # accent = row['accent']
 
-        output_filename = f"{index}_{voice}_{accent}.wav"
+        # output_filename = f"{index}_{voice}_{accent}.wav"
+        output_filename = f"{index}_{voice}.wav"
         output_filepath = os.path.join(output_dir, output_filename)
-        # synthesize_speech(text, voice, output_filepath)
+        synthesize_speech(text, voice, output_filepath)
 
-        speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=None)
-
-        ssml_string = open("ssml.xml", "r").read()
-        result = speech_synthesizer.speak_ssml_async(ssml_string).get()
-
-        stream = speechsdk.AudioDataStream(result)
-        stream.save_to_wav_file(output_filepath)

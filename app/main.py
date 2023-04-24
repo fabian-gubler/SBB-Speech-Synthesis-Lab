@@ -1,8 +1,10 @@
 import csv
+import os
 import azure.cognitiveservices.speech as speechsdk
 
 speech_key, service_region = "98b6bdd8791d40889e42933be6ced7cd", "westeurope"
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
+
 
 # Loop over csv
 # - retrieve output text
@@ -20,8 +22,9 @@ speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_r
     # - optional: background audio
     # - transform fields into xml
 
-speech_key, service_region = "98b6bdd8791d40889e42933be6ced7cd", "westeurope"
-speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
+output_dir = 'output'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
 
 def synthesize_speech(text, voice, output_filename):
@@ -50,4 +53,5 @@ with open('combinations.csv', 'r', newline='', encoding='utf-8') as csvfile:
         accent = row['accent']
 
         output_filename = f"{index}_{voice}_{accent}.wav"
-        synthesize_speech(text, voice, output_filename)
+        output_filepath = os.path.join(output_dir, output_filename)
+        synthesize_speech(text, voice, output_filepath)

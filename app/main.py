@@ -10,6 +10,7 @@ import json
 import csv
 import os
 import azure.cognitiveservices.speech as speechsdk
+import xml.etree.ElementTree as ET
 
 # Loop over csv
 # - retrieve output text
@@ -44,22 +45,42 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 
-# Function to generate SSML string with variations
 def generate_ssml_text(text, voice):
+    # <speak version="1.0" xml:lang="en-US" xmlns:mstts="http://www.w3.org/2001/mstts">
+    # 	<prosody pitch="high">
+    # 		<voice name="de-DE-AmalaNeural">One more text input to experiment with.
+    # 	</prosody>
+    # 		</voice>
+    # </speak>
+
     prosody = {
-        "pitch": "high", # low, medium, high
-        "rate": "slow", # slow, medium, fast
+        "pitch": "high",  # low, medium, high
+        "rate": "slow",  # slow, medium, fast
     }
-    prosody_tags = f'<prosody pitch="{prosody["pitch"]}" rate="{prosody["rate"]}">'
 
-    # emphasis = "strong"
-    # emphasis_tag = f'<emphasis level="{emphasis}">'
+    emphasis = "strong"
 
-    return f'<speak version="1.0" xml:lang="en-US" xmlns:mstts="http://www.w3.org/2001/mstts"><voice name="{voice}">{prosody_tags}{text}</prosody></voice></speak>'
+    voice_element = ET.Element("voice")
+    voice_element.set("name", voice)
+
+    prosody_element = ET.SubElement(voice_element, "prosody")
+    prosody_element.set("pitch", prosody["pitch"])
+    prosody_element.set("rate", prosody["rate"])
+    prosody_element.text = text
+
+    emphasis_element = ET.SubElement(prosody_element, "emphasis")
+    emphasis_element.set("level", emphasis)
+    emphasis_element.text = text
 
 
-# def generate_ssml_text(text, voice):
-#     return f'<speak version="1.0" xml:lang="en-US" xmlns:mstts="http://www.w3.org/2001/mstts"><voice name="{voice}">{text}</voice></speak>'
+    root_element = ET.Element("speak")
+    root_element.set("version", "1.0")
+    root_element.set("xml:lang", "en-US")
+    root_element.set("xmlns:mstts", "http://www.w3.org/2001/mstts")
+    root_element.append(voice_element)
+
+    xml_string = ET.tostring(root_element, encoding="unicode")
+    return xml_string
 
 
 def synthesize_speech(text, voice, output_filename):

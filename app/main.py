@@ -9,8 +9,9 @@ with randomized input parameters for the TTS service.
 import json
 import csv
 import os
-import azure.cognitiveservices.speech as speechsdk
+import hashlib
 import xml.etree.ElementTree as ET
+import azure.cognitiveservices.speech as speechsdk
 
 # Loop over csv
 # - retrieve output text
@@ -45,17 +46,11 @@ if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 
-def generate_ssml_text(text, voice):
-    # <speak version="1.0" xml:lang="en-US" xmlns:mstts="http://www.w3.org/2001/mstts">
-    # 	<prosody pitch="high">
-    # 		<voice name="de-DE-AmalaNeural">One more text input to experiment with.
-    # 	</prosody>
-    # 		</voice>
-    # </speak>
+def generate_ssml_text(text, voice, pitch, rate):
 
     prosody = {
-        "pitch": "medium",  # low, medium, high
-        "rate": "medium",  # slow, medium, fast
+        "pitch": pitch,  # low, medium, high
+        "rate": rate,  # slow, medium, fast
     }
 
     voice_element = ET.Element("voice")
@@ -75,18 +70,23 @@ def generate_ssml_text(text, voice):
     xml_string = ET.tostring(root_element, encoding="unicode")
     return xml_string
 
+def md5_hash_of_file(file_path):
+    md5_hash = hashlib.md5()
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            md5_hash.update(chunk)
+    return md5_hash.hexdigest()
 
-def synthesize_speech(text, voice, output_filename):
+def synthesize_speech(text, pitch, rate, voice, output_filename):
     speech_synthesizer = speechsdk.SpeechSynthesizer(
         speech_config=speech_config, audio_config=None
     )
 
-    # ssml_string = open("ssml.xml", "r").read()
-    ssml_string = generate_ssml_text(text, voice)
-    print(ssml_string)
+    ssml_string = generate_ssml_text(text, voice, pitch, rate)
     result = speech_synthesizer.speak_ssml_async(ssml_string).get()
 
     stream = speechsdk.AudioDataStream(result)
+
     stream.save_to_wav_file(output_filepath)
 
     if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
@@ -106,9 +106,9 @@ with open("combinations.csv", "r", newline="", encoding="utf-8") as csvfile:
     for index, row in enumerate(reader, start=1):
         text = row["text"]
         voice = row["voice"]
-        # accent = row['accent']
+        pitch = row["pitch"]
+        rate = row["rate"]
 
-        # output_filename = f"{index}_{voice}_{accent}.wav"
-        output_filename = f"{index}_{voice}.wav"
+        output_filename = f"{index}_{voice}_{pitch}-pitch_{rate}-rate.wav"
         output_filepath = os.path.join(output_dir, output_filename)
-        synthesize_speech(text, voice, output_filepath)
+        synthesize_speech(text, voice, pitch, rate, output_filepath)

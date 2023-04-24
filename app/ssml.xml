@@ -3,3 +3,11 @@
     When you're on the freeway, it's a good idea to use a GPS.
   </voice>
 </speak>
+
+<speak version="1.0" xml:lang="en-US" xmlns:mstts="http://www.w3.org/2001/mstts">
+	<prosody pitch="high">
+		<voice name="de-DE-AmalaNeural">One more text input to experiment with.
+		</voice>
+	</prosody>
+</speak>
+

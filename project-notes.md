@@ -22,8 +22,6 @@
 - Introduce variations 
 	- SSML fields + Noise
 - Produce Text inputs
-	- With correct namings, I will be able to detect/measure duplicates
-		? Hash instead of id?
 
 ## TODOs
 

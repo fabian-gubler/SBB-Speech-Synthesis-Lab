@@ -1,51 +1,51 @@
 voice,text,pitch,rate,role,style
-fr-FR-JeromeNeural,Rangierfahrt von Gleis lima sechs null nach Gleis yankee sieben.,medium,fast,SeniorFemale,whispering
-it-IT-FabiolaNeural,Rangierfahrt von november sechs via mike acht nach delta vier.,high,medium,OlderAdultFemale,calm
+de-AT-IngridNeural,Rangierfahrt von Gleis lima sechs null nach Gleis yankee sieben.,medium,fast,SeniorFemale,whispering
+fr-FR-EloiseNeural,Rangierfahrt von november sechs via mike acht nach delta vier.,high,medium,OlderAdultFemale,calm
 ar-EG-SalmaNeural,Rangierfahrt von quebec fünf nach uniform fünf.,high,medium,YoungAdultFemale,calm
 it-IT-FiammaNeural,Rangierfahrt von Gleis neun eins sieben via papa drei vier nach Gleis hotel sieben.,high,fast,SeniorMale,disgruntled
-en-US-EricNeural,Rangierfahrt von Gleis tango drei nach Gleis whiskey drei.,medium,fast,YoungAdultFemale,disgruntled
-fr-FR-JacquelineNeural,Rangierfahrt von Gleis whiskey eins via echo sieben nach Gleis hotel fünf.,low,medium,SeniorMale,angry
-fr-FR-YvetteNeural,Rangierfahrt von uniform zwei neun via eins neun fünf nach uniform neun.,high,slow,SeniorMale,serious
+pt-PT-FernandaNeural,Rangierfahrt von Gleis tango drei nach Gleis whiskey drei.,medium,fast,YoungAdultFemale,disgruntled
+de-DE-ConradNeural,Rangierfahrt von Gleis whiskey eins via echo sieben nach Gleis hotel fünf.,low,medium,SeniorMale,angry
+de-DE-KasperNeural,Rangierfahrt von oscar sechs via alpha eins sieben nach uniform eins.,low,fast,SeniorFemale,serious
 de-DE-AmalaNeural,Rangierfahrt von eins null eins via tango fünf nach echo neun neun.,low,fast,YoungAdultMale,gentle
 de-DE-KasperNeural,Rangierfahrt von Gleis drei vier vier nach Gleis zulu vier sechs.,high,fast,OlderAdultFemale,serious
 it-IT-IrmaNeural,Rangierfahrt von Gleis papa zwei eins via victor sieben nach Gleis neun zwei sechs.,medium,fast,YoungAdultMale,serious
-it-IT-ImeldaNeural,Rangierfahrt von vier acht zwei nach vier null drei.,high,medium,YoungAdultMale,whispering
-fr-FR-JeromeNeural,Rangierfahrt von Gleis quebec vier zwei via papa sechs acht nach Gleis eins acht sieben.,high,slow,SeniorMale,angry
-it-IT-IrmaNeural,Rangierfahrt von Gleis tango neun nach Gleis romeo eins.,low,fast,OlderAdultMale,disgruntled
-it-IT-PierinaNeural,Rangierfahrt von Gleis zulu drei eins via echo sieben null nach Gleis victor zwei fünf.,high,medium,OlderAdultFemale,shouting
-it-IT-IsabellaNeural,Rangierfahrt von quebec drei nach romeo neun.,medium,slow,YoungAdultMale,angry
+fr-FR-JeromeNeural,Rangierfahrt von vier acht zwei nach vier null drei.,high,medium,YoungAdultMale,whispering
+de-CH-LeniNeural,Rangierfahrt von Gleis quebec vier zwei via papa sechs acht nach Gleis eins acht sieben.,high,slow,SeniorMale,angry
+fr-FR-JosephineNeural,Rangierfahrt von Gleis tango neun nach Gleis romeo eins.,low,fast,OlderAdultMale,disgruntled
+fr-FR-YvetteNeural,Rangierfahrt von Gleis zulu drei eins via echo sieben null nach Gleis victor zwei fünf.,high,medium,OlderAdultFemale,shouting
+fr-FR-AlainNeural,Rangierfahrt von quebec drei nach romeo neun.,medium,slow,YoungAdultMale,angry
 ta-IN-ValluvarNeural,Rangierfahrt von Gleis zulu vier nach Gleis kilo fünf.,high,slow,OlderAdultMale,disgruntled
-fr-FR-AlainNeural,Rangierfahrt von delta neun sechs via sierra sechs nach victor eins.,medium,fast,YoungAdultMale,serious
-it-IT-FabiolaNeural,Rangierfahrt von echo sieben zwei via golf acht neun nach mike vier.,low,slow,OlderAdultFemale,excited
-it-IT-CataldoNeural,Rangierfahrt von Gleis india sechs via kilo sechs sechs nach Gleis foxtrot zwei.,medium,medium,SeniorFemale,calm
-fr-FR-CelesteNeural,Rangierfahrt von india neun nach acht vier vier.,high,medium,OlderAdultMale,gentle
+de-DE-AmalaNeural,Rangierfahrt von delta neun sechs via sierra sechs nach victor eins.,medium,fast,YoungAdultMale,serious
+de-DE-MajaNeural,Rangierfahrt von echo sieben zwei via golf acht neun nach mike vier.,low,slow,OlderAdultFemale,excited
+fr-FR-ClaudeNeural,Rangierfahrt von Gleis india sechs via kilo sechs sechs nach Gleis foxtrot zwei.,medium,medium,SeniorFemale,calm
+de-DE-GiselaNeural,Rangierfahrt von india neun nach acht vier vier.,high,medium,OlderAdultMale,gentle
 it-IT-IrmaNeural,Rangierfahrt von papa eins via hotel sechs nach sierra neun sechs.,low,fast,OlderAdultMale,disgruntled
 de-AT-IngridNeural,Rangierfahrt von Gleis echo acht zwei via sierra fünf nach Gleis vier null zwei.,low,fast,OlderAdultMale,excited
-it-IT-ImeldaNeural,Rangierfahrt von Gleis alpha fünf nach Gleis sechs fünf.,medium,medium,YoungAdultMale,excited
-en-US-NancyNeural,Rangierfahrt von echo sieben zwei via golf acht neun nach mike vier.,high,medium,YoungAdultMale,excited
-it-IT-CataldoNeural,Rangierfahrt von november sechs via mike acht nach delta vier.,high,slow,OlderAdultMale,serious
+fr-FR-JeromeNeural,Rangierfahrt von Gleis alpha fünf nach Gleis sechs fünf.,medium,medium,YoungAdultMale,excited
+pt-PT-RaquelNeural,Rangierfahrt von echo sieben zwei via golf acht neun nach mike vier.,high,medium,YoungAdultMale,excited
+fr-FR-ClaudeNeural,Rangierfahrt von november sechs via mike acht nach delta vier.,high,slow,OlderAdultMale,serious
 de-DE-KlarissaNeural,Rangierfahrt von november eins nach delta acht.,high,fast,OlderAdultMale,whispering
 de-CH-LeniNeural,Rangierfahrt von victor neun nach lima fünf zwei.,medium,slow,SeniorMale,angry
 de-DE-KillianNeural,Rangierfahrt von Gleis papa eins nach Gleis hotel zwei.,low,medium,SeniorMale,gentle
 de-DE-LouisaNeural,Rangierfahrt von echo sechs via x-ray sechs nach golf fünf.,high,slow,SeniorMale,whispering
-fr-FR-JosephineNeural,Rangierfahrt von quebec neun neun via hotel eins sechs nach neun vier neun.,high,slow,SeniorMale,angry
+de-AT-JonasNeural,Rangierfahrt von quebec neun neun via hotel eins sechs nach neun vier neun.,high,slow,SeniorMale,angry
 de-DE-ElkeNeural,Rangierfahrt von sechs vier zwei nach acht vier eins.,medium,slow,SeniorMale,angry
-es-ES-TeoNeural,Rangierfahrt von vier acht zwei nach vier null drei.,low,slow,YoungAdultMale,whispering
-de-DE-KillianNeural,Rangierfahrt von Gleis echo neun via x-ray zwei nach Gleis whiskey sieben.,low,fast,SeniorMale,angry
-fr-FR-YvetteNeural,Rangierfahrt von uniform sechs fünf nach juliett zwei.,high,medium,OlderAdultFemale,serious
-it-IT-FabiolaNeural,Rangierfahrt von zwei zwei zwei via golf vier nach x-ray sieben.,low,slow,YoungAdultFemale,serious
-pt-PT-RaquelNeural,Rangierfahrt von Gleis mike fünf drei nach Gleis sieben sechs fünf.,low,slow,SeniorMale,gentle
-de-DE-GiselaNeural,Rangierfahrt von oscar sechs via alpha eins sieben nach uniform eins.,high,medium,SeniorFemale,gentle
-es-ES-AlvaroNeural,Rangierfahrt von Gleis oscar eins via bravo acht nach Gleis golf drei.,medium,slow,SeniorMale,calm
+ta-IN-PallaviNeural,Rangierfahrt von victor drei via x-ray fünf nach x-ray drei.,low,slow,YoungAdultMale,gentle
+de-DE-ConradNeural,Rangierfahrt von Gleis quebec acht via papa eins nach Gleis alpha vier zwei.,high,medium,SeniorMale,excited
+fr-FR-AlainNeural,Rangierfahrt von charlie fünf via zulu vier zwei nach victor acht null.,medium,medium,SeniorMale,shouting
+fr-FR-BrigitteNeural,Rangierfahrt von Gleis alpha sechs nach Gleis fünf vier null.,low,medium,SeniorMale,gentle
+de-DE-KasperNeural,Rangierfahrt von tango sieben sieben via sieben drei vier nach mike sechs eins.,low,slow,SeniorFemale,calm
+de-DE-KillianNeural,Rangierfahrt von Gleis oscar eins via bravo acht nach Gleis golf drei.,medium,slow,SeniorMale,calm
 de-AT-IngridNeural,Rangierfahrt von Gleis quebec acht via papa eins nach Gleis alpha vier zwei.,medium,fast,YoungAdultMale,shouting
 de-DE-ElkeNeural,Rangierfahrt von sieben zwei fünf via uniform drei neun nach lima vier zwei.,medium,fast,OlderAdultMale,serious
 de-DE-KillianNeural,Rangierfahrt von Gleis oscar eins via bravo acht nach Gleis golf drei.,high,fast,YoungAdultFemale,calm
 tr-TR-EmelNeural,Rangierfahrt von november eins vier nach victor zwei.,high,slow,OlderAdultMale,excited
-fr-FR-AlainNeural,Rangierfahrt von Gleis echo acht via hotel acht nach Gleis drei sieben fünf.,high,medium,YoungAdultFemale,serious
+de-DE-AmalaNeural,Rangierfahrt von Gleis echo acht via hotel acht nach Gleis drei sieben fünf.,high,medium,YoungAdultFemale,serious
 de-DE-AmalaNeural,Rangierfahrt von quebec fünf nach uniform fünf.,medium,medium,SeniorFemale,calm
 de-DE-GiselaNeural,Rangierfahrt von sechs acht null via acht eins fünf nach lima zwei.,medium,fast,YoungAdultMale,gentle
 de-DE-KasperNeural,Rangierfahrt von quebec sieben via vier zwei nach acht zwei eins.,high,fast,SeniorFemale,whispering
-fr-FR-JosephineNeural,Rangierfahrt von Gleis november eins zwei nach Gleis quebec neun.,low,fast,YoungAdultMale,calm
+de-DE-BerndNeural,Rangierfahrt von india neun nach acht vier vier.,high,slow,OlderAdultMale,serious
 de-CH-LeniNeural,Rangierfahrt von Gleis echo sieben via yankee drei nach Gleis zwei fünf drei.,medium,slow,SeniorMale,disgruntled
 de-CH-JanNeural,Rangierfahrt von sieben zwei fünf via uniform drei neun nach lima vier zwei.,medium,slow,OlderAdultFemale,disgruntled
-pt-PT-DuarteNeural,Rangierfahrt von tango sieben sieben via sieben drei vier nach mike sechs eins.,high,slow,SeniorMale,serious
+es-ES-EliasNeural,Rangierfahrt von tango sieben sieben via sieben drei vier nach mike sechs eins.,high,slow,SeniorMale,serious
+de-CH-LeniNeural,Rangierfahrt von victor sieben null via papa acht eins nach bravo fünf.,low,medium,YoungAdultFemale,serious

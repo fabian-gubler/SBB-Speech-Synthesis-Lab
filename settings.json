@@ -13,23 +13,6 @@
 		"tr-TR": 0.025,
 		"ar-EG": 0.025
     },
-  "local_voices": [
-    {"name": "", "gender": "Female"},
-    {"name": "de-DE-KatjaNeural", "gender": "Female"},
-    {"name": "de-DE-ConradNeural", "gender": "Male"}
-  ],
-  "foreign_voices": [
-    {"name": "fr-FR-DeniseNeural", "language": "fr-FR", "gender": "Female"},
-    {"name": "it-IT-IsabellaNeural", "language": "it-IT", "gender": "Female"},
-    {"name": "ar-EG-SalmaNeural", "language": "ar-EG", "gender": "Female"}
-  ],
-    "text_inputs": [
-        "This is a sample text input.",
-        "Another example of text input.",
-        "Yet another text input for testing.",
-        "Trying different combinations of text.",
-        "One more text input to experiment with."
-    ],
 	"pitch_options": ["low", "medium", "high"],
     "rate_options": ["slow", "medium", "fast"],
 	"role_options": [ "YoungAdultFemale", "YoungAdultMale", "OlderAdultFemale", "OlderAdultMale", "SeniorFemale", "SeniorMale"],

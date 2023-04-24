@@ -1,0 +1,21 @@
+{
+    "speech_key": "98b6bdd8791d40889e42933be6ced7cd",
+    "service_region": "westeurope",
+    "combinations_count": 20,
+    "voices": [
+        "de-DE-AmalaNeural",
+        "de-DE-BerndNeural",
+        "de-DE-ChristophNeural",
+        "de-DE-ElkeNeural"
+    ],
+    "accents": [
+        "de-DE"
+    ],
+    "text_inputs": [
+        "This is a sample text input.",
+        "Another example of text input.",
+        "Yet another text input for testing.",
+        "Trying different combinations of text.",
+        "One more text input to experiment with."
+    ]
+}

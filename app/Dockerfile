@@ -2,20 +2,21 @@
 FROM python:3.9
 
 # Set the working directory
-WORKDIR /app
+# WORKDIR /app
 
 # Copy your application files to the container
-COPY . .
+# COPY . .
+
+ADD quickstart.py .
 
 # Install OS dependencies (for Ubuntu 18.04)
 RUN apt-get update && \
-    apt-get install -y libssl1.0.0 libasound2
+apt-get install build-essential libssl-dev ca-certificates libasound2 wget
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose required ports (if any)
-# EXPOSE your-port
+RUN pip install azure-cognitiveservices-speech
 
 # Define the command to run your application
 CMD ["python", "quickstart.py"]

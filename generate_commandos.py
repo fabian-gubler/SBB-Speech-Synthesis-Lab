@@ -43,12 +43,21 @@ def add_breaks_and_emphasis(commando):
     words = commando.split()
 
     new_words = []
+    is_random_part = False
     for word in words:
         if len(new_words) > 0 and new_words[-1][-1] in ascii_lowercase and word[0].isdigit():
             new_words.append(f'<break strength="{random.choice(strengths)}" />')
 
         if 0 <= random.random() < 0.75:
             word = f'<emphasis level="{random.choice(levels)}">{word}</emphasis>'
+
+        # Check if the word is a random part, and add the language tag
+        if word.isdigit() and not is_random_part):
+            word = f'<lang xml:lang="de-DE">{word}'
+            is_random_part = True
+        elif is_random_part:
+            word = f'{word}</lang>'
+            is_random_part = False
 
         new_words.append(word)
 

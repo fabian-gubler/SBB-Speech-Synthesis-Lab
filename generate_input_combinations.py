@@ -26,8 +26,8 @@ with open("data/commandos.json") as commandos_file:
 
 # Set variables according to settings
 combinations_count = settings["combinations_count"]
-# text_inputs = [commando["breaks_emphasis"] for commando in commandos]
-text_inputs = [commando["raw"] for commando in commandos]
+text_inputs = [commando["breaks_emphasis"] for commando in commandos]
+# text_inputs = [commando["raw"] for commando in commandos]
 language_distribution = settings["language_distribution"]
 pitch_options = settings["pitch_options"]
 rate_options = settings["rate_options"]

@@ -17,15 +17,15 @@ import azure.cognitiveservices.speech as speechsdk
 # - use <index>_<voice>_accent to set as output file name
 # - use function to generate sample
 
-# Advanced voice with SSML
-# link: https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup-voice
-# - retrieve effect, style, role
-# - retrieve speaking languages (accent)
-# - retrieve prosody (contour, pitch, rate, volume)
-# - adjust emphasis (strong, moderate, reduced)
-# - audio duration (speed)
-# - optional: background audio
-# - transform fields into xml
+    # Advanced voice with SSML
+    # link: https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup-voice
+    # - retrieve effect, style, role
+    # - retrieve speaking languages (accent)
+    # - retrieve prosody (contour, pitch, rate, volume)
+    # - adjust emphasis (strong, moderate, reduced)
+    # - audio duration (speed)
+    # - optional: background audio
+    # - transform fields into xml
 
 
 # Read settings from JSON file
@@ -39,39 +39,23 @@ service_region = settings["service_region"]
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 # Configure output directory
-output_dir = "output"
+output_dir = 'output'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-def extract_language_and_accent(voice_string):
-    parts = voice_string.split('-')
-    language = parts[0]
-    accent = parts[1]
-    return language, accent
-
-
 def synthesize_speech(text, voice, output_filename):
-    # Configure speech synthesis
     speech_config.speech_synthesis_voice_name = voice
     audio_output_config = speechsdk.audio.AudioOutputConfig(filename=output_filename)
-    speech_synthesizer = speechsdk.SpeechSynthesizer(
-        speech_config=speech_config, audio_config=audio_output_config
-    )
 
-    # Get the audio data from the synthesizer.
-    result = speech_synthesizer.speak_text_async(text).get()
+    # speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_output_config)
+    # result = speech_synthesizer.speak_text_async(text).get()
 
-    # Retrieve the voice used
-    voice_used = speech_config.speech_synthesis_voice_name
-    # print(f"Voice used: {voice_used}")
+    speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_output_config)
 
-    # Retrieve the duration of the synthesized speech
-    audio_data = result.audio_data
-    sample_rate = 16000  # Assuming a sample rate of 16 kHz for the synthesized speech
-    duration_seconds = len(audio_data) / (2 * sample_rate)  # 2 bytes per sample for 16-bit PCM format
-    # print(f"Duration of the synthesized speech: {duration_seconds:.2f} seconds")
+    ssml_string = open("ssml.xml", "r").read()
+    result = speech_synthesizer.speak_ssml_async(ssml_string).get()
 
-    # Check result for errors
+
     if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
         print("Speech synthesized to [{}] for text [{}]".format(output_filename, text))
     elif result.reason == speechsdk.ResultReason.Canceled:
@@ -83,16 +67,22 @@ def synthesize_speech(text, voice, output_filename):
         print("Did you update the subscription info?")
 
 
-with open("combinations.csv", "r", newline="", encoding="utf-8") as csvfile:
+with open('combinations.csv', 'r', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
 
     for index, row in enumerate(reader, start=1):
-        text = row["text"]
-        voice_string = row["voice"]
-        language, accent = extract_language_and_accent(voice_string)
+        text = row['text']
+        voice = row['voice']
+        accent = row['accent']
 
-        output_filename = f"{index}_{language}_{accent}.wav"
+        output_filename = f"{index}_{voice}_{accent}.wav"
         output_filepath = os.path.join(output_dir, output_filename)
-        synthesize_speech(text, language, output_filepath)
+        # synthesize_speech(text, voice, output_filepath)
 
-        
+        speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=None)
+
+        ssml_string = open("ssml.xml", "r").read()
+        result = speech_synthesizer.speak_ssml_async(ssml_string).get()
+
+        stream = speechsdk.AudioDataStream(result)
+        stream.save_to_wav_file(output_filepath)

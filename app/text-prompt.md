@@ -20,6 +20,7 @@ The user should be able to define the number of commandos to be generated. (100,
 
 Note that Letters should be transformed to its nato alphabet counterpart (a = alpha, b = bravo, c = charlie, ...)
 Also note that Letters and numbers should always be separated by a white space
+Commands should end with a punctuation mark.
 
 In addition, breaks should be added always between letters and numbers
 using the notiation <break strength=<value> /> notation (e.g. Gleis alpha <break strength=short/> 2). Strength could be either x-weak, weak, medium, or strong)
@@ -32,3 +33,6 @@ Determine a suitable filetype for the output file including the commandos. (txt,
 
 Because they will later be used to train a neural network, containing the raw text
 (without e.g. break notation) is vital for the output file.
+
+If before generating the python script there are any clarification questions, please ask
+before providing the code output.

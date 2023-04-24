@@ -60,6 +60,9 @@ def generate_ssml_text(text, voice):
 
     voice_element = ET.Element("voice")
     voice_element.set("name", voice)
+    
+    lang_tag = ET.Element("lang", attrib={"xml:lang": "de-DE"})
+    lang_tag.text = text
 
     prosody_element = ET.SubElement(voice_element, "prosody")
     prosody_element.set("pitch", prosody["pitch"])
@@ -68,7 +71,7 @@ def generate_ssml_text(text, voice):
 
     root_element = ET.Element("speak")
     root_element.set("version", "1.0")
-    root_element.set("xml:lang", "en-US")
+    root_element.set("xml:lang", "de-DE")
     root_element.set("xmlns:mstts", "http://www.w3.org/2001/mstts")
     root_element.append(voice_element)
 

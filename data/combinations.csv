@@ -1,0 +1,51 @@
+voice,text,pitch,rate,role,style
+de-DE-KlausNeural,One more text input to experiment with.,low,fast,YoungAdultMale,whispering
+it-IT-IsabellaNeural,Another example of text input.,low,slow,YoungAdultFemale,whispering
+de-DE-MajaNeural,This is a sample text input.,medium,slow,OlderAdultFemale,angry
+fr-FR-DeniseNeural,One more text input to experiment with.,low,fast,OlderAdultFemale,serious
+de-DE-RalfNeural,Another example of text input.,medium,medium,OlderAdultFemale,disgruntled
+es-ES-ArnauNeural,Another example of text input.,high,slow,SeniorFemale,serious
+fr-FR-MauriceNeural,This is a sample text input.,low,fast,SeniorMale,calm
+it-IT-RinaldoNeural,One more text input to experiment with.,low,fast,SeniorMale,excited
+en-US-AIGenerate2Neural,Another example of text input.,high,medium,YoungAdultMale,whispering
+ta-IN-PallaviNeural,Yet another text input for testing.,medium,medium,OlderAdultFemale,disgruntled
+fr-FR-DeniseNeural,Trying different combinations of text.,low,fast,SeniorMale,serious
+fr-FR-ClaudeNeural,Another example of text input.,low,slow,SeniorFemale,gentle
+en-US-JaneNeural,This is a sample text input.,low,fast,OlderAdultFemale,calm
+fr-FR-YvetteNeural,Another example of text input.,low,fast,OlderAdultFemale,shouting
+de-DE-LouisaNeural,This is a sample text input.,high,slow,OlderAdultFemale,calm
+fr-FR-ClaudeNeural,Another example of text input.,high,medium,SeniorFemale,disgruntled
+it-IT-IrmaNeural,Yet another text input for testing.,medium,slow,SeniorMale,shouting
+en-US-AIGenerate2Neural,This is a sample text input.,low,fast,SeniorMale,angry
+de-DE-MajaNeural,Another example of text input.,low,slow,YoungAdultMale,disgruntled
+fr-FR-JosephineNeural,Another example of text input.,low,slow,YoungAdultFemale,gentle
+fr-FR-JosephineNeural,Another example of text input.,low,medium,SeniorMale,shouting
+de-DE-GiselaNeural,One more text input to experiment with.,low,fast,YoungAdultFemale,excited
+fr-FR-HenriNeural,Another example of text input.,medium,medium,SeniorMale,angry
+fr-FR-DeniseNeural,Another example of text input.,medium,slow,SeniorFemale,angry
+de-DE-LouisaNeural,Another example of text input.,medium,fast,YoungAdultFemale,disgruntled
+it-IT-DiegoNeural,Yet another text input for testing.,high,slow,SeniorFemale,calm
+fr-FR-HenriNeural,Trying different combinations of text.,medium,slow,OlderAdultMale,calm
+de-DE-KlausNeural,Another example of text input.,high,medium,YoungAdultMale,disgruntled
+it-IT-ElsaNeural,This is a sample text input.,medium,fast,YoungAdultMale,excited
+de-CH-LeniNeural,Trying different combinations of text.,medium,fast,YoungAdultFemale,serious
+it-IT-IrmaNeural,One more text input to experiment with.,high,medium,SeniorMale,shouting
+de-CH-LeniNeural,One more text input to experiment with.,high,medium,SeniorMale,angry
+ar-EG-SalmaNeural,One more text input to experiment with.,medium,fast,YoungAdultFemale,serious
+it-IT-FiammaNeural,One more text input to experiment with.,high,fast,SeniorFemale,gentle
+de-DE-GiselaNeural,This is a sample text input.,low,slow,YoungAdultMale,shouting
+de-DE-ConradNeural,One more text input to experiment with.,low,fast,SeniorFemale,shouting
+de-CH-JanNeural,Yet another text input for testing.,medium,slow,SeniorFemale,disgruntled
+de-DE-ChristophNeural,One more text input to experiment with.,high,fast,SeniorMale,whispering
+de-DE-KillianNeural,This is a sample text input.,high,slow,SeniorMale,serious
+tr-TR-AhmetNeural,Trying different combinations of text.,medium,medium,OlderAdultMale,disgruntled
+de-DE-LouisaNeural,Yet another text input for testing.,medium,medium,YoungAdultFemale,serious
+fr-FR-JosephineNeural,Yet another text input for testing.,low,medium,SeniorMale,calm
+en-US-NancyNeural,This is a sample text input.,low,slow,OlderAdultMale,angry
+fr-FR-JacquelineNeural,Yet another text input for testing.,high,fast,YoungAdultMale,angry
+fr-FR-YvesNeural,Trying different combinations of text.,high,medium,YoungAdultMale,serious
+de-DE-RalfNeural,Yet another text input for testing.,high,fast,OlderAdultMale,whispering
+de-DE-KatjaNeural,Another example of text input.,medium,fast,OlderAdultFemale,shouting
+de-DE-KatjaNeural,Another example of text input.,high,medium,SeniorMale,angry
+en-US-JaneNeural,Trying different combinations of text.,medium,medium,YoungAdultMale,excited
+fr-FR-JeromeNeural,Yet another text input for testing.,medium,fast,OlderAdultFemale,calm

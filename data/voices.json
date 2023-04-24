@@ -1,0 +1,390 @@
+[
+    {
+        "name": "de-DE-KatjaNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-AmalaNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-BerndNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-ChristophNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-ElkeNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-GiselaNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-KasperNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-KillianNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-KlarissaNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-KlausNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-LouisaNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-MajaNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-RalfNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-TanjaNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "de-DE-ConradNeural",
+        "language": "de-DE"
+    },
+    {
+        "name": "fr-FR-AlainNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-BrigitteNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-CelesteNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-ClaudeNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-CoralieNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-EloiseNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-HenriNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-JacquelineNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-JeromeNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-JosephineNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-MauriceNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-YvesNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-YvetteNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "fr-FR-DeniseNeural",
+        "language": "fr-FR"
+    },
+    {
+        "name": "it-IT-IsabellaNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-BenignoNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-CalimeroNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-CataldoNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-ElsaNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-FabiolaNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-FiammaNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-GianniNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-ImeldaNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-IrmaNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-LisandroNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-PalmiraNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-PierinaNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-RinaldoNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "it-IT-DiegoNeural",
+        "language": "it-IT"
+    },
+    {
+        "name": "en-US-JennyNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-JennyMultilingualNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-GuyNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-AmberNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-AnaNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-AriaNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-AshleyNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-BrandonNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-ChristopherNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-CoraNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-DavisNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-ElizabethNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-EricNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-JacobNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-JaneNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-JasonNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-MichelleNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-MonicaNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-NancyNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-RogerNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-SaraNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-SteffanNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-TonyNeural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-AIGenerate1Neural",
+        "language": "en-US"
+    },
+    {
+        "name": "en-US-AIGenerate2Neural",
+        "language": "en-US"
+    },
+    {
+        "name": "pt-PT-DuarteNeural",
+        "language": "pt-PT"
+    },
+    {
+        "name": "pt-PT-FernandaNeural",
+        "language": "pt-PT"
+    },
+    {
+        "name": "pt-PT-RaquelNeural",
+        "language": "pt-PT"
+    },
+    {
+        "name": "es-ES-AbrilNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-ArnauNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-DarioNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-EliasNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-ElviraNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-EstrellaNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-IreneNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-LaiaNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-LiaNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-NilNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-SaulNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-TeoNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-TrianaNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-VeraNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "es-ES-AlvaroNeural",
+        "language": "es-ES"
+    },
+    {
+        "name": "ta-IN-PallaviNeural",
+        "language": "ta-IN"
+    },
+    {
+        "name": "ta-IN-ValluvarNeural",
+        "language": "ta-IN"
+    },
+    {
+        "name": "tr-TR-AhmetNeural",
+        "language": "tr-TR"
+    },
+    {
+        "name": "tr-TR-EmelNeural",
+        "language": "tr-TR"
+    },
+    {
+        "name": "ar-EG-SalmaNeural",
+        "language": "ar-EG"
+    },
+    {
+        "name": "ar-EG-ShakirNeural",
+        "language": "ar-EG"
+    },
+    {
+        "name": "de-CH-JanNeural",
+        "language": "de-CH"
+    },
+    {
+        "name": "de-CH-LeniNeural",
+        "language": "de-CH"
+    },
+    {
+        "name": "de-AT-IngridNeural",
+        "language": "de-AT"
+    },
+    {
+        "name": "de-AT-JonasNeural",
+        "language": "de-AT"
+    }
+]

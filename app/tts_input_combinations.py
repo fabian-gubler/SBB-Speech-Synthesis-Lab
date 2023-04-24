@@ -24,6 +24,8 @@ text_inputs = settings["text_inputs"]
 language_distribution = settings["language_distribution"]
 pitch_options = settings["pitch_options"]
 rate_options = settings["rate_options"]
+role_options = settings["role_options"]
+style_options = settings["style_options"]
 
 # Separate local and foreign voices
 local_languages = ["de-DE", "de-CH", "de-AT"]
@@ -34,7 +36,7 @@ foreign_voices = [voice for voice in all_voices if voice["language"] not in loca
 
 def is_duplicate(new_combination, existing_combinations):
     for combination in existing_combinations:
-        if all([combination[key] == new_combination[key] for key in ['voice', 'text', 'pitch', 'rate']]):
+        if all([combination[key] == new_combination[key] for key in ['voice', 'text', 'pitch', 'rate', 'role', 'style']]):
             return True
     return False
 
@@ -59,18 +61,18 @@ for _ in range(combinations_count):
         'voice': voice["name"],
         'text': random.choice(text_inputs),
         'pitch': random.choice(pitch_options),
-        'rate': random.choice(rate_options)
+        'rate': random.choice(rate_options), 
+        'role': random.choice(role_options),  # Add role option
+        'style': random.choice(style_options)  # Add style option
     }
     if not is_duplicate(combination, combinations):
         combinations.append(combination)
     else:
         duplicate_count += 1
 
-    combinations.append(combination)
-
 # Save the combinations to a CSV file
 with open('combinations.csv', 'w', newline='', encoding='utf-8') as csvfile:
-    fieldnames = ['voice', 'text', 'pitch', 'rate']
+    fieldnames = ['voice', 'text', 'pitch', 'rate', 'role', 'style']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writeheader()

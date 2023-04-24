@@ -1,7 +1,7 @@
 {
     "speech_key": "98b6bdd8791d40889e42933be6ced7cd",
     "service_region": "westeurope",
-    "combinations_count": 500,
+    "combinations_count": 50,
     "language_distribution": {
         "de-DE": 0.4,
         "it-IT": 0.15,
@@ -26,5 +26,7 @@
         "One more text input to experiment with."
     ],
 	"pitch_options": ["low", "medium", "high"],
-    "rate_options": ["slow", "medium", "fast"]
+    "rate_options": ["slow", "medium", "fast"],
+	"role_options": [ "YoungAdultFemale", "YoungAdultMale", "OlderAdultFemale", "OlderAdultMale", "SeniorFemale", "SeniorMale"],
+	"style_options": [ "serious", "shouting", "whispering", "gentle", "excited", "disgruntled", "calm", "angry"]
 }

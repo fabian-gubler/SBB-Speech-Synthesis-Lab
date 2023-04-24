@@ -14,3 +14,6 @@ if duplicates.empty:
 else:
     print("Duplicates found:")
     print(duplicates)
+
+
+print(len(duplicates))

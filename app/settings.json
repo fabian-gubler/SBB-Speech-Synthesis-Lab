@@ -1,15 +1,35 @@
 {
     "speech_key": "98b6bdd8791d40889e42933be6ced7cd",
     "service_region": "westeurope",
-    "combinations_count": 20,
+    "combinations_count": 10,
     "voices": [
-        "de-DE-AmalaNeural",
+        "de-DE-AmaliaNeural",
         "de-DE-BerndNeural",
         "de-DE-ChristophNeural",
-        "de-DE-ElkeNeural"
+        "de-DE-ElkeNeural",
+        "en-US-AriaNeural",
+        "en-US-AvaNeural",
+        "en-US-GuyNeural",
+        "en-US-JennyNeural",
+        "en-US-ZariyahNeural",
+        "es-ES-AlvaroNeural",
+        "es-ES-ElviraNeural",
+        "es-ES-LauraNeural",
+        "es-MX-DaliaNeural",
+        "es-MX-JorgeNeural",
+        "fr-CA-SylvieNeural",
+        "fr-CA-ZoeNeural",
+        "fr-FR-DeniseNeural",
+        "fr-FR-HenriNeural",
+        "fr-FR-JulieNeural",
+        "it-IT-IsabellaNeural"
     ],
     "accents": [
-        "de-DE"
+        {"accent": "de-DE", "weight": 0.5},
+        {"accent": "en-US", "weight": 0.2},
+        {"accent": "es-ES", "weight": 0.1},
+        {"accent": "fr-FR", "weight": 0.1},
+        {"accent": "it-IT", "weight": 0.1}
     ],
     "text_inputs": [
         "This is a sample text input.",
@@ -17,5 +37,17 @@
         "Yet another text input for testing.",
         "Trying different combinations of text.",
         "One more text input to experiment with."
+    ],
+    "ssml_prosody": [
+        {"rate": "x-slow", "pitch": "-10%", "volume": "-6dB"},
+        {"rate": "slow", "pitch": "-5%", "volume": "-3dB"},
+        {"rate": "medium", "pitch": "default", "volume": "default"},
+        {"rate": "fast", "pitch": "5%", "volume": "+3dB"},
+        {"rate": "x-fast", "pitch": "10%", "volume": "+6dB"}
+    ],
+    "ssml_emphasis": [
+        "strong",
+        "moderate",
+        "reduced"
     ]
 }

@@ -1,21 +1,11 @@
 uuid,text,voice,accent
-a41a99fb-a2d1-4e8c-a2e4-e1ce5e5eacaa,Another example of text input.,de-DE-ChristophNeural,de-DE
-22cc9f67-3767-4833-a7aa-10b618916336,This is a sample text input.,de-DE-BerndNeural,de-DE
-62fc917b-6e7b-4eaa-b15c-6171a213f253,Yet another text input for testing.,de-DE-AmalaNeural,de-DE
-013b9b79-e995-401e-ad02-e20a49fd7eb2,This is a sample text input.,de-DE-AmalaNeural,de-DE
-15d5d67f-717e-4822-b1a0-e2ebb4f50450,This is a sample text input.,de-DE-AmalaNeural,de-DE
-3c76139c-08f5-46f2-bbb3-37e37ac9e921,Another example of text input.,de-DE-BerndNeural,de-DE
-0a6d8917-9571-4f02-af6e-bb9ae78d1820,Yet another text input for testing.,de-DE-ElkeNeural,de-DE
-c73978d4-f723-4a07-b673-d9bc3e82b9af,Another example of text input.,de-DE-BerndNeural,de-DE
-02c4d58e-013a-4bbe-ba96-82933c2a970a,Another example of text input.,de-DE-BerndNeural,de-DE
-33d52b47-44cd-4233-ae3b-0ff8d95adb9d,This is a sample text input.,de-DE-ChristophNeural,de-DE
-1ea2078a-4160-492f-9aad-9542af33d9a9,Trying different combinations of text.,de-DE-ElkeNeural,de-DE
-ffb6abd4-d3d0-426e-8f68-0e3cffe6ba8f,This is a sample text input.,de-DE-BerndNeural,de-DE
-5f10a8cc-269c-4e01-aac4-3001a226300b,This is a sample text input.,de-DE-ElkeNeural,de-DE
-a4c8385a-d86b-4360-b1bc-4348015e5867,Another example of text input.,de-DE-ChristophNeural,de-DE
-6dd73b60-9202-483c-b221-3b669a3fc9c5,This is a sample text input.,de-DE-BerndNeural,de-DE
-55caa772-8de1-4552-823b-573a1cc59c6e,This is a sample text input.,de-DE-AmalaNeural,de-DE
-ec348fd9-ccc5-4bac-a614-eb217b5ac681,One more text input to experiment with.,de-DE-AmalaNeural,de-DE
-8a026053-0bc3-4d90-9726-0662005d2afb,Yet another text input for testing.,de-DE-BerndNeural,de-DE
-ac60a4ba-6a54-49ee-bb4e-220b915fdac2,Yet another text input for testing.,de-DE-AmalaNeural,de-DE
-5cb2c47a-a120-4dc4-adb4-aa5a51a29686,Trying different combinations of text.,de-DE-BerndNeural,de-DE
+53854818-1de3-4a2b-9a77-ebc915cbc52b,Trying different combinations of text.,es-ES-AlvaroNeural,"{'accent': 'it-IT', 'weight': 0.1}"
+ffdb1620-9c80-451b-b963-fd995e9eab67,Another example of text input.,en-US-AriaNeural,"{'accent': 'fr-FR', 'weight': 0.1}"
+a7e6eab0-562d-4b91-b166-4c49285d763d,Trying different combinations of text.,en-US-JennyNeural,"{'accent': 'es-ES', 'weight': 0.1}"
+979bfc34-2a2c-4d60-851e-a5adca51e93d,Yet another text input for testing.,fr-FR-HenriNeural,"{'accent': 'it-IT', 'weight': 0.1}"
+c5418f01-8159-45b2-9815-38d6086588ac,Trying different combinations of text.,fr-FR-DeniseNeural,"{'accent': 'it-IT', 'weight': 0.1}"
+1f69abaf-a945-4d70-af32-04476b73f6a8,Trying different combinations of text.,es-MX-JorgeNeural,"{'accent': 'es-ES', 'weight': 0.1}"
+04a463a2-b4f8-41cf-9b35-497a31c8a544,One more text input to experiment with.,de-DE-ChristophNeural,"{'accent': 'de-DE', 'weight': 0.5}"
+f5a10639-a8ec-4d85-844a-de62505eb543,This is a sample text input.,fr-FR-HenriNeural,"{'accent': 'de-DE', 'weight': 0.5}"
+df53e5b1-31ba-4306-b768-f056393c6e9c,Yet another text input for testing.,es-ES-LauraNeural,"{'accent': 'es-ES', 'weight': 0.1}"
+17f1b9c1-9be6-4b83-9670-b8862fcfd290,Another example of text input.,en-US-JennyNeural,"{'accent': 'de-DE', 'weight': 0.5}"

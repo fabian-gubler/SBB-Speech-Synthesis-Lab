@@ -21,20 +21,27 @@ def generate_random_part():
         'y': 'yankee', 'z': 'zulu'
     }
 
+    german_numbers = {
+        '0': 'null', '1': 'eins', '2': 'zwei', '3': 'drei', '4': 'vier', 
+        '5': 'fünf', '6': 'sechs', '7': 'sieben', '8': 'acht', '9': 'neun'
+    }
+
     letter_prob = random.random()
     if letter_prob < 0.5:
         letter = random.choice(ascii_lowercase)
         nato_letter = nato_alphabet[letter]
         number = random.randint(1, 9)
-        return f"{nato_letter} {' '.join(str(number))}"
+        return f"{nato_letter} {german_numbers[str(number)]}"
     elif letter_prob < 0.75:
         letter = random.choice(ascii_lowercase)
         nato_letter = nato_alphabet[letter]
         number = random.randint(10, 99)
-        return f"{nato_letter} {' '.join(str(number))}"
+        digits = [german_numbers[d] for d in str(number)]
+        return f"{nato_letter} {' '.join(digits)}"
     else:
         number = random.randint(1, 999)
-        return ' '.join(str(number))
+        digits = [german_numbers[d] for d in str(number)]
+        return ' '.join(digits)
 
 
 def add_breaks_and_emphasis(commando):
@@ -43,21 +50,12 @@ def add_breaks_and_emphasis(commando):
     words = commando.split()
 
     new_words = []
-    is_random_part = False
     for word in words:
         if len(new_words) > 0 and new_words[-1][-1] in ascii_lowercase and word[0].isdigit():
             new_words.append(f'<break strength="{random.choice(strengths)}" />')
 
         if 0 <= random.random() < 0.75:
             word = f'<emphasis level="{random.choice(levels)}">{word}</emphasis>'
-
-        # Check if the word is a random part, and add the language tag
-        if word.isdigit() and not is_random_part):
-            word = f'<lang xml:lang="de-DE">{word}'
-            is_random_part = True
-        elif is_random_part:
-            word = f'{word}</lang>'
-            is_random_part = False
 
         new_words.append(word)
 

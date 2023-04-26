@@ -1,7 +1,7 @@
 {
     "speech_key": "98b6bdd8791d40889e42933be6ced7cd",
     "service_region": "westeurope",
-    "combinations_count": 20000,
+    "combinations_count": 2000,
     "language_distribution": {
 		"de-DE": 0.70,
 		"fr-FR": 0.15,

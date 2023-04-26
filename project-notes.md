@@ -16,19 +16,26 @@
 
 ## Blockers
 - Check prerequisites for samples for 2 Models
-- @Tuesday Find out Presentation Guidelines / Project report for Note-taking & Preparation
 
 ## Current Tasks
-- Avoid duplicates in output (skip if already exists by file-name)
+Do before training
+- Gender ration 70%
 
 Improve Set
-- Filter foreign understandable voices
 - Add different pronounciations (e.g. zwo)
-- Foreign better at slow rate
 - Add background noise
+- Foreign better at slow rate
+- Filter foreign understandable voices
 
 Questions
 - Suffices whether only "Rangierfahrt" or multiple commandos
+
+Test set watch out
+- via / vier ()
+- x-ray (schrei)
+
+Possibly new test set
+- Cleaned
 
 ## TODOs
 

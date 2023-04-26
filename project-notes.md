@@ -27,6 +27,9 @@ Improve Set
 - Foreign better at slow rate
 - Add background noise
 
+Questions
+- Suffices whether only "Rangierfahrt" or multiple commandos
+
 ## TODOs
 
 Architecture

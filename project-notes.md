@@ -1,5 +1,18 @@
 # Notes SBB
 
+## Mail
+Sali Fabian
+Ich habe euch noch versprochen alle Worte, die erkannt werden sollten zu senden.
+Hier also die Liste:
+Wörter: umstellmanoever, rangierfahrt, gleis, von, vom, nach, ins, via, und, antworten
+Alle Zahlen: null, eins, zwo, drei, vier, fuenf, sechs, sieben, acht, neun
+Alle Buchstaben: alpha, bravo, charlie, delta, echo, foxtrot, golf, hotel, india, juliet, kilo, lima, mike, november, oscar, papa, quebec, romeo, sierra, tango, uniform, victor, whisky, xray, yankee, zulu
+ 
+Einzig die erste Zeile wurde nicht vollständig implementiert. Alle anderen Worte habe ihr meines Wissens bereits implementiert.
+Wäre froh um ein Feedback, damit ich weiss, dass alle Emails bei euch angekommen sind.
+Beste Grüsse
+Gion
+
 ## Quicklinks
 
 ### Fliki

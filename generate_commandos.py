@@ -10,7 +10,7 @@ import json
 from string import ascii_lowercase
 
 random.seed(1337)
-n_commandos = 100
+n_commandos = 20000
 
 def generate_random_part():
     nato_alphabet = {

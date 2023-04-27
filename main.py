@@ -87,9 +87,12 @@ with open("data/combinations.csv", "r", newline="", encoding="utf-8") as csvfile
         text = row["text"]
         pitch = row["pitch"]
         rate = row["rate"]
-        role = row["role"]  # Read role option
-        style = row["style"]  # Read style option
+        role = row["role"]
+        style = row["style"]
 
         output_filename = f"{index}_{voice}.wav"
         output_filepath = os.path.join(output_dir, output_filename)
-        synthesize_speech(text, pitch, rate, voice, role, style, output_filename)
+        if not os.path.exists(output_filepath):
+            synthesize_speech(text, pitch, rate, voice, role, style, output_filename)
+        else:
+            print(f"Output file {output_filepath} already exists, skipping synthesis")

@@ -29,12 +29,26 @@ Gion
 
 ## Blockers
 - Check prerequisites for samples for 2 Models
-- @Tuesday Find out Presentation Guidelines / Project report for Note-taking & Preparation
 
 ## Current Tasks
-- Introduce variations 
-	- SSML fields + Noise
-- Produce Text inputs
+Do before training
+- Gender ration 70%
+
+Improve Set
+- Add different pronounciations (e.g. zwo)
+- Add background noise
+- Foreign better at slow rate
+- Filter foreign understandable voices
+
+Questions
+- Suffices whether only "Rangierfahrt" or multiple commandos
+
+Test set watch out
+- via / vier ()
+- x-ray (schrei)
+
+Possibly new test set
+- Cleaned
 
 ## TODOs
 

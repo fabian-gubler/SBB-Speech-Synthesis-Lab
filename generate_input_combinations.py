@@ -9,6 +9,7 @@ input parameters for the TTS service.
 import json
 import csv
 import random
+import pandas as pd
 
 random.seed(1337)
 
@@ -48,9 +49,11 @@ def is_duplicate(new_combination, existing_combinations):
     return False
 
 
+
 # Generate possible combinations
 combinations = []
 duplicate_count = 0
+count = 0
 
 for _ in range(combinations_count):
 
@@ -72,10 +75,13 @@ for _ in range(combinations_count):
         'role': random.choice(role_options),  # Add role option
         'style': random.choice(style_options)  # Add style option
     }
-    if not is_duplicate(combination, combinations):
-        combinations.append(combination)
-    else:
-        duplicate_count += 1
+    # if not is_duplicate(combination, combinations):
+    #     combinations.append(combination)
+    # else:
+    #     duplicate_count += 1
+    combinations.append(combination)
+    print("Combination", count, "created.")
+    count += 1
 
 # Save the combinations to a CSV file
 with open('data/combinations.csv', 'w', newline='', encoding='utf-8') as csvfile:
@@ -88,3 +94,9 @@ with open('data/combinations.csv', 'w', newline='', encoding='utf-8') as csvfile
 
 print(f"CSV file created with {combinations_count} unique possible combinations.")
 print(f"{duplicate_count} duplicates were removed.")
+
+
+df = pd.read_csv('data/combinations.csv')
+
+# Get the number of rows in the original DataFrame
+original_rows = df.shape[0]

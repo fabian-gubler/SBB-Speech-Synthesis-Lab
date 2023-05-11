@@ -43,7 +43,7 @@ if response.status_code == 200:
     for locale in locales:
         locale_voices = get_voices_by_locale(locale, voices)
         for voice in locale_voices:
-            filtered_voice = {"name": voice["ShortName"], "language": voice["Locale"]}
+            filtered_voice = {"name": voice["ShortName"], "language": voice["Locale"], "gender": voice["Gender"]}
             filtered_voices.append(filtered_voice)
 
     with open("data/voices.json", "w") as f:

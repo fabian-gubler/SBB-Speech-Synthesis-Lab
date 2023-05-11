@@ -1,1 +1,1 @@
-{"rsync":{},"9p":{"/sbb":{"type":"9p","guestpath":"/sbb","hostpath":"/home/fabian/sbb","disabled":false,"__vagrantfile":true,"target":"/sbb","accessmode":"passthrough","mount":true,"readonly":null,"mount_tag":"987e6b2e0d7e9ea30638ad7e321ee10"}}}
+{"rsync":{},"9p":{"/sbb":{"type":"9p","guestpath":"/sbb","hostpath":"/data/sbb","disabled":false,"__vagrantfile":true,"target":"/sbb","accessmode":"passthrough","mount":true,"readonly":null,"mount_tag":"98832d567f29b2674db828171d35e26"}}}

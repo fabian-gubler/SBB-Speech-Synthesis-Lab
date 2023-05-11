@@ -2,18 +2,15 @@
 
 ## TODO
 
-Configure
-- Add gender to filename
-- Extend Vocabulary & Make lowercase
-
 Generate
 - Set: Sample-rate or other relevant factors
-- Save: Path (relative), Label, Duration
-- Generate: manifest.json
 
 Additional
 - split test & eval
 - manifest.json for test set
+
+Training notes
+- Must shuffle (due to gender)
 
 ## Mail
 Sali Fabian

@@ -1,2 +1,4 @@
 external/
 settings.json
+dataset_train/
+dataset_eval/

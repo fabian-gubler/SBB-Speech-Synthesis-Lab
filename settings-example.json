@@ -1,0 +1,20 @@
+{
+    "speech_key": "f8347f92b8ce409781a9be335ed89f45",
+    "service_region": "westeurope",
+    "combinations_count": 8000,
+    "language_distribution": {
+		"de-DE": 0.70,
+		"fr-FR": 0.15,
+		"it-IT": 0.075,
+		"en-US": 0.025,
+		"pt-PT": 0.025,
+		"es-ES": 0.025,
+		"ta-IN": 0.025,
+		"tr-TR": 0.025,
+		"ar-EG": 0.025
+    },
+	"pitch_options": ["low", "medium" ],
+    "rate_options": ["slow", "medium" ],
+	"role_options": [ "YoungAdultFemale", "YoungAdultMale", "OlderAdultFemale", "OlderAdultMale", "SeniorFemale", "SeniorMale"],
+	"style_options": [ "serious", "shouting", "whispering", "gentle", "excited", "disgruntled", "calm", "angry"]
+}

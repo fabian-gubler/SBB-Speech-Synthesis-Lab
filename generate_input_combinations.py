@@ -27,7 +27,19 @@ with open("data/commandos.json") as commandos_file:
 
 # Set variables according to settings
 combinations_count = settings["combinations_count"]
-# text_inputs = [commando["breaks_emphasis"] for commando in commandos]
+eval_ratio = settings["eval_ratio"]
+
+# Calculate number of training and evaluation samples
+eval_count = int(combinations_count * eval_ratio)
+train_count = combinations_count - eval_count
+
+# Initialize set to check for duplicates
+generated_combinations = set()
+
+# Initialize counters for training and evaluation samples
+train_counter = 0
+eval_counter = 0
+
 text_inputs = [commando["raw"] for commando in commandos]
 language_distribution = settings["language_distribution"]
 pitch_options = settings["pitch_options"]
@@ -46,25 +58,7 @@ male_to_female = settings["male_to_female"]
 male_count = int(combinations_count * male_to_female)
 female_count = combinations_count - male_count
 
-
-
-# Helper function
-
-def is_duplicate(new_combination, existing_combinations):
-    for combination in existing_combinations:
-        if all([combination[key] == new_combination[key] for key in ['voice', 'text', 'pitch', 'rate', 'role', 'style']]):
-            return True
-    return False
-
-
-
-# Generate possible combinations
-combinations = []
-duplicate_count = 0
-count = 0
-
-for _ in range(combinations_count):
-
+def generate_combination(male_count, female_count):
     # Choose a random language based on the distribution
     language = random.choices(list(language_distribution.keys()), list(language_distribution.values()))[0]
 
@@ -93,31 +87,43 @@ for _ in range(combinations_count):
         'text': random.choice(text_inputs),
         'pitch': random.choice(pitch_options),
         'rate': random.choice(rate_options), 
-        'role': random.choice(role_options),  # Add role option
-        'style': random.choice(style_options)  # Add style option
+        'gender': voice["gender"]
     }
-    # if not is_duplicate(combination, combinations):
-    #     combinations.append(combination)
-    # else:
-    #     duplicate_count += 1
-    combinations.append(combination)
-    print("Combination", count, "created.")
-    count += 1
+    return combination, male_count, female_count
 
-# Save the combinations to a CSV file
-with open('data/combinations.csv', 'w', newline='', encoding='utf-8') as csvfile:
-    fieldnames = ['voice', 'text', 'pitch', 'rate', 'role', 'style']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+duplicate_count = 0
 
-    writer.writeheader()
-    for combination in combinations:
-        writer.writerow(combination)
+# Open both output files
+with open("data/combinations_train.csv", "w", newline="", encoding="utf-8") as train_file, \
+     open("data/combinations_eval.csv", "w", newline="", encoding="utf-8") as eval_file:
 
-print(f"CSV file created with {combinations_count} unique possible combinations.")
-print(f"{duplicate_count} duplicates were removed.")
+    # Initialize CSV writers for both files
+    train_writer = csv.writer(train_file)
+    eval_writer = csv.writer(eval_file)
 
+    # Write headers to both files
+    train_writer.writerow(["voice", "text", "pitch", "rate", "gender"])
+    eval_writer.writerow(["voice", "text", "pitch", "rate", "gender"])
 
-df = pd.read_csv('data/combinations.csv')
+    # Generate combinations
+    for _ in range(combinations_count):
+        # Generate a new combination
+        combination, male_count, female_count = generate_combination(male_count, female_count)
 
-# Get the number of rows in the original DataFrame
-original_rows = df.shape[0]
+        # Check for duplicates
+        if tuple(combination.items()) in generated_combinations:
+            duplicate_count += 1
+            continue
+        generated_combinations.add(tuple(combination.items()))
+
+        # Write to the appropriate file
+        if train_counter < train_count:
+            train_writer.writerow(combination.values())
+            train_counter += 1
+        else:
+            eval_writer.writerow(combination.values())
+            eval_counter += 1
+
+print(f"Train CSV file created with {train_count} combinations.")
+print(f"Eval CSV file created with {eval_count} combinations.")
+print(f"Number of duplicates removed: {duplicate_count}")

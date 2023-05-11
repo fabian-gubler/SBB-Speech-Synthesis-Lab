@@ -4,13 +4,13 @@
 sudo apt-get update
 
 # Install python dependencies
-sudo apt-get install python3.8 python3-pip python3-venv
+sudo apt-get install python3.8 python3-pip python3-venv pydub
 
 # Install sdk requirements
-sudo apt-get install build-essential libssl-dev ca-certificates libasound2 wget
+sudo apt-get install build-essential libssl-dev ca-certificates libasound2 wget ffmpeg
 
 # Allow shared folders
 sudo apt-get install -y qemu-guest-agent
 
-# Dependencies
-pip install azure-cognitiveservices-speech # command not found
+# Python Dependencies
+pip install azure-cognitiveservices-speech pandas # command not found

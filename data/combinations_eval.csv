@@ -1,0 +1,81 @@
+voice,text,pitch,rate,gender
+de-DE-TanjaNeural,rangierfahrt von Gleis uniform sieben  via victor vier drei nach Gleis drei sieben eins,low,slow,Female
+de-DE-GiselaNeural,umstellmanöver von  alpha neun null  nach  india neun,medium,medium,Female
+de-CH-LeniNeural,rangierfahrt von  zwei sieben acht  nach  victor eins neun,low,medium,Female
+de-DE-KatjaNeural,umstellmanöver von  india acht eins  via uniform acht eins nach  whiskey acht neun,low,slow,Female
+de-DE-ElkeNeural,rangierfahrt von  mike sechs  ins  acht fünf fünf,low,slow,Female
+de-DE-KatjaNeural,umstellmanöver von Gleis delta drei null  nach Gleis hotel acht,low,medium,Female
+fr-FR-BrigitteNeural,rangierfahrt von  vier eins acht  nach  neun,medium,medium,Female
+de-CH-LeniNeural,umstellmanöver vom  oscar acht  nach  sieben sieben zwei,low,medium,Female
+de-DE-ElkeNeural,rangierfahrt von  quebec vier  nach  victor neun,low,medium,Female
+de-DE-KlarissaNeural,rangierfahrt vom Gleis foxtrot drei acht  nach Gleis acht vier null,low,slow,Female
+de-DE-GiselaNeural,umstellmanöver vom  lima sechs null  via foxtrot sieben fünf nach  alpha sieben,low,medium,Female
+it-IT-FabiolaNeural,umstellmanöver von Gleis alpha eins vier  nach Gleis neun vier eins,low,medium,Female
+de-DE-KatjaNeural,rangierfahrt vom  whiskey sechs acht  via mike acht nach  zulu sechs eins,medium,medium,Female
+fr-FR-EloiseNeural,rangierfahrt von  lima sechs  via drei zwei nach  oscar neun,low,slow,Female
+de-DE-KatjaNeural,rangierfahrt von  hotel zwei  via quebec fünf neun ins  vier drei sechs,medium,slow,Female
+ar-EG-SalmaNeural,umstellmanöver vom Gleis eins zwei neun  via neun fünf neun ins Gleis alpha eins,medium,slow,Female
+tr-TR-EmelNeural,umstellmanöver vom  fünf sechs sieben  nach  yankee sechs,low,medium,Female
+de-DE-KlarissaNeural,umstellmanöver von  bravo neun  ins  vier sieben null,low,slow,Female
+de-DE-GiselaNeural,rangierfahrt von Gleis romeo sieben sieben  nach Gleis kilo vier,low,medium,Female
+de-DE-AmalaNeural,umstellmanöver von Gleis fünf eins sieben  via fünf sieben eins nach Gleis zwei zwei eins,medium,medium,Female
+de-CH-LeniNeural,rangierfahrt von  drei vier drei  nach  neun null zwei,low,slow,Female
+it-IT-ElsaNeural,rangierfahrt vom Gleis hotel fünf  via bravo zwei sechs nach Gleis hotel sechs,low,slow,Female
+de-DE-MajaNeural,rangierfahrt von Gleis eins null acht  nach Gleis drei neun vier,low,medium,Female
+de-CH-LeniNeural,umstellmanöver von Gleis acht zwei zwei  nach Gleis echo zwei sieben,low,slow,Female
+de-DE-AmalaNeural,rangierfahrt vom Gleis uniform vier  nach Gleis charlie drei,medium,slow,Female
+de-DE-KatjaNeural,rangierfahrt von Gleis sierra fünf  nach Gleis whiskey eins,medium,medium,Female
+de-CH-LeniNeural,umstellmanöver vom  delta acht sieben  via sieben eins zwei nach  zwei sechs sieben,low,medium,Female
+fr-FR-JacquelineNeural,umstellmanöver vom  bravo sechs  nach  victor drei,low,slow,Female
+de-DE-KatjaNeural,rangierfahrt von  oscar acht sechs  nach  papa acht,medium,medium,Female
+fr-FR-EloiseNeural,rangierfahrt von Gleis november vier  ins Gleis yankee eins,low,medium,Female
+de-DE-AmalaNeural,umstellmanöver von  vier fünf drei  via victor sechs acht nach  lima eins,medium,medium,Female
+de-DE-AmalaNeural,rangierfahrt vom Gleis india vier sieben  nach Gleis echo fünf,low,medium,Female
+de-DE-KatjaNeural,umstellmanöver von Gleis november sechs  nach Gleis golf sieben,low,slow,Female
+fr-FR-EloiseNeural,rangierfahrt von  vier fünf sechs  via sechs neun nach  uniform neun drei,medium,slow,Female
+de-DE-KlarissaNeural,rangierfahrt vom Gleis uniform neun  nach Gleis november acht,medium,medium,Female
+de-DE-LouisaNeural,rangierfahrt von Gleis eins eins sieben  ins Gleis juliett sieben,medium,slow,Female
+de-AT-IngridNeural,umstellmanöver von  alpha neun fünf  nach  sieben acht drei,low,medium,Female
+de-DE-KatjaNeural,rangierfahrt von  foxtrot acht  ins  echo acht,medium,medium,Female
+fr-FR-CoralieNeural,umstellmanöver von  eins sechs sechs  via victor vier ins  uniform acht eins,medium,medium,Female
+de-DE-LouisaNeural,umstellmanöver vom Gleis mike zwei  via zwei eins sechs ins Gleis romeo acht,low,medium,Female
+it-IT-PalmiraNeural,rangierfahrt vom  lima sechs drei  via whiskey sieben acht nach  vier neun neun,low,medium,Female
+de-DE-ElkeNeural,rangierfahrt von Gleis zwei zwei acht  via mike zwei nach Gleis drei acht zwei,medium,slow,Female
+de-DE-KatjaNeural,umstellmanöver von  sierra sieben  via uniform fünf drei nach  echo sieben eins,low,slow,Female
+de-CH-LeniNeural,rangierfahrt von  sechs neun drei  ins  fünf drei sechs,low,medium,Female
+de-DE-KlarissaNeural,rangierfahrt von  acht fünf sieben  nach  foxtrot zwei,low,medium,Female
+de-DE-ElkeNeural,umstellmanöver vom  mike sieben drei  via eins vier null nach  sechs null sieben,medium,slow,Female
+de-DE-TanjaNeural,rangierfahrt von Gleis golf eins null  via whiskey acht nach Gleis juliett fünf null,low,slow,Female
+de-DE-TanjaNeural,rangierfahrt von  charlie sieben  via sierra zwei null ins  sieben null null,medium,medium,Female
+it-IT-ImeldaNeural,umstellmanöver vom Gleis zwei vier drei  via charlie fünf nach Gleis whiskey zwei,low,slow,Female
+es-ES-VeraNeural,rangierfahrt vom Gleis romeo eins  via kilo zwei nach Gleis oscar vier,low,slow,Female
+de-CH-LeniNeural,rangierfahrt von  zwei eins drei  nach  papa drei zwei,low,slow,Female
+de-DE-TanjaNeural,rangierfahrt vom  zwei sieben acht  via bravo zwei eins nach  victor eins,medium,medium,Female
+pt-PT-RaquelNeural,umstellmanöver von  drei acht null  via yankee acht nach  sieben zwei null,medium,slow,Female
+de-DE-LouisaNeural,rangierfahrt von Gleis oscar eins  via hotel zwei sechs nach Gleis victor eins,medium,medium,Female
+de-DE-KatjaNeural,rangierfahrt von Gleis hotel sieben sechs  via whiskey acht eins nach Gleis zwei acht neun,low,slow,Female
+de-DE-KatjaNeural,rangierfahrt von Gleis hotel neun sechs  via delta sieben ins Gleis delta drei sechs,low,medium,Female
+de-DE-GiselaNeural,rangierfahrt von  acht zwei sieben  nach  november fünf,low,medium,Female
+pt-PT-FernandaNeural,rangierfahrt von  acht eins null  via zwei zwei acht ins  charlie zwei,medium,slow,Female
+it-IT-IrmaNeural,umstellmanöver von  yankee fünf  nach  romeo neun,medium,medium,Female
+de-DE-AmalaNeural,umstellmanöver von  victor fünf null  via eins vier null nach  hotel drei,medium,medium,Female
+de-DE-TanjaNeural,rangierfahrt von  bravo fünf neun  via neun sechs eins nach  delta vier,low,slow,Female
+de-DE-ElkeNeural,rangierfahrt von  tango acht  nach  quebec sechs vier,low,medium,Female
+de-CH-LeniNeural,rangierfahrt vom  zulu drei  via neun drei sieben ins  fünf eins sechs,medium,medium,Female
+pt-PT-FernandaNeural,umstellmanöver von Gleis november eins  nach Gleis papa neun,medium,medium,Female
+de-DE-GiselaNeural,rangierfahrt von Gleis sieben zwei neun  nach Gleis vier zwei drei,medium,medium,Female
+tr-TR-EmelNeural,rangierfahrt von Gleis kilo neun  via zulu neun ins Gleis foxtrot sieben,medium,slow,Female
+fr-FR-DeniseNeural,umstellmanöver von  foxtrot acht  via yankee fünf drei nach  zulu acht,low,slow,Female
+de-DE-KlarissaNeural,rangierfahrt von Gleis whiskey acht null  ins Gleis sechs neun eins,medium,medium,Female
+ar-EG-SalmaNeural,umstellmanöver von  zulu acht  via sierra sieben nach  oscar sieben,medium,medium,Female
+fr-FR-EloiseNeural,rangierfahrt von Gleis drei sechs sechs  via kilo eins eins nach Gleis hotel sechs,low,slow,Female
+de-DE-TanjaNeural,umstellmanöver vom  whiskey neun eins  via foxtrot neun nach  fünf neun sechs,medium,medium,Female
+de-DE-LouisaNeural,rangierfahrt vom Gleis x-ray neun  ins Gleis juliett sechs,medium,medium,Female
+de-DE-LouisaNeural,umstellmanöver vom  sechs fünf acht  via neun drei acht ins  sierra neun neun,low,medium,Female
+fr-FR-CoralieNeural,umstellmanöver von Gleis x-ray eins  nach Gleis fünf sechs acht,low,medium,Female
+it-IT-FiammaNeural,umstellmanöver von  delta sechs  nach  alpha zwei,low,slow,Female
+ta-IN-PallaviNeural,umstellmanöver von Gleis india vier  nach Gleis hotel fünf,low,medium,Female
+it-IT-IsabellaNeural,umstellmanöver von  india neun zwei  nach  hotel sechs vier,medium,medium,Female
+de-DE-AmalaNeural,rangierfahrt von  india acht  nach  romeo sechs,low,slow,Female
+fr-FR-JosephineNeural,umstellmanöver von  uniform sechs  nach  kilo neun null,medium,medium,Female
+de-DE-LouisaNeural,umstellmanöver von Gleis zulu sechs fünf  ins Gleis zwei vier neun,low,slow,Female

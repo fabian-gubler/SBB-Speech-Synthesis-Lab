@@ -75,8 +75,14 @@ def generate_commandos(n):
             while via_part == from_part or via_part == to_part:
                 via_part = " via " + generate_random_part()
 
-        gleis = "Gleis " if random.random() < 0.5 else ""
-        commando = f"Rangierfahrt von {gleis}{from_part}{via_part} nach {gleis}{to_part}."
+        # randomize vocabulary
+        gleis = "Gleis" if random.random() < 0.5 else ""
+        operation = random.choice(["rangierfahrt", "umstellmanöver"])
+        preposition1 = random.choices(["von", "vom"], weights=[0.7, 0.3], k=1)[0]
+        preposition2 = random.choices(["nach", "ins"], weights=[0.8, 0.2], k=1)[0]
+
+        # vom / ins
+        commando = f"{operation} {preposition1} {gleis} {from_part} {via_part} {preposition2} {gleis} {to_part}"
         commando_nato_breaks_emphasis = add_breaks_and_emphasis(commando)
         commandos.append({"raw": commando, "breaks_emphasis": commando_nato_breaks_emphasis})
 

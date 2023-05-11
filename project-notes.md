@@ -1,5 +1,20 @@
 # Notes SBB
 
+## TODO
+
+Configure
+- Gender ratio 70% male
+- Extend Vocabulary & Make lowercase
+
+Generate
+- Set: Sample-rate or other relevant factors
+- Save: Path (relative), Label, Duration
+- Generate: manifest.json
+
+Additional
+- split test & eval
+- manifest.json for test set
+
 ## Mail
 Sali Fabian
 Ich habe euch noch versprochen alle Worte, die erkannt werden sollten zu senden.
@@ -31,8 +46,6 @@ Gion
 - Check prerequisites for samples for 2 Models
 
 ## Current Tasks
-Do before training
-- Gender ration 70%
 
 Improve Set
 - Add different pronounciations (e.g. zwo)
@@ -40,15 +53,9 @@ Improve Set
 - Foreign better at slow rate
 - Filter foreign understandable voices
 
-Questions
-- Suffices whether only "Rangierfahrt" or multiple commandos
-
 Test set watch out
 - via / vier ()
 - x-ray (schrei)
-
-Possibly new test set
-- Cleaned
 
 ## TODOs
 

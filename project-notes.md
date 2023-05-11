@@ -3,7 +3,7 @@
 ## TODO
 
 Configure
-- Gender ratio 70% male
+- Add gender to filename
 - Extend Vocabulary & Make lowercase
 
 Generate

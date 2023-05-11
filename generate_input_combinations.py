@@ -39,6 +39,14 @@ style_options = settings["style_options"]
 local_languages = ["de-DE", "de-CH", "de-AT"]
 local_voices = [voice for voice in all_voices if voice["language"] in local_languages]
 foreign_voices = [voice for voice in all_voices if voice["language"] not in local_languages]
+male_voices = [voice for voice in all_voices if voice["gender"] == "Male"]
+female_voices = [voice for voice in all_voices if voice["gender"] == "Female"]
+
+male_to_female = settings["male_to_female"]
+male_count = int(combinations_count * male_to_female)
+female_count = combinations_count - male_count
+
+
 
 # Helper function
 
@@ -60,12 +68,25 @@ for _ in range(combinations_count):
     # Choose a random language based on the distribution
     language = random.choices(list(language_distribution.keys()), list(language_distribution.values()))[0]
 
-    # Randomly select voice based on language
+    # Randomly select voice based on language and gender
     if language == "de-DE":
-        voice = random.choice(local_voices)
+        if male_count > 0:
+            voice = random.choice([v for v in male_voices if v["language"] in local_languages])
+            male_count -= 1
+        else:
+            voice = random.choice([v for v in female_voices if v["language"] in local_languages])
+            female_count -= 1    
     else:
-        foreign_voices_for_language = [v for v in foreign_voices if v["language"] == language]
-        voice = random.choice(foreign_voices_for_language)
+        foreign_male_voices_for_language = [v for v in male_voices if v["language"] == language]
+        foreign_female_voices_for_language = [v for v in female_voices if v["language"] == language]
+        if male_count > 0 and len(foreign_male_voices_for_language) > 0:
+            voice = random.choice(foreign_male_voices_for_language)
+            male_count -= 1
+        elif len(foreign_female_voices_for_language) > 0:
+            voice = random.choice(foreign_female_voices_for_language)
+            female_count -= 1
+        else:
+            voice = random.choice(foreign_voices)
 
     combination = {
         'voice': voice["name"],

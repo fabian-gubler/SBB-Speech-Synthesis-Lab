@@ -2,15 +2,16 @@
 
 ## TODO
 
-Generate
-- Set: Sample-rate or other relevant factors
-
-Additional
-- split test & eval
-- manifest.json for test set
-
 Training notes
 - Must shuffle (due to gender)
+
+First training
+- [ ] Save model weights
+- How long to train?
+
+Setting up VM
+- Clone repository
+- Install dependencies (+5min)
 
 ## Mail
 Sali Fabian

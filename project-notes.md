@@ -2,35 +2,37 @@
 
 ## TODO
 
-Training notes
-- Must shuffle (due to gender)
+### DGX
+1. Have data directory (relative link conformer to datadir)
+2. Git clone repository
+3. SCP to DGX -> unzip
+4. Run model
 
-First training
-- [ ] Save model weights
-- How long to train?
+### Data
 
-Setting up VM
-- Clone repository
-- Install dependencies (+5min)
+Samples
 
-## Mail
-Sali Fabian
-Ich habe euch noch versprochen alle Worte, die erkannt werden sollten zu senden.
-Hier also die Liste:
-Wörter: umstellmanoever, rangierfahrt, gleis, von, vom, nach, ins, via, und, antworten
-Alle Zahlen: null, eins, zwo, drei, vier, fuenf, sechs, sieben, acht, neun
-Alle Buchstaben: alpha, bravo, charlie, delta, echo, foxtrot, golf, hotel, india, juliet, kilo, lima, mike, november, oscar, papa, quebec, romeo, sierra, tango, uniform, victor, whisky, xray, yankee, zulu
- 
-Einzig die erste Zeile wurde nicht vollständig implementiert. Alle anderen Worte habe ihr meines Wissens bereits implementiert.
-Wäre froh um ein Feedback, damit ich weiss, dass alle Emails bei euch angekommen sind.
-Beste Grüsse
-Gion
+- Gleis -> gleis
+- x-ray -> xray
+
+Testset
+
+- convert current testset into manifest.json format
+- test the model accuracy
+
+### Training
+
+German Training
+
+- manipulate json to only have german entries
+- load german manifest-de.json file and train model
+
+
+Open Issues
+- Having only a bag of words to test accuracy 
+	? build-in into conformer or having to do this manually?
 
 ## Quicklinks
-
-### Fliki
-- [API Overview](https://fliki.ai/resources/api)
-- [API Documentation](https://github.com/fliki-ai/documentation)
 
 ### AZURE Speech Services
 - [Voice Gallery](https://speech.microsoft.com/portal/voicegallery)
@@ -40,108 +42,8 @@ Gion
 	- [Fine-tune with SSML](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup)
 	- [Speech from File](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-speech-synthesis?tabs=browserjs%2Cterminal&pivots=programming-language-python)
 
-## Blockers
-- Check prerequisites for samples for 2 Models
-
-## Current Tasks
-
-Improve Set
+## Improve Set
 - Add different pronounciations (e.g. zwo)
 - Add background noise
 - Foreign better at slow rate
 - Filter foreign understandable voices
-
-Test set watch out
-- via / vier ()
-- x-ray (schrei)
-
-## TODOs
-
-Architecture
-- Fields in csv
-- Files
-	- Main File
-		- Setup constants (file paths, output directory, amount, split etc.)
-		- Handle creating access tokens, what to do upon failure
-		- Handle entire process
-	- Data Generator (Random Text, Parameters)
-		- Should result in same output (change random seed)
-		- Should be able to modify distribution based on output size
-	- CSV (contains all fields)
-	- Data Synthesizer (Creates Requests)
-
-Manifest
-- Randomization of parameters (with randomseed)
-- Randomization of text, pauses
-- Understand
-	- Struktur (Rangierfahrt, Umstell)
-
-Python file
-- Load csv (e.g. as pandas df)
-- Authorization
-- Requests based on csv
-- Save outputs in directory
-
-## Strategy
-Use ChatGPT to code / improve / guide
-
-1. Create Prototype Murf Program
-2. Data Generator file
-
-Status Quo
-- 3000 Samples classifiaction (verständlich / nicht verständlich)
-- PPT guide on text
-- Zero-Shot: 38% Fehlerarbeit
-
-Selecting Geneartors
-	- [Google T2S](https://codelabs.developers.google.com/codelabs/cloud-text-speech-python3#0)
-	- [Fliki](https://github.com/fliki-ai/documentation)
-	- [Azure](https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/)
-
-Fliki
-- Must have a variety of pronunciations and accents
-- Must have API to automate creation
-
-Best Selection: Murph
-- 120+ voices (20+ languages)
-- Different Profiles (Terrified, Angry etc.)
-- Pauses
-- Pitch & Speed Setting
-- 7 German Voices
-- Extensive API Documentation & Features
-- 39$ for 4 hours
-
-Azure
-- 15 German Voices
-- Cheapest Option: estimated 10$ for 10K samples
-- Most robust and extensible option for future projects
-
-Input
-- Variation in position, Wörter dazu und auslassen
-- Zahlen einzeln ausgesprochen, (Zwo)
-
-Training Set: 10'000 Samples (30% Variationen Wort, 30% Variationen Stimmen, 40% Slangs)
-- (Automate) Randomisieren, verschiedene Sätze (-> für Stimmen, Slang)
-- Must have variety to avoid overfitting
-- (Automate) Good labeling (.csv) -> Stimmenart
-
-Misc
-- Gion (1. Mai) 1 Woche in Ferien
-
-## Resources
-
-- Pitch, Pronunciation etc. adjustements
-- [Docker](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-container-howto?tabs=stt%2Ccsharp%2Csimple-format)
-- Reproducible
-
-## Outlook
-- Fine-tune / Improve existing Models
-- Productionalize the Models (e.g. Containerize, MlOps)
-- Make it work on embedded Devices
-
-## Presentation
-- Learnings: Good to be true
-	- Great for experimentation, falls down pretty fast for scalable entreprise
-	  applications
-	- Limited API access or none
-	- Becomes very Costly for scalable projects (> 10K samples )

@@ -19,8 +19,8 @@ model = nemo_asr.models.ASRModel.from_pretrained(
 )
 model.cfg
 
-train_manifest = "/home/paperspace/sbb/conformer/dataset_train/manifest.json"
-eval_manifest = "/home/paperspace/sbb/conformer/dataset_eval/manifest.json"
+train_manifest = "../data/dataset_train/manifest.json"
+eval_manifest = "../data/dataset_eval/manifest.json"
 
 import copy
 import datetime

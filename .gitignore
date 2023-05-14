@@ -2,3 +2,6 @@ external/
 settings.json
 dataset_train/
 dataset_eval/
+conformer/dataset_eval/
+conformer/dataset_train/
+*.zip

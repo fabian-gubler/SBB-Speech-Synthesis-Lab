@@ -56,9 +56,9 @@ def sweep_iteration():
     model.cfg.test_ds.manifest_filepath = str(train_manifest)
 
     model.cfg.train_ds.max_duration = 45
-    model.cfg.train_ds.batch_size = 32
-    model.cfg.validation_ds.batch_size = 32
-    model.cfg.test_ds.batch_size = 32
+    model.cfg.train_ds.batch_size = 8
+    model.cfg.validation_ds.batch_size = 8
+    model.cfg.test_ds.batch_size = 8
 
     model.setup_training_data(model.cfg.train_ds)
     model.setup_validation_data(model.cfg.validation_ds)

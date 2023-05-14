@@ -76,7 +76,7 @@ def generate_commandos(n):
                 via_part = " via " + generate_random_part()
 
         # randomize vocabulary
-        gleis = "Gleis" if random.random() < 0.5 else ""
+        gleis = "gleis" if random.random() < 0.5 else ""
         operation = random.choice(["rangierfahrt", "umstellmanöver"])
         preposition1 = random.choices(["von", "vom"], weights=[0.7, 0.3], k=1)[0]
         preposition2 = random.choices(["nach", "ins"], weights=[0.8, 0.2], k=1)[0]

@@ -2,12 +2,6 @@
 
 ## TODO
 
-### DGX
-1. Have data directory (relative link conformer to datadir)
-2. Git clone repository
-3. SCP to DGX -> unzip
-4. Run model
-
 ### Data
 
 Samples
@@ -31,6 +25,12 @@ German Training
 Open Issues
 - Having only a bag of words to test accuracy 
 	? build-in into conformer or having to do this manually?
+
+### DGX
+1. Have data directory (relative link conformer to datadir)
+2. Git clone repository
+3. SCP to DGX -> unzip
+4. Run model
 
 ## Quicklinks
 

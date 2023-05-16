@@ -27,7 +27,7 @@ eval_manifest = "/home/user/code/data/dataset_eval/manifest.json"
 # train_manifest = "../data/dataset_train/manifest_german.json"
 # eval_manifest = "../data/dataset_eval/manifest_german.json"
 
-test_manifest = "/home/user/code/data/external/sbb_test/manifest.json"
+test_manifest = "/home/user/code/data/sbb_test/manifest.json"
 
 import copy
 import datetime

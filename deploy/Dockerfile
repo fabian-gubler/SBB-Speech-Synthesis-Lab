@@ -1,3 +1,6 @@
+# USE VAGRANT INSTEAD OF DOCKER OR MODIFY THIS FILE TO WORK
+
+
 # Use the official Python image as the base image
 FROM python:3.9
 

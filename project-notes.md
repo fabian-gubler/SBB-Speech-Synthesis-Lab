@@ -4,11 +4,6 @@
 
 ### Data
 
-Samples
-
-- Gleis -> gleis
-- x-ray -> xray
-
 Testset
 
 - convert current testset into manifest.json format

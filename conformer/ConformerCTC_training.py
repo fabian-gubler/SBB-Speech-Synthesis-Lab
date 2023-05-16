@@ -20,8 +20,8 @@ model = nemo_asr.models.ASRModel.from_pretrained(
 model.cfg
 
 # use all available samples for training
-train_manifest = "../data/dataset_train/manifest.json"
-eval_manifest = "../data/dataset_eval/manifest.json"
+train_manifest = "../../data/dataset_train/manifest.json"
+eval_manifest = "../../data/dataset_eval/manifest.json"
 
 # only use german samples for training
 # train_manifest = "../data/dataset_train/manifest_german.json"

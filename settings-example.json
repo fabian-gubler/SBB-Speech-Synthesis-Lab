@@ -1,10 +1,10 @@
 {
     "speech_key": "",
     "service_region": "switzerlandnorth",
-	"is_eval": true,
+	"is_eval": false,
 	"eval_ratio": 0.2,
 	"male_to_female": 0.7,
-    "combinations_count": 400,
+    "combinations_count": 4000,
     "language_distribution": {
 		"de-DE": 0.70,
 		"fr-FR": 0.15,

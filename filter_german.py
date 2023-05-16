@@ -20,7 +20,7 @@ def save_data(file_path, data):
 
     with open(output_path, 'w') as f:
         for sample in data:
-            f.write(json.dumps(sample, ensure_ascii=False) + '\n')
+            f.write(json.dumps(sample, ensure_ascii=True) + '\n')
 
 train_path = "dataset_train/manifest.json"
 eval_path = "dataset_eval/manifest.json"

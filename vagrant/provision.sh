@@ -13,4 +13,4 @@ sudo apt-get install build-essential libssl-dev ca-certificates libasound2 wget 
 sudo apt-get install -y qemu-guest-agent
 
 # Python Dependencies
-pip install azure-cognitiveservices-speech pandas # command not found
+pip install azure-cognitiveservices-speech pandas tqdm # command not found

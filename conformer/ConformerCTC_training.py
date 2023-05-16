@@ -19,8 +19,15 @@ model = nemo_asr.models.ASRModel.from_pretrained(
 )
 model.cfg
 
+# use all available samples for training
 train_manifest = "../data/dataset_train/manifest.json"
 eval_manifest = "../data/dataset_eval/manifest.json"
+
+# only use german samples for training
+# train_manifest = "../data/dataset_train/manifest_german.json"
+# eval_manifest = "../data/dataset_eval/manifest_german.json"
+
+test_manifest = "../data/sbb_test/manifest.json"
 
 import copy
 import datetime
@@ -53,7 +60,7 @@ def sweep_iteration():
 
     model.cfg.train_ds.manifest_filepath = train_manifest
     model.cfg.validation_ds.manifest_filepath = eval_manifest
-    model.cfg.test_ds.manifest_filepath = str(train_manifest)
+    model.cfg.test_ds.manifest_filepath = test_manifest
 
     model.cfg.train_ds.max_duration = 45
     model.cfg.train_ds.batch_size = 8

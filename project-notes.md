@@ -2,29 +2,15 @@
 
 ## TODO
 
-### Data
-
-Testset
-
-- convert current testset into manifest.json format
-- test the model accuracy
-
 ### Training
-
-German Training
-
-- manipulate json to only have german entries
-- load german manifest-de.json file and train model
-
 
 Open Issues
 - Having only a bag of words to test accuracy 
 	? build-in into conformer or having to do this manually?
 
 ### DGX
-1. Have data directory (relative link conformer to datadir)
 2. Git clone repository
-3. SCP to DGX -> unzip
+3. SCP to DGX/eurosat/data -> unzip
 4. Run model
 
 ## Quicklinks

@@ -69,6 +69,9 @@ from nemo.collections.asr.metrics.wer import word_error_rate
 from nemo.collections.asr.parts.utils.transcribe_utils import PunctuationCapitalization, TextProcessingConfig
 from nemo.core.config import hydra_runner
 from nemo.utils import logging
+from nemo.collections.asr.parts.utils.eval_utils import cal_write_wer
+
+# import nemo.collections.asr.parts.utils.eval_utils
 
 
 @dataclass

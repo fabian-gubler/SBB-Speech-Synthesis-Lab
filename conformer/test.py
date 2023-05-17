@@ -9,9 +9,21 @@ from nemo.collections.asr.data.audio_to_text import ASRDataLayer
 # Load the model
 model = nemo_asr.models.EncDecCTCModel.restore_from("/home/user/code/data/models/model_20230516_164600.nemo")
 
+# Define the data layer
+data_layer = nemo_asr.AudioToTextDataLayer(
+    manifest_filepath='/home/user/code/data/sbb_test/manifest.json',
+    labels=model.decoder.vocabulary,  # assuming `model` is your loaded model
+    batch_size=32,  # adjust as needed
+    sample_rate=16000,  # adjust as needed
+    num_workers=4,  # adjust as needed
+)
+
+# Get the data loader from the data layer
+data_loader = data_layer.data_iterator
+
 # Define the dataset
 dataset = collections.AudioToCharDataset(
-    manifest_filepath='/home/user/code/data/sbb_test/manifest.json',
+    manifest_filepath='path_to_your_manifest.json',
     labels=model.decoder.vocabulary,  # assuming `model` is your loaded model
     sample_rate=16000,  # adjust as needed
 )

@@ -8,10 +8,11 @@ Open Issues
 - Having only a bag of words to test accuracy 
 	? build-in into conformer or having to do this manually?
 
-### DGX
-2. Git clone repository
-3. SCP to DGX/eurosat/data -> unzip
-4. Run model
+### Testing
+- Implement test script using chatgpt hints
+- Reuse as much nemo capabilities as possible
+	- marcgrau implementation
+	- sample jupyter notebooks
 
 ## Quicklinks
 

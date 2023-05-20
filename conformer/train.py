@@ -6,10 +6,6 @@ import wandb
 from pathlib import Path
 from datetime import datetime
 
-# use all available samples for training
-train_manifest = "/home/user/code/data/dataset_train/manifest.json"
-eval_manifest = "/home/user/code/data/dataset_eval/manifest.json"
-
 def compute_metrics(hypotheses, references):
     # Compute metrics
     wer = jiwer.wer(references, hypotheses)
@@ -99,5 +95,10 @@ def sweep_iteration():
     # save model
     model_path = f"models/model_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
     model.save_to(model_path)
+
+# use all available samples for training
+train_manifest = "/home/user/code/data/dataset_train/manifest.json"
+test_manifest = "/home/user/code/data/external/sbb_test/manifest.json"
+eval_manifest = "/home/user/code/data/dataset_eval/manifest.json"
 
 sweep_iteration()

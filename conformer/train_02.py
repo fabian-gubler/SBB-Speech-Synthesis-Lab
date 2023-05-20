@@ -15,39 +15,39 @@ def compute_metrics(hypotheses, references):
     return wer, ser, cer
 
 # Update your model class to include these metrics during validation/test
-class MyASRModel(nemo_asr.models.ASRModel):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
-    def validation_step(self, batch, batch_idx):
-        # perform the default validation step
-        val_loss = super().validation_step(batch, batch_idx)
-
-        # compute metrics
-        references, hypotheses = self.transcribe(batch)
-        wer, ser, cer = compute_metrics(hypotheses, references)
-
-        # log metrics
-        self.log('val_wer', wer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-        self.log('val_ser', ser, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-        self.log('val_cer', cer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-        
-        return val_loss
-
-    def test_step(self, batch, batch_idx):
-        # perform the default test step
-        test_loss = super().test_step(batch, batch_idx)
-
-        # compute metrics
-        references, hypotheses = self.transcribe(batch)
-        wer, ser, cer = compute_metrics(hypotheses, references)
-
-        # log metrics
-        self.log('test_wer', wer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-        self.log('test_ser', ser, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-        self.log('test_cer', cer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-        
-        return test_loss
+# class MyASRModel(nemo_asr.models.ASRModel):
+#     def __init__(self, *args, **kwargs):
+#         super().__init__(*args, **kwargs)
+#
+#     def validation_step(self, batch, batch_idx):
+#         # perform the default validation step
+#         val_loss = super().validation_step(batch, batch_idx)
+#
+#         # compute metrics
+#         references, hypotheses = self.transcribe(batch)
+#         wer, ser, cer = compute_metrics(hypotheses, references)
+#
+#         # log metrics
+#         self.log('val_wer', wer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+#         self.log('val_ser', ser, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+#         self.log('val_cer', cer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+#         
+#         return val_loss
+#
+#     def test_step(self, batch, batch_idx):
+#         # perform the default test step
+#         test_loss = super().test_step(batch, batch_idx)
+#
+#         # compute metrics
+#         references, hypotheses = self.transcribe(batch)
+#         wer, ser, cer = compute_metrics(hypotheses, references)
+#
+#         # log metrics
+#         self.log('test_wer', wer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+#         self.log('test_ser', ser, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+#         self.log('test_cer', cer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+#         
+#         return test_loss
 
 def sweep_iteration():
     # set up W&B logger
@@ -57,9 +57,15 @@ def sweep_iteration():
     trainer = pl.Trainer(max_epochs=10, logger=wandb_logger, gpus=[2], accelerator="gpu")
 
     # setup model
-    model = MyASRModel.from_pretrained(
+    # model = MyASRModel.from_pretrained(
+    #     model_name="stt_de_conformer_ctc_large"
+    # )
+
+
+    model = nemo_asr.models.ASRModel.from_pretrained(
         model_name="stt_de_conformer_ctc_large"
     )
+
     model.set_trainer(trainer)
 
     model.cfg.train_ds.is_tarred = False

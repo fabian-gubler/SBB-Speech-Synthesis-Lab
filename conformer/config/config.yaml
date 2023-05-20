@@ -1,0 +1,9 @@
+data:
+    test_ds:
+    manifest_filepath: data/train_split/debug.txt
+    sample_rate: 48000
+    batch_size: 1
+    shuffle: false
+    num_workers: 0
+    pin_memory: true
+    use_start_end_token: false

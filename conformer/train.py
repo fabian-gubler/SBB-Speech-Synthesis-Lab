@@ -6,6 +6,10 @@ import wandb
 from pathlib import Path
 from datetime import datetime
 
+# use all available samples for training
+train_manifest = "/home/user/code/data/dataset_train/manifest.json"
+eval_manifest = "/home/user/code/data/dataset_eval/manifest.json"
+
 def compute_metrics(hypotheses, references):
     # Compute metrics
     wer = jiwer.wer(references, hypotheses)

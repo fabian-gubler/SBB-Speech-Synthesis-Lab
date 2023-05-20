@@ -98,7 +98,7 @@ def sweep_iteration():
 
 # use all available samples for training
 train_manifest = "/home/user/code/data/dataset_train/manifest.json"
-test_manifest = "/home/user/code/data/external/sbb_test/manifest.json"
+test_manifest = "/home/user/code/external/sbb_test/manifest.json"
 eval_manifest = "/home/user/code/data/dataset_eval/manifest.json"
 
 sweep_iteration()

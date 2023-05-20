@@ -4,4 +4,5 @@ dataset_train/
 dataset_eval/
 conformer/dataset_eval/
 conformer/dataset_train/
+data/lightning_logs/
 *.zip

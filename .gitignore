@@ -1,8 +1,11 @@
 external/
 settings.json
 dataset_train/
+
 dataset_eval/
 conformer/dataset_eval/
 conformer/dataset_train/
+conformer/wandb/
+
 data/lightning_logs/
 *.zip

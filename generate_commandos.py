@@ -22,7 +22,7 @@ def generate_random_part():
     }
 
     german_numbers = {
-        '0': 'null', '1': 'eins', '2': 'zwei', '3': 'drei', '4': 'vier', 
+        '0': 'null', '1': 'eins', '2': 'zwo', '3': 'drei', '4': 'vier', 
         '5': 'fünf', '6': 'sechs', '7': 'sieben', '8': 'acht', '9': 'neun'
     }
 

@@ -2,7 +2,7 @@ import subprocess
 import json
 
 def execute_script(script_name):
-    process = subprocess.Popen(["python", script_name], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.Popen(["python3", script_name], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
     
     if stdout:
@@ -29,7 +29,8 @@ scripts_to_run = {
     "generate_comandos.py": "This script generates commands", 
     "generate_input_combinations.py": "This script generates input combinations",
     "generate_speech.py": "This script generates speech",
-    "filter_german.py": "This script filters german language"
+    "filter_german.py": "This script filters german language",
+    "create_data_dump": "This script creates a zip file for easy transfer"
 }
 
 # run scripts

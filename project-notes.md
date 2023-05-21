@@ -1,17 +1,7 @@
 # Notes SBB
 
-## TODO
-
-### NLP
-- [ ] .yaml Configuration file
-- [ ] testset integration
-- [ ] tensorboard metrics (? while training)
-	- if not while training add print statements
-### Training
-
-Open Issues
-- Having only a bag of words to test accuracy 
-	? build-in into conformer or having to do this manually?
+### Later
+- [ ] sentence error, character
 
 ### Testing
 - Implement test script using chatgpt hints

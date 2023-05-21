@@ -51,7 +51,7 @@ def compute_metrics(hypotheses, references):
 
 def sweep_iteration():
     # set up W&B logger
-    wandb.init(project='conformer')    # replace with your actual project name
+    wandb.init(project='conformer_02')    # replace with your actual project name
     wandb_logger = WandbLogger(log_model='all')  # log final model
 
     trainer = pl.Trainer(max_epochs=10, logger=wandb_logger, gpus=[2], accelerator="gpu")

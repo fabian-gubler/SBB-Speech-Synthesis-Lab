@@ -5,9 +5,9 @@ from pydub.utils import mediainfo
 from tqdm import tqdm
 
 # Directories for the audio samples and the labels
-base_dir = 'external/sbb_test/'
-samples_dir = base_dir + 'Audios/'
-labels_dir = base_dir + 'Labels/'
+base_dir = 'external/sbb/'
+samples_dir = base_dir + 'audios/'
+labels_dir = base_dir + 'labels/'
 
 def get_audio_duration(file_path):
     audio_info = mediainfo(file_path)

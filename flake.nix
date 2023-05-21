@@ -40,8 +40,8 @@
             # Dependencies that we would like to use from nixpkgs, which will
             # add them to PYTHONPATH and thus make them accessible from within the venv.
             pythonPackages.numpy
-			pythonPackages.tensorflow
-			pythonPackages.tensorboard
+			# pythonPackages.tensorflow
+			# pythonPackages.tensorboard
             # pythonPackages.pandas
             # pythonPackages.matplotlib
             # pythonPackages.pycairo

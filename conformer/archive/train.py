@@ -47,7 +47,12 @@ from ruamel.yaml import YAML
 
 
 def sweep_iteration():
-    trainer = pl.Trainer(max_epochs=10)
+
+    # set up W&B logger
+    wandb.init(project='conformer_03')    # replace with your actual project name
+    wandb_logger = WandbLogger(log_model='all')  # log final model
+
+    trainer = pl.Trainer(max_epochs=10, logger=wandb_logger, devices = [2], accelerator="gpu")
 
     # setup model - note how we refer to sweep parameters with wandb.config
     model = nemo_asr.models.ASRModel.from_pretrained(

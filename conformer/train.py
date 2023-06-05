@@ -14,44 +14,9 @@ def compute_metrics(hypotheses, references):
 
     return wer, ser, cer
 
-# Update your model class to include these metrics during validation/test
-# class MyASRModel(nemo_asr.models.ASRModel):
-#     def __init__(self, *args, **kwargs):
-#         super().__init__(*args, **kwargs)
-#
-#     def validation_step(self, batch, batch_idx):
-#         # perform the default validation step
-#         val_loss = super().validation_step(batch, batch_idx)
-#
-#         # compute metrics
-#         references, hypotheses = self.transcribe(batch)
-#         wer, ser, cer = compute_metrics(hypotheses, references)
-#
-#         # log metrics
-#         self.log('val_wer', wer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-#         self.log('val_ser', ser, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-#         self.log('val_cer', cer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-#         
-#         return val_loss
-#
-#     def test_step(self, batch, batch_idx):
-#         # perform the default test step
-#         test_loss = super().test_step(batch, batch_idx)
-#
-#         # compute metrics
-#         references, hypotheses = self.transcribe(batch)
-#         wer, ser, cer = compute_metrics(hypotheses, references)
-#
-#         # log metrics
-#         self.log('test_wer', wer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-#         self.log('test_ser', ser, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-#         self.log('test_cer', cer, on_step=True, on_epoch=True, prog_bar=True, logger=True)
-#         
-#         return test_loss
-
 def sweep_iteration():
     # set up W&B logger
-    wandb.init(project='conformer_02')    # replace with your actual project name
+    wandb.init(project='conformer_03')    # replace with your actual project name
     wandb_logger = WandbLogger(log_model='all')  # log final model
 
     trainer = pl.Trainer(max_epochs=10, logger=wandb_logger, gpus=[2], accelerator="gpu")
@@ -65,6 +30,9 @@ def sweep_iteration():
     model = nemo_asr.models.ASRModel.from_pretrained(
         model_name="stt_de_conformer_ctc_large"
     )
+
+    restored_model = nemo_asr.models.ASRModel.restore_from("models/model_path.nemo")
+
 
     model.set_trainer(trainer)
 

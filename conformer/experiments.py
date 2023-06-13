@@ -12,9 +12,9 @@ import nemo.collections.asr as nemo_asr
 SEED = 1337
 
 # Define paths to manifest files
-human_manifest_path = '/path/to/human_manifest.jsonl'  # replace with your actual path
-synthetic_manifest_path = '/path/to/synthetic_manifest.jsonl'  # replace with your actual path
-german_synthetic_manifest_path = '/path/to/german_synthetic_manifest.jsonl'  # replace with your actual path
+human_manifest_path = '/home/user/code/data/human/manifest.json'
+synthetic_manifest_path = '/home/user/code/data/synthetic/manifest.json'
+german_synthetic_manifest_path = '/home/user/code/data/synthetic/manifest_german.json'
 
 # Define the baseline iteration, where no training is performed and the pretrained model is tested
 def baseline_iteration():
@@ -22,7 +22,7 @@ def baseline_iteration():
     run_name = 'conformer_baseline'
 
     # Set up W&B logger with the experiment name
-    wandb.init(project='conformer_03', name=run_name)    
+    wandb.init(project='conformer_04', name=run_name)    
     wandb_logger = WandbLogger(log_model='all')
 
     # Set up trainer with the logger. No callbacks are needed since we're not training
@@ -45,7 +45,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     run_name = f'conformer_{synthetic_data_increment * 10}'
 
     # Set up W&B logger with the experiment name
-    wandb.init(project='conformer_03', name=run_name)    
+    wandb.init(project='conformer_04', name=run_name)    
     wandb_logger = WandbLogger(log_model='all')
 
     # Set up model checkpointing to save the model with the lowest validation word error rate

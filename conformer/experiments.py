@@ -42,21 +42,25 @@ def baseline_iteration():
     # Load human data and create splits
     with open(human_manifest_path) as f:
         human_data = [json.loads(line) for line in f]
-    
+
     random.seed(SEED)  # ensure consistent shuffling
     random.shuffle(human_data)
 
     human_train, human_val, human_test = data_split(human_data, train_percent, val_percent)
 
-    # Prepare test manifest
-    test_manifest = human_test
+    # Write test manifest
+    test_manifest_path = "temp_test_manifest.json"
+    with open(test_manifest_path, 'w') as outfile:
+        for entry in human_test:
+            json.dump(entry, outfile)
+            outfile.write('\n')
 
     # Prepare model
     trainer = pl.Trainer(logger=wandb_logger, gpus=[2], accelerator="gpu")
     model = nemo_asr.models.ASRModel.from_pretrained(model_name="stt_de_conformer_ctc_large")
     model.set_trainer(trainer)
 
-    model.cfg.test_ds.manifest_filepath = test_manifest
+    model.cfg.test_ds.manifest_filepath = test_manifest_path
     model.cfg.test_ds.batch_size = 8
 
     model.setup_test_data(model.cfg.test_ds)
@@ -67,6 +71,10 @@ def baseline_iteration():
     # Save model
     model_path = f"models/baseline_model_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
     model.save_to(model_path)
+
+    # Clean up the temporary test manifest file
+    if os.path.exists(test_manifest_path):
+        os.remove(test_manifest_path)
 
 # Define the sweep iteration, where the model is trained and tested with different proportions of synthetic data
 def sweep_iteration(synthetic_manifest, synthetic_data_increment):

@@ -1,3 +1,6 @@
+# NOTE: to filter out dirty samples, use the following command:
+# grep -P '"text": "(rangierfahrt|umstellman\\u00f6ver)' manifest_source.json > manifest.json
+
 import os
 import json
 # import librosa
@@ -5,7 +8,7 @@ from pydub.utils import mediainfo
 from tqdm import tqdm
 
 # Directories for the audio samples and the labels
-base_dir = 'external/sbb/'
+base_dir = 'dataset/human/'
 samples_dir = base_dir + 'audios/'
 labels_dir = base_dir + 'labels/'
 

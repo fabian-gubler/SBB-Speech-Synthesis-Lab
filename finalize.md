@@ -10,28 +10,19 @@
 ## Experiments
 
 ### TODO
-- Create new SBB data set
-- Ask ChatGPT to create
-	0. Context
-		- Provide Directory Structure
-	1. Inference Script
-		Conformer 0-Shot baseline training
-	2. Batch Script for Experiments with different amounts
+1. Create zip file & upload to jupyter
+2. Run experiments
+
+- Need to update Gion mid-week (i.e. after run)
+
+### Important Notes
+- Test loss !~ validation loss
+
 		Split:
 		- Training set: 70% Human
 		- Validation set: 15% Human
 		- Test set: 15% Human
-		Notes:
-		- Name models according to experiment
-		- Save model with lowest validation word error rate
-		- Save results in wandb
-		- Ensure shuffling of human recorded
-	3. Run Experiments
-		Increments:
-		0% - 100% Synthetic Data (10% Increments)
-
-### Important Notes
-- Test loss !~ validation loss
+		- 0% - 100% Synthetic Data (10% Increments)
 
 ## Report Writing
 
@@ -42,13 +33,7 @@ Contents
 - Results (2) - Fabian
 - Discussion (1) - Phil
 
-Preparation
+### TODO
+1. Add metadata (title, authors)
+2. Add figures
 
-1. Adapt Metadata
-2. Insert Phil Content into template
-3. Insert Declaration of Authorship
-4. Invite Phil to Overleaf
-
-Ideation
-
-- Think about what I want to write

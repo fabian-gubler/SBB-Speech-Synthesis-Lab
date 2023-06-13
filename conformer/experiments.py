@@ -10,34 +10,63 @@ import nemo.collections.asr as nemo_asr
 # This is your random seed for reproducibility.
 # You can set it to any integer you like.
 SEED = 1337
+train_percent = 0.7
+val_percent = 0.15
+
 
 # Define paths to manifest files
 human_manifest_path = '/home/user/code/data/human/manifest.json'
 synthetic_manifest_path = '/home/user/code/data/synthetic/manifest.json'
 german_synthetic_manifest_path = '/home/user/code/data/synthetic/manifest_german.json'
 
-# Define the baseline iteration, where no training is performed and the pretrained model is tested
+def data_split(data, train_percent, val_percent):
+    total_samples = len(data)
+    train_samples = int(total_samples * train_percent)
+    val_samples = int(total_samples * val_percent)
+    
+    train_data = data[:train_samples]
+    val_data = data[train_samples:train_samples + val_samples]
+    test_data = data[train_samples + val_samples:]
+    
+    return train_data, val_data, test_data
+
+# Define the baseline iteration, where the model is tested without any training
 def baseline_iteration():
     # Create experiment name
     run_name = 'conformer_baseline'
 
-    # Set up W&B logger with the experiment name
-    wandb.init(project='conformer_04', name=run_name)    
+    # Initiate W&B logger
+    wandb.init(project='conformer_sweeps', name=run_name)
     wandb_logger = WandbLogger(log_model='all')
 
-    # Set up trainer with the logger. No callbacks are needed since we're not training
-    trainer = pl.Trainer(logger=wandb_logger, gpus=[2], accelerator="gpu")
+    # Load human data and create splits
+    with open(human_manifest_path) as f:
+        human_data = [json.loads(line) for line in f]
+    
+    random.seed(SEED)  # ensure consistent shuffling
+    random.shuffle(human_data)
 
-    # Load pre-trained model and setup test data
+    human_train, human_val, human_test = data_split(human_data, train_percent, val_percent)
+
+    # Prepare test manifest
+    test_manifest = human_test
+
+    # Prepare model
+    trainer = pl.Trainer(logger=wandb_logger, gpus=[2], accelerator="gpu")
     model = nemo_asr.models.ASRModel.from_pretrained(model_name="stt_de_conformer_ctc_large")
+    model.set_trainer(trainer)
 
     model.cfg.test_ds.manifest_filepath = test_manifest
     model.cfg.test_ds.batch_size = 8
 
     model.setup_test_data(model.cfg.test_ds)
 
-    # Test the model (no training is performed)
+    # Test the model
     trainer.test(model)
+
+    # Save model
+    model_path = f"models/baseline_model_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
+    model.save_to(model_path)
 
 # Define the sweep iteration, where the model is trained and tested with different proportions of synthetic data
 def sweep_iteration(synthetic_manifest, synthetic_data_increment):

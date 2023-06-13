@@ -65,7 +65,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     wandb.init(project='conformer_05', name=run_name)    
     wandb_logger = WandbLogger(log_model='all')
 
-    checkpoint_callback = ModelCheckpoint(monitor='val_loss')
+    checkpoint_callback = ModelCheckpoint(monitor='val_wer')
 
     trainer = pl.Trainer(max_epochs=10, logger=wandb_logger, callbacks=[checkpoint_callback], gpus=[2], accelerator="gpu")
 

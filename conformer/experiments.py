@@ -16,9 +16,9 @@ val_percent = 0.15
 
 
 # Define paths to manifest files
-human_manifest_path = '/home/user/code/data/human/manifest.json'
-synthetic_manifest_path = '/home/user/code/data/synthetic/manifest.json'
-german_synthetic_manifest_path = '/home/user/code/data/synthetic/manifest_german.json'
+human_manifest_path = '/home/user/code/data/dataset/human/manifest.json'
+synthetic_manifest_path = '/home/user/code/data/dataset/synthetic/manifest.json'
+german_synthetic_manifest_path = '/home/user/code/data/dataset/synthetic/manifest_german.json'
 
 def data_split(data, train_percent, val_percent):
     total_samples = len(data)

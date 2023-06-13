@@ -16,37 +16,29 @@ human_manifest_path = '/home/user/code/data/dataset/human/manifest.json'
 synthetic_manifest_path = '/home/user/code/data/dataset/synthetic/manifest.json'
 german_synthetic_manifest_path = '/home/user/code/data/dataset/synthetic/manifest_german.json'
 
-def data_split(data, train_percent, val_percent):
-    total_samples = len(data)
-    train_samples = int(total_samples * train_percent)
-    val_samples = int(total_samples * val_percent)
-    
-    train_data = data[:train_samples]
-    val_data = data[train_samples:train_samples + val_samples]
-    test_data = data[train_samples + val_samples:]
-    
-    return train_data, val_data, test_data
-
 def baseline_iteration():
+    # Create experiment name
     run_name = 'conformer_baseline'
 
+    # Initiate W&B logger
     wandb.init(project='conformer_sweeps', name=run_name)
     wandb_logger = WandbLogger(log_model='all')
 
+    # Load human data
     with open(human_manifest_path) as f:
         human_data = [json.loads(line) for line in f]
 
-    random.seed(SEED)
+    random.seed(SEED)  # ensure consistent shuffling
     random.shuffle(human_data)
 
-    human_train, human_val, human_test = data_split(human_data, train_percent, val_percent)
-
+    # Consider all human data as test data for 0-shot baseline
     test_manifest_path = "temp_test_manifest.json"
     with open(test_manifest_path, 'w') as outfile:
-        for entry in human_test:
+        for entry in human_data:
             json.dump(entry, outfile)
             outfile.write('\n')
 
+    # Prepare model
     trainer = pl.Trainer(logger=wandb_logger, gpus=[2], accelerator="gpu")
     model = nemo_asr.models.ASRModel.from_pretrained(model_name="stt_de_conformer_ctc_large")
     model.set_trainer(trainer)
@@ -56,11 +48,14 @@ def baseline_iteration():
 
     model.setup_test_data(model.cfg.test_ds)
 
+    # Test the model
     trainer.test(model)
 
+    # Save model
     model_path = f"models/baseline_model_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
     model.save_to(model_path)
 
+    # Clean up the temporary test manifest file
     if os.path.exists(test_manifest_path):
         os.remove(test_manifest_path)
 

@@ -25,8 +25,6 @@ is_eval = settings["is_eval"]
 # Configure speech service
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
-
-
 def generate_ssml_text(text, pitch, rate, voice):
     prosody = {
         "pitch": pitch,  # low, medium, high

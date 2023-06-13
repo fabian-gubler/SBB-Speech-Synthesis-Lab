@@ -9,6 +9,9 @@
 	- marcgrau implementation
 	- sample jupyter notebooks
 
+### Training
+- Tokenizer (without umlaute)
+
 ## Quicklinks
 
 ### AZURE Speech Services

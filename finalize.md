@@ -34,6 +34,8 @@ Contents
 - Discussion (1) - Phil
 
 ### TODO
-1. Add metadata (title, authors)
-2. Add figures
+1. Add figures
+2. Create missing figures
+3. Feed Results into ChatGPT to develop final versions of Results and Discussion section
 
+-> Phil Revision

@@ -21,7 +21,7 @@ def baseline_iteration():
     run_name = 'conformer_baseline'
 
     # Initiate W&B logger
-    wandb.init(project='conformer_07', name=run_name)
+    wandb.init(project='conformer_09', name=run_name)
     wandb_logger = WandbLogger(log_model='all')
 
     # Load human data
@@ -65,7 +65,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     else:
         run_name = f'conformer_{synthetic_data_increment * 10}'
 
-    wandb.init(project='conformer_07', name=run_name)    
+    wandb.init(project='conformer_09', name=run_name)    
     wandb_logger = WandbLogger(log_model='all')
 
     checkpoint_callback = ModelCheckpoint(monitor='val_wer', mode='min')

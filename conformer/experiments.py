@@ -65,7 +65,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     else:
         run_name = f'conformer_{synthetic_data_increment * 10}'
 
-    wandb.init(project='conformer_10', name=run_name, id=run_name)  # Set unique ID for the run
+    wandb.init(project='conformer_11', name=run_name, id=run_name)  # Set unique ID for the run
     wandb_logger = WandbLogger(log_model='all')
 
     checkpoint_callback = ModelCheckpoint(monitor='val_wer', mode='min')

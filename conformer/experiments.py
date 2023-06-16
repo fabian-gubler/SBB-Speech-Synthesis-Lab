@@ -65,7 +65,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     else:
         run_name = f'conformer_{synthetic_data_increment * 10}'
 
-    wandb.init(project='conformer_11', name=run_name, id=run_name)  # Set unique ID for the run
+    wandb.init(project='conformer_12', name=run_name, reinit=True)
     wandb_logger = WandbLogger(log_model='all')
 
     checkpoint_callback = ModelCheckpoint(monitor='val_wer', mode='min')
@@ -85,7 +85,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     # random.shuffle(synthetic_data)
 
     train_split = int(0.7 * len(human_data))
-    val_split = int(0.85 * len(human_data))
+    val_split = int(0.15 * len(human_data))
 
     train_manifest = human_data[:train_split] + synthetic_data[:synthetic_data_increment * len(synthetic_data)]
     val_manifest = human_data[train_split:val_split]

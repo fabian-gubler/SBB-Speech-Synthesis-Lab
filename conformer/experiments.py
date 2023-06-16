@@ -82,7 +82,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
 
     random.seed(SEED)
     random.shuffle(human_data)
-    random.shuffle(synthetic_data)
+    # random.shuffle(synthetic_data)
 
     train_split = int(0.7 * len(human_data))
     val_split = int(0.85 * len(human_data))
@@ -102,6 +102,8 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     val_manifest_path = "val_manifest.json"
     test_manifest_path = "test_manifest.json"
 
+    min_wer = float('inf')
+
     write_to_file(train_manifest, train_manifest_path)
     write_to_file(val_manifest, val_manifest_path)
     write_to_file(test_manifest, test_manifest_path)
@@ -120,7 +122,19 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     model.setup_test_data(model.cfg.test_ds)
 
     trainer.fit(model)
-    trainer.test(model)
+    test_result = trainer.test(model)
+
+    # Get the test word error rate
+    test_wer = test_result[0]['test_wer']
+
+    # Check if the current iteration has a lower word error rate
+    if test_wer < min_wer:
+        min_wer = test_wer
+
+    # Save the minimum word error rate to a text file
+    result_file = f"results/iteration_{synthetic_data_increment}.txt"
+    with open(result_file, 'w') as f:
+        f.write(f"Minimum Word Error Rate: {min_wer}")
 
     model_path = f"models/model_{run_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
     model.save_to(model_path)

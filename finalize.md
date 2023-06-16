@@ -9,11 +9,12 @@
 
 ## Experiments
 
-### TODO
-1. Create zip file & upload to jupyter
-2. Run experiments
+### Training
 
-- Need to update Gion mid-week (i.e. after run)
+1. Randomness of Values (Possible Explanations)
+	- Model initialized randomly
+	- Data shuffling
+
 
 ### Important Notes
 - Test loss !~ validation loss

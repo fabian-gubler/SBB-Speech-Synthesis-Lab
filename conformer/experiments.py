@@ -21,7 +21,7 @@ def baseline_iteration():
     run_name = 'conformer_baseline'
 
     # Initiate W&B logger
-    wandb.init(project='conformer_10', name=run_name, id=run_name)  # Set unique ID for the run
+    wandb.init(project='conformer_baseline', name=run_name, id=run_name)  # Set unique ID for the run
     wandb_logger = WandbLogger(log_model='all')
 
     # Load human data
@@ -147,7 +147,7 @@ def sweep_iteration(synthetic_manifest, synthetic_data_increment):
     if os.path.exists(test_manifest_path):
         os.remove(test_manifest_path)
 
-baseline_iteration()
+# baseline_iteration()
 
 for i in range(0, 11):
     sweep_iteration(synthetic_manifest_path, i)

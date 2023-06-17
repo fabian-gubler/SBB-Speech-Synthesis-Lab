@@ -80,7 +80,7 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
     print("Manifest files generated successfully.")
 
 # Example usage
-human_manifest_path = '../dataset/human/manifest.json'
+human_manifest_path = '../dataset/human/manifest_unfiltered.json'
 synthetic_manifest_path = '../dataset/synthetic/manifest.json'
 output_dir = './output'
 train_percent = 0.7

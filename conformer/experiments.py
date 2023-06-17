@@ -51,9 +51,9 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model.cfg.test_ds.manifest_filepath = test_manifest_path
     model.cfg.train_ds.is_tarred = False
 
-    model.cfg.train_ds.batch_size = 32
-    model.cfg.validation_ds.batch_size = 32
-    model.cfg.test_ds.batch_size = 32
+    model.cfg.train_ds.batch_size = 8
+    model.cfg.validation_ds.batch_size = 8
+    model.cfg.test_ds.batch_size = 8
 
     model.setup_training_data(model.cfg.train_ds)
     model.setup_validation_data(model.cfg.validation_ds)

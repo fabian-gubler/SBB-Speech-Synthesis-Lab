@@ -4,10 +4,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import nemo.collections.asr as nemo_asr
+from nemo.collections.asr.metrics.wer import WERMetric
 
 def load_model(model_path):
     # Load the trained ASR model from the NEMO file
-    model = nemo_asr.models.ASRModel.restore_from(model_path)
+    model = nemo_asr.models.EncDecCTCModelBPE.restore_from(model_path)
     return model
 
 def evaluate(model, manifest_path, save_path=None):
@@ -17,6 +18,8 @@ def evaluate(model, manifest_path, save_path=None):
 
     references = []
     predictions = []
+
+    wer_metric = WERMetric()
 
     for entry in manifest:
         audio_path = entry['audio_filepath']
@@ -28,8 +31,11 @@ def evaluate(model, manifest_path, save_path=None):
         references.append(reference)
         predictions.append(predicted_text)
 
+        # Update the WER metric
+        wer_metric.add_batch(hypotheses=[predicted_text], references=[reference])
+
     # Calculate evaluation metrics
-    wer = model.calc_wer(hypotheses=predictions, references=references)
+    wer = wer_metric.compute()
     cer = model.calc_cer(hypotheses=predictions, references=references)
     ser = model.calc_ser(hypotheses=predictions, references=references)
     word_accuracy = model.calc_word_errors(hypotheses=predictions, references=references, use_cer=False)
@@ -64,8 +70,7 @@ def evaluate(model, manifest_path, save_path=None):
 
 if __name__ == '__main__':
     # Define the paths to the model and manifest file
-    model_path = 'models/model_conformer_0_20230616_134433.nemo'
-    # model_path = 'models/model_conformer_10_20230616_154826.nemo'
+    model_path = './models/model_conformer_0_20230616_134433.nemo'
     manifest_path = './output/test_manifest.json'
     save_path = 'confusion_matrix.png'
 

@@ -74,11 +74,11 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     with open(result_file, 'w') as f:
         f.write(f"Minimum Word Error Rate: {min_wer}")
 
-    model_path = f"models/model_{run_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
+    model_path = f"models/{project_name}_model_{run_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
     model.save_to(model_path)
 
 # for i in range(0, 11):
-for i in range(0, 1):
+for i in range(1, 2):
     train_manifest_path = f"./output/train_manifest_{i}.json"
     sweep_iteration(train_manifest_path, i)
 

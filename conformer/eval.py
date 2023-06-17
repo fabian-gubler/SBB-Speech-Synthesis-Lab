@@ -38,7 +38,7 @@ def evaluate(model, manifest_path, save_path=None):
     # Print the evaluation results
     print(f"Word Error Rate (WER): {wer}")
     print(f"Character Error Rate (CER): {cer}")
-    print(f"Sentence Error Rate (SER): {ser}")
+    # print(f"Sentence Error Rate (SER): {ser}")
     # print(f"Word-level Accuracy: {word_accuracy}")
 
     # Create a confusion matrix

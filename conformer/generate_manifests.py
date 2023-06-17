@@ -1,4 +1,3 @@
-
 import json
 import random
 import os
@@ -58,10 +57,12 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
             json.dump(entry, f)
             f.write('\n')
 
-    # Save train manifests with increasing percentages of synthetic samples
-    for i in range(1, 11):
+    # Pre-defined percentage steps
+    percentages = [1, 2, 5, 10, 20, 40, 70, 100]
+
+    for i, percentage in enumerate(percentages):
         # Calculate the number of synthetic samples to include
-        synthetic_samples = int(len(synthetic_data) * (i / 10))
+        synthetic_samples = int(len(synthetic_data) * (percentage / 100))
 
         # Combine baseline train data with synthetic data
         train_manifest = train_data + synthetic_data[:synthetic_samples]

@@ -1,530 +1,123 @@
-{"audio_filepath": "dataset/human/audios/3b1adb89-200f-42ed-90bc-2566198c973e.wav", "text": "rangierfahrt von gleis vier sechs ins gleis acht acht antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/1a9044da-f3a6-4b98-81d7-0940c65602fe.wav", "text": "rangierfahrt vom whisky acht vier ins gleis sechs null antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/fd435193-9df5-48e0-ba42-150457192784.wav", "text": "rangierfahrt vom gleis romeo vier f\u00fcnf nach gleis hotel zwo antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/d9257916-7a57-45eb-bf31-134bd4305510.wav", "text": "rangierfahrt von uniform neun nach sechs vier antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/e68b28c0-efb5-43d3-8189-310bc94b4157.wav", "text": "umstellman\u00f6ver vom drei neun via foxtrot sechs sechs ins gleis mike acht acht antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/f8bb5a2f-b7e4-49a6-b129-0a962ea569ef.wav", "text": "rangierfahrt von india sieben f\u00fcnf ins foxtrot acht acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/9c332faf-8276-4383-b4d7-414001fde199.wav", "text": "umstellman\u00f6ver von november neun nach f\u00fcnf via gleis tango vier und romeo drei antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/b814a1fb-5acc-471b-83d5-59fb4570068f.wav", "text": "umstellman\u00f6ver vom f\u00fcnf eins ins gleis papa sechs drei via gleis vier sechs antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/7e2df20b-5e0f-476d-b405-8c09a7b53c48.wav", "text": "umstellman\u00f6ver vom alpha f\u00fcnf sieben via gleis sieben nach victor drei null antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/9934d2f4-0c78-482d-be6d-f4e78d3cf53e.wav", "text": "rangierfahrt von yankee vier nach sechs sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/d9362435-09fe-450c-94ee-5c06b1c4f932.wav", "text": "rangierfahrt vom yankee eins neun ins f\u00fcnf f\u00fcnf antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/129405a3-8361-4995-820c-02c261053d7e.wav", "text": "umstellman\u00f6ver vom november vier null via gleis romeo drei f\u00fcnf ins gleis india sechs acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/c3ace792-bae3-4e3b-b1d0-48366c7ffc2d.wav", "text": "rangierfahrt von mike f\u00fcnf sieben nach gleis f\u00fcnf drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/3b19bbe9-3887-49ca-9532-6af047a350fb.wav", "text": "rangierfahrt von sieben drei ins sechs drei antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/5c53ab05-c925-47a3-8e1a-9406f7b30d1c.wav", "text": "rangierfahrt von gleis sechs null nach gleis sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/24e17f5b-6c11-4196-8eda-dcd563c5d834.wav", "text": "rangierfahrt vom gleis null antworten", "duration": 8.5}
-{"audio_filepath": "dataset/human/audios/699f4652-c74b-468e-ab05-8b018c5329cc.wav", "text": "rangierfahrt vom sieben vier ins sieben drei antworten", "duration": 9.0}
-{"audio_filepath": "dataset/human/audios/46d832da-49dc-4223-b19d-767fd8ac6af1.wav", "text": "rangierfahrt von null vier nach alpha null acht antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/10a35bfb-76a3-4ceb-8e41-680fe8ac120b.wav", "text": "rangierfahrt vom gleis neun acht ins juliet sechs drei antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/009c2a49-c3c2-4a05-b839-14f4dd8e5313.wav", "text": "rangierfahrt von gleis sechs neun ins gleis delta sieben antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/c4c898b4-a9be-41f6-830e-7a1b032e21f6.wav", "text": "umstellman\u00f6ver vom neun ins gleis zwo neun via f\u00fcnf drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/faf64a5e-1ef4-4047-8363-9db614a1ed69.wav", "text": "rangierfahrt vom gleis bravo eins vier nach foxtrot vier eins antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/2d4e7f0b-2b1a-4d2a-acd7-0d2b45d1daf7.wav", "text": "rangierfahrt von gleis charlie eins null nach gleis vier vier antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/309e7df8-ec10-4acf-907c-be8a443197d4.wav", "text": "rangierfahrt von whisky zwei f\u00fcnf nach drei null antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/fd72b9ad-7982-4daf-b11d-8a4e4fa1eb76.wav", "text": "rangierfahrt vom gleis neun acht ins juliet sechs drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/d1a98272-18f4-4018-89aa-0a8b68215b23.wav", "text": "umstellman\u00f6ver vom foxtrot acht nach gleis neun acht via sechs acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/2b2a7a12-7e36-4b34-b0a5-68edace727d3.wav", "text": "umstellman\u00f6ver vom gleis vier vier neun nach gleis zwei drei eins antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/3c3c1670-2a9c-41ce-a379-31b81330050c.wav", "text": "umstellman\u00f6ver vom neun neun via gleis victor null vier nach sieben neun antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/20886466-2485-4c24-8895-7995b96911d1.wav", "text": "rangierfahrt von gleis vier zwo ins gleis quebec zwo vier antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/d9681ef2-838c-4fcc-a33e-9125e04ffacc.wav", "text": "umstellman\u00f6ver vom alpha f\u00fcnf sieben via gleis sieben nach victor drei null antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/2d0d5f9f-f172-4ba8-83bf-c92557b09a8e.wav", "text": "umstellman\u00f6ver von november sechs nach sieben via delta vier und gleis uniform drei antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/4d59266c-be44-4f0f-8385-f33f27d6d319.wav", "text": "umstellman\u00f6ver vom acht acht via zwei null ins alpha f\u00fcnf vier antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/dd66b46e-c45f-4855-aa98-6ef42d2861f6.wav", "text": "rangierfahrt von gleis foxtrot acht vier nach gleis tango vier drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/53f77582-28f1-4e0d-af50-d7ba9bed3201.wav", "text": "umstellman\u00f6ver von acht ins gleis mike sieben null via gleis lima zwo acht antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/c7f59bea-2d25-48bd-82e9-7e64399343cf.wav", "text": "rangierfahrt vom null eins ins gleis drei neun antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/ee9aa411-c5b8-40fa-aea4-a2b47b268885.wav", "text": "rangierfahrt von null vier nach alpha null acht antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/a0cc6373-47bf-4a40-92d5-6110296c352e.wav", "text": "rangierfahrt von india sieben f\u00fcnf ins foxtrot acht acht antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/5094f304-0bd9-41c5-b9df-c82fd99e4392.wav", "text": "umstellman\u00f6ver vom romeo f\u00fcnf via november sieben und acht drei nach gleis xray f\u00fcnf antworten", "duration": 18.0}
-{"audio_filepath": "dataset/human/audios/8cdbd9b6-750c-4bee-8ad0-fd5b5a4403b8.wav", "text": "umstellman\u00f6ver von gleis neun vier ins gleis null f\u00fcnf via gleis lima eins acht antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/f131287d-7331-40c1-8922-2b456cc901fc.wav", "text": "rangierfahrt von charlie null zwei nach gleis uniform f\u00fcnf neun antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/30aa1d8a-94f1-40d0-985a-e733f2d02bf0.wav", "text": "rangierfahrt vom sechs sechs nach gleis sechs zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/4020b906-ebb5-44d2-aca2-fbe3301b516b.wav", "text": "rangierfahrt vom acht null nach gleis zulu acht zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/b6dc9051-21ce-47ea-9475-9937d2800e31.wav", "text": "rangierfahrt von tango eins sechs ins delta sieben acht antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/70733a5c-ba20-4398-83a7-c1a382c90ba6.wav", "text": "rangierfahrt von charlie null zwo nach gleis uniform f\u00fcnf neun antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/14832595-0a12-4bf2-be92-13b32fc7727e.wav", "text": "rangierfahrt vom sechs sechs nach gleis sechs zwei antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/66445126-766d-436b-8212-2ef9d115ee7f.wav", "text": "rangierfahrt von tango f\u00fcnf eins ins whisky vier vier antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/910bbf72-f5f2-4c40-8b80-19be4523f3c6.wav", "text": "rangierfahrt von gleis uniform vier null ins gleis zwei vier antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/73ee364b-f2ee-41c5-904a-53586ded1d64.wav", "text": "rangierfahrt von tango f\u00fcnf eins ins whisky vier vier antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/4f4a7030-23d8-4bc2-99fe-3c8b7ba36b80.wav", "text": "rangierfahrt vom drei drei nach zwo antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/f6ded715-af54-4d9f-b4f1-1a0cb6a7caf6.wav", "text": "umstellman\u00f6ver von gleis null drei via null eins nach alpha vier zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/3b7f4d8b-c632-4530-91ff-d816723ac3bb.wav", "text": "umstellman\u00f6ver vom gleis sechs ins sieben f\u00fcnf via gleis xray null und gleis sieben antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/28646cb6-df5c-4109-8521-816349153c4a.wav", "text": "rangierfahrt von whisky zwo f\u00fcnf nach drei null antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/30c2c579-b5fe-43fa-88dc-568f5c55e118.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/7a5f656b-4cba-4ee2-864a-56294ffaf044.wav", "text": "umstellman\u00f6ver vom vier zwei via echo acht eins ins gleis foxtrot f\u00fcnf eins antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/b7c6dde9-d577-4634-9e90-b6cab122d732.wav", "text": "rangierfahrt vom gleis bravo eins vier nach foxtrot vier eins antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/44225450-37b6-4dcd-8f4b-a0174ff62f14.wav", "text": "umstellman\u00f6ver vom echo sieben eins ins gleis sieben acht via gleis null neun antworten", "duration": 7.0}
-{"audio_filepath": "dataset/human/audios/1feb14a7-39d2-4977-9197-f47fdf15b2a1.wav", "text": "rangierfahrt vom acht null nach gleis zulu acht zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/2b5d5900-70af-4088-bf02-1ae1006b8263.wav", "text": "rangierfahrt von gleis foxtrot acht vier nach gleis tango vier drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/2afeb9ed-483e-478e-bee1-1dd53856ac4b.wav", "text": "umstellman\u00f6ver vom xray neun vier via mike sieben zwo nach gleis uniform neun drei antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/09ecd73d-2f8b-4518-958f-538d29e8e3e0.wav", "text": "rangierfahrt von gleis november sieben nach golf zwo sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/700200f2-639d-45ba-ba82-19ba4d00bdf9.wav", "text": "rangierfahrt von juliet vier sieben ins gleis sechs sieben antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/de5fe704-3d02-4fb1-a5c4-61a3c3d3e209.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/6d1ff509-886e-4432-afa6-4778df68eeb3.wav", "text": "rangierfahrt von eins ins gleis eins drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/c7a9014c-a624-4859-9898-3a00cd011271.wav", "text": "rangierfahrt von juliet vier sieben ins gleis sechs sieben antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/ad7d565a-538e-42e6-a258-4144c285e35a.wav", "text": "umstellman\u00f6ver von november neun nach f\u00fcnf via gleis tango vier und romeo drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/8963621b-bac2-4585-9bd5-907827784d1d.wav", "text": "umstellman\u00f6ver vom drei neun via foxtrot sechs sechs ins gleis mike acht acht antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/1a2f05b2-f334-4e07-95d5-fcd6a6c9363e.wav", "text": "umstellman\u00f6ver vom drei eins ins zulu f\u00fcnf neun via acht drei antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/3f63be94-65b3-44b4-995f-f50d87b31c60.wav", "text": "rangierfahrt vom gleis xray drei acht nach india acht zwei antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/97cca2b3-1981-4d0d-ba9f-987b7d790ac8.wav", "text": "umstellman\u00f6ver von charlie zwo acht via zwo drei ins vier null antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/a641089b-9fa2-4652-87ef-30a142b20627.wav", "text": "umstellman\u00f6ver vom zwo eins nach juliet eins sechs via gleis alpha drei acht antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/865ef6eb-a73b-443b-a2e7-fa9f5d027581.wav", "text": "umstellman\u00f6ver von gleis delta acht neun nach neun eins via tango acht f\u00fcnf antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/dfcde4ab-b0f1-48c8-8f83-11f233738fc2.wav", "text": "rangierfahrt von f\u00fcnf zwo nach gleis lima sieben zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/9bcaf347-f651-4677-b695-6750b269dff5.wav", "text": "umstellman\u00f6ver von gleis quebec null sechs via gleis xray sechs drei ins gleis drei zwo antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/b0d82cb9-e47e-4d47-bc06-0e09679c9c3d.wav", "text": "rangierfahrt von gleis drei null ins eins f\u00fcnf antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/e1bae437-42ef-42c0-926c-2df64ffd7464.wav", "text": "rangierfahrt vom gleis kilo zwo eins ins gleis null neun antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/17e0ddc9-dab5-4994-a2c6-eb295864042e.wav", "text": "umstellman\u00f6ver vom neun sieben nach gleis kilo zwo sieben via november null acht antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/88bf1234-4d14-4040-8714-45254faff6f9.wav", "text": "rangierfahrt vom gleis null antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/d61a1bb3-0fea-46c1-b97d-89823fce13eb.wav", "text": "umstellman\u00f6ver von gleis xray neun vier via vier sieben ins gleis india vier f\u00fcnf antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/8269a7ac-fa66-4733-88d3-71ef65c14ab0.wav", "text": "rangierfahrt von hotel eins drei ins gleis papa f\u00fcnf vier antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/b5b0af19-fee6-44a2-a67c-c8f115d0b358.wav", "text": "rangierfahrt von gleis sechs sieben ins gleis vier neun antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/c947c38c-2eeb-4e2f-acf6-92fe0eda21f7.wav", "text": "umstellman\u00f6ver von juliet vier acht nach gleis zwo sieben via f\u00fcnf sechs antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/0c7d6554-c985-4dc4-8483-2d1b1195f1d7.wav", "text": "rangierfahrt von mike f\u00fcnf sieben nach gleis f\u00fcnf drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/c0095b0e-c3bb-4f60-badf-3a6d1fd8c681.wav", "text": "umstellman\u00f6ver vom drei acht via gleis neun f\u00fcnf nach echo sieben sieben antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/e685292b-b1f4-40f6-b896-46aefe96d82f.wav", "text": "rangierfahrt von gleis sechs sieben ins gleis vier neun antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/77eb9b53-7397-4a25-b1b2-f78c1b1d79cc.wav", "text": "rangierfahrt von gleis bravo f\u00fcnf sechs nach neun zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/0bd9e66e-4275-4d3d-9013-390316dad525.wav", "text": "umstellman\u00f6ver von gleis sechs acht nach gleis acht sechs via sierra sechs f\u00fcnf antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/e60c71bb-b090-4f02-8e47-a076085418db.wav", "text": "umstellman\u00f6ver vom gleis bravo null null nach vier eins via gleis f\u00fcnf sechs antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/9d456c56-be90-49e7-ad8a-ae369a661c47.wav", "text": "rangierfahrt von gleis acht neun nach papa zwei antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/cd620882-afec-4934-ab91-95598f6162c1.wav", "text": "umstellman\u00f6ver von gleis vier acht nach quebec null sechs via sierra eins zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/78c43eac-20cb-4cd9-ab6e-68fe3327eb0b.wav", "text": "rangierfahrt vom drei drei nach zwo antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/125989c8-2c2b-4633-9996-e0aa390bbacf.wav", "text": "rangierfahrt von sieben drei ins sechs drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/cf60ebbf-3955-43f4-a662-0d8be9f93a5e.wav", "text": "umstellman\u00f6ver vom november vier null via gleis romeo drei f\u00fcnf ins gleis india sechs acht antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/084eb036-7442-455c-a116-26fa7b2e34c1.wav", "text": "rangierfahrt vom gleis mike zwo drei ins drei drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/a02bff6a-db5b-4ee1-b012-12643afd15f0.wav", "text": "rangierfahrt von sechs ins delta acht sechs antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/1edb5873-af62-4176-b949-8cf14a7f6786.wav", "text": "umstellman\u00f6ver vom acht neun nach gleis hotel null sieben via gleis eins eins antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/4025e360-d326-4a39-bb5c-9a300714e9e5.wav", "text": "rangierfahrt von gleis november sieben nach golf zwei sechs antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/d01bf888-6ec7-4f5c-9a5b-4f3b168f6689.wav", "text": "umstellman\u00f6ver vom gleis echo vier acht ins victor drei null via papa drei eins antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/6383d9f4-17ec-40ea-8835-10f99ae7d157.wav", "text": "umstellman\u00f6ver von eins via india zwo drei nach gleis zwo f\u00fcnf antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/af8a052b-0279-4c28-87a1-2fd726e40843.wav", "text": "umstellman\u00f6ver vom drei sechs nach gleis xray vier sieben via null vier antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/ad692d4e-0670-4922-b6ad-e67aff75f54c.wav", "text": "umstellman\u00f6ver vom null sechs ins kilo f\u00fcnf neun via gleis charlie neun vier antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/6c67c520-be0b-4591-9cec-cb5a71f81bd8.wav", "text": "rangierfahrt von eins ins gleis eins drei antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/078cdca9-f5ea-4cfb-9b20-079df5156425.wav", "text": "umstellman\u00f6ver von vier f\u00fcnf via gleis lima eins vier nach acht neun antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/61699677-264a-4155-98b0-4669d7124628.wav", "text": "umstellman\u00f6ver von gleis null drei via null eins nach alpha vier zwo antworten", "duration": 17.5}
-{"audio_filepath": "dataset/human/audios/6e3252ad-ea7d-4359-8af4-6dfb91f9625c.wav", "text": "umstellman\u00f6ver von gleis vier acht nach quebec null sechs via sierra eins zwo antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/92d18e0f-9b86-424c-b04d-1c9461e0e4c6.wav", "text": "umstellman\u00f6ver vom zwo sieben ins sieben sieben via charlie zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/d2df98c1-57be-4496-84d1-2072ca9a601a.wav", "text": "umstellman\u00f6ver vom vier zwo via echo acht eins ins gleis foxtrot f\u00fcnf eins antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/0f7fb61e-b06f-4c74-ab8c-53f601f489f3.wav", "text": "umstellman\u00f6ver von vier null ins gleis drei via whisky zwei neun antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/5417c3e3-c1ad-483d-98f7-2515702a33b9.wav", "text": "umstellman\u00f6ver vom f\u00fcnf via gleis vier vier nach gleis yankee null null antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/60582d9d-a8bf-4a2e-bcf2-200164cad54a.wav", "text": "umstellman\u00f6ver vom lima sechs via uniform sechs und sieben ins zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/bca0967c-118e-4c46-8918-2a693363093b.wav", "text": "umstellman\u00f6ver vom acht acht via zwei null ins alpha f\u00fcnf vier antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/d3d3cd0b-e267-4462-a71f-1c1d7e21d9d0.wav", "text": "rangierfahrt vom gleis null null nach eins eins antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/1f22d0fb-e322-40bf-8b4e-6f9b92214f92.wav", "text": "rangierfahrt vom null eins ins gleis drei neun antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/5aa384ee-d234-459b-a95d-1613bec3a6f8.wav", "text": "rangierfahrt von gleis neun eins nach gleis papa zwo zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/e1642ff5-4dd4-4f3f-afb4-a557b50a89ad.wav", "text": "umstellman\u00f6ver vom eins eins via gleis quebec acht vier ins neun antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/a25115e5-f012-45f0-a07b-d6e91389dce7.wav", "text": "rangierfahrt von gleis vier sechs ins gleis acht acht antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/9b907bc3-f120-4071-91a8-5879d9c15769.wav", "text": "rangierfahrt von sierra neun f\u00fcnf ins eins acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/e3f04f72-446f-4691-983e-7e3c670ac3c4.wav", "text": "rangierfahrt von gleis bravo drei sechs nach gleis golf f\u00fcnf antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/05e72cf1-6476-4ebb-b1ac-84256ca07e12.wav", "text": "rangierfahrt vom null zwei ins gleis kilo f\u00fcnf null antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/83399b8c-0a01-44e7-b861-179a090b9bf7.wav", "text": "umstellman\u00f6ver vom gleis hotel eins acht via juliet eins acht ins delta f\u00fcnf sieben antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/36d4a9e8-1d94-4a0c-92d2-1f9f5673dfde.wav", "text": "umstellman\u00f6ver von gleis drei sechs via gleis romeo neun drei nach gleis acht neun antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/9595af39-1438-4968-9d16-117a11a1df1e.wav", "text": "rangierfahrt von gleis eins f\u00fcnf nach gleis oscar null zwo antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/42ad38d7-4de9-4b8f-9233-8b51dee4cee5.wav", "text": "rangierfahrt von gleis eins f\u00fcnf nach gleis oscar null zwei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/eb9cb972-e571-42c6-9e1c-41ce0dd3d45e.wav", "text": "umstellman\u00f6ver vom drei sechs nach gleis xray vier sieben via null vier antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/e4e5b080-0319-41a1-b44e-bd3fbd2b305f.wav", "text": "umstellman\u00f6ver von echo drei drei via india neun sieben ins delta eins acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/41dc2a48-8633-4aa1-ab59-ed1fa2bf3fda.wav", "text": "rangierfahrt von gleis mike eins zwo ins null eins antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/7d1eced0-7fb4-4d80-b92d-1ed77c6d3fde.wav", "text": "rangierfahrt vom whisky neun zwei nach drei sieben antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/2f62c8e5-52e4-4e68-a39e-e33ae0f6a4a3.wav", "text": "umstellman\u00f6ver von tango neun acht ins gleis whisky zwo drei via gleis zwo f\u00fcnf antworten", "duration": 17.5}
-{"audio_filepath": "dataset/human/audios/9b9ed211-710f-460d-b014-55557e4ab2c2.wav", "text": "umstellman\u00f6ver von gleis zwo acht nach gleis papa zwo f\u00fcnf via gleis lima f\u00fcnf antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/be745c10-76f7-4dd1-a08b-e2404a73b2d9.wav", "text": "umstellman\u00f6ver von vier f\u00fcnf via gleis lima eins vier nach acht neun antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/a359477f-baec-4da6-b938-669609e8262c.wav", "text": "rangierfahrt von gleis bravo drei sechs nach gleis golf f\u00fcnf antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/19ca726b-fab7-4cdf-89aa-3a359bca52d6.wav", "text": "umstellman\u00f6ver von tango vier f\u00fcnf via gleis sechs drei ins gleis acht eins antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/376159c8-6049-48d3-a004-bedfbd90d4f5.wav", "text": "rangierfahrt von gleis eins f\u00fcnf nach gleis oscar null zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/7f30e0bb-510d-445e-95f1-cf9bbf4dcb72.wav", "text": "rangierfahrt von gleis romeo neun drei ins kilo sieben null antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/1591f25e-e2db-4c34-b6ef-8a435d88ab09.wav", "text": "umstellman\u00f6ver vom lima sechs via uniform sechs und sieben ins zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/378133db-2469-4679-a616-9c4b26053c0b.wav", "text": "umstellman\u00f6ver von whisky f\u00fcnf f\u00fcnf ins gleis sierra null sechs via gleis oscar f\u00fcnf neun antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/365d8fed-581b-4303-b693-ef73d3ad7a8b.wav", "text": "rangierfahrt von neun vier ins null sechs antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/c816ac26-2c78-49b7-a2ff-3523172a812b.wav", "text": "rangierfahrt vom gleis xray drei acht nach india acht zwei antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/9464003f-d060-48d8-bc84-509bf5f568b2.wav", "text": "rangierfahrt von gleis sechs sieben ins gleis vier neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/03920264-4107-4dd6-8651-731911bdcca1.wav", "text": "rangierfahrt vom gleis quebec eins eins ins gleis november sieben sechs antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/33c31551-4f6b-4e82-8ad0-4cf08bd2d682.wav", "text": "umstellman\u00f6ver von gleis quebec null sechs via gleis xray sechs drei ins gleis drei zwo antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/8d410e4b-6ef1-456e-9b7e-ee6bbf800fdf.wav", "text": "umstellman\u00f6ver vom gleis alpha eins null nach mike vier zwo via romeo f\u00fcnf f\u00fcnf antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/772a4dbf-d6d6-43bd-a18c-73fcb256c947.wav", "text": "rangierfahrt von juliet vier sieben ins gleis sechs sieben antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/7e0a3434-5792-4aa8-94f4-ffbe4b9acde0.wav", "text": "rangierfahrt von sieben drei ins sechs drei antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/b946a072-6466-4b2a-b26e-d71c84f0a089.wav", "text": "umstellman\u00f6ver vom neun sieben nach gleis kilo zwo sieben via november null acht antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/83106be9-6e4f-4c9a-9e3b-fdc4486abdc8.wav", "text": "rangierfahrt von eins sieben nach gleis f\u00fcnf antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/708bf058-6260-4174-9fec-d723a42b1651.wav", "text": "umstellman\u00f6ver vom gleis quebec vier null nach gleis oscar vier neun via gleis delta zwei neun antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/e3548dbd-91b0-485b-8587-a21b90daec55.wav", "text": "rangierfahrt vom gleis mike zwei drei ins drei drei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/f51a1ba2-e4e5-427a-8fd4-5342986e633c.wav", "text": "rangierfahrt von india drei acht ins gleis sieben eins antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/e2876bfc-bc66-4f75-80d0-a0fac8c5b0d9.wav", "text": "rangierfahrt von gleis zulu vier sechs nach sieben zwo antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/1a27da45-0a41-4e3e-b20b-c0bc57694547.wav", "text": "umstellman\u00f6ver vom gleis vier vier neun nach gleis zwo drei eins antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/10eb3a0f-a3ad-4fda-936e-60b92a29422e.wav", "text": "rangierfahrt von gleis acht neun nach papa zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/b236dcde-30a1-431e-8d3a-b5f11ee13804.wav", "text": "rangierfahrt vom gleis sechs acht nach gleis acht sechs antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/e14922de-9131-41ec-a996-4fc00d3f24f9.wav", "text": "umstellman\u00f6ver vom hotel neun via acht eins nach alpha sieben vier antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/03ae18ab-64b2-4f22-bdd4-81280cf5c393.wav", "text": "umstellman\u00f6ver vom lima sechs via uniform sechs und sieben ins zwo antworten", "duration": 18.5}
-{"audio_filepath": "dataset/human/audios/60b9fab7-50bb-4de9-8378-de6e204bb56b.wav", "text": "rangierfahrt vom gleis kilo zwo eins ins gleis null neun antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/c5327bed-6125-4c36-9841-36075bfec520.wav", "text": "umstellman\u00f6ver von gleis delta acht neun nach neun eins via tango acht f\u00fcnf antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/e49940ce-47c0-4e8b-8226-a2b59e6fa3d7.wav", "text": "umstellman\u00f6ver vom neun sieben nach gleis kilo zwo sieben via november null acht antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/0bde7226-3acb-4a2d-a512-fbefab68fe39.wav", "text": "umstellman\u00f6ver vom gleis sieben via gleis zulu acht und via gleis zwei ins gleis null null antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/700153bd-404a-40c4-b2cb-cd594a72d312.wav", "text": "umstellman\u00f6ver vom gleis golf neun acht via gleis uniform eins nach gleis bravo acht vier antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/91747709-4362-47e7-9259-be59729d5593.wav", "text": "umstellman\u00f6ver vom acht acht via zwo null ins alpha f\u00fcnf vier antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/5892f939-983d-4b60-83eb-ba8b6b78e835.wav", "text": "rangierfahrt von gleis romeo neun drei ins kilo sieben null antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/7c3596b8-e938-47c0-b01c-8c774cdc7b8d.wav", "text": "umstellman\u00f6ver von gleis zwo acht nach gleis papa zwo f\u00fcnf via gleis lima f\u00fcnf antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/026e6ba2-2032-4ef1-b0b2-de011f125c03.wav", "text": "rangierfahrt von alpha zwei sieben sieben nach oscar null neun f\u00fcnf", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/cd8aa135-52db-4c38-acb3-dad73ab5a31c.wav", "text": "rangierfahrt von gleis drei null ins eins f\u00fcnf antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/2e80bea0-053b-4519-be70-3d6503c5eaef.wav", "text": "umstellman\u00f6ver von gleis vier acht nach quebec null sechs via sierra eins zwo antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/5537f170-7b77-42e1-8349-ad75e418c761.wav", "text": "umstellman\u00f6ver von charlie drei zwo via gleis victor sechs neun ins gleis golf zwo vier antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/a66afb3f-148c-4148-b07c-4e491fe07fad.wav", "text": "umstellman\u00f6ver vom gleis f\u00fcnf eins via acht sieben ins bravo eins null antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/9b3c18c8-427e-4659-a4ca-2d9c1088b1dc.wav", "text": "umstellman\u00f6ver vom mike zwo null via gleis xray null sechs ins gleis eins sieben antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/53a3a370-f642-4318-92a5-c1ccc64cff6c.wav", "text": "umstellman\u00f6ver von zwo via gleis oscar eins eins nach gleis charlie null eins antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/7790506e-b7fc-4eb4-9c9a-ae2b43d3e887.wav", "text": "rangierfahrt von gleis zulu vier sechs nach sieben zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/c2447d70-0ea6-4597-a750-86de1bed6195.wav", "text": "rangierfahrt von mike f\u00fcnf sieben nach gleis f\u00fcnf drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/223e8ba3-268a-4d56-a501-11f78b581c90.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/a32827f7-de99-4ba9-957d-ab69c5f7be27.wav", "text": "umstellman\u00f6ver von gleis xray neun vier via vier sieben ins gleis india vier f\u00fcnf antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/f13d4fc9-6c34-461b-bbb4-3ca618e2fd8e.wav", "text": "rangierfahrt von f\u00fcnf zwo ins gleis xray null antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/11929b38-ccec-4202-aa4e-9f00933905ce.wav", "text": "umstellman\u00f6ver vom gleis india eins vier ins sierra acht f\u00fcnf via gleis bravo zwo eins antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/492c3375-efbb-4a89-870c-a85dd1e299fe.wav", "text": "umstellman\u00f6ver vom gleis india eins vier ins sierra acht f\u00fcnf via gleis bravo zwo eins antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/c95de1b9-587f-4fa5-8ad3-f8778bc3a0d7.wav", "text": "umstellman\u00f6ver vom gleis vier vier neun nach gleis zwo drei eins antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/0000ecac-d8aa-4653-9a75-8e9a9c47e77f.wav", "text": "rangierfahrt von null vier nach alpha null acht antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/08754aa1-8b49-46af-9803-236b806b1725.wav", "text": "rangierfahrt von gleis romeo eins neun ins lima eins vier antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/71b526bf-e02d-4153-a574-349de6f12482.wav", "text": "umstellman\u00f6ver von gleis delta acht neun nach neun eins via tango acht f\u00fcnf antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/eff19fe2-eef0-4974-bcea-257fec45c71d.wav", "text": "umstellman\u00f6ver vom gleis sechs ins drei via gleis yankee f\u00fcnf und via november drei antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/51dd0f76-cae1-4c5a-bc0b-a5df16412bd6.wav", "text": "umstellman\u00f6ver vom romeo f\u00fcnf via november sieben und acht drei nach gleis xray f\u00fcnf antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/6c6899de-c265-4eaf-a0d1-2da6f5f3140f.wav", "text": "umstellman\u00f6ver vom gleis alpha sieben drei nach gleis null null via gleis yankee null acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/f24ed166-af7f-4331-8fef-26ea5eb0bdfa.wav", "text": "umstellman\u00f6ver vom zwo vier via victor sechs f\u00fcnf ins november drei zwo antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/c4e42887-3f46-4a77-bd07-a1401d714d0f.wav", "text": "rangierfahrt vom gleis zulu sechs zwei nach gleis sieben eins antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/c1cc2939-bbdf-4779-90b5-e319aec51864.wav", "text": "umstellman\u00f6ver vom lima sechs via uniform sechs und sieben ins zwei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/13d32074-a40d-488d-a519-3a92f31c7abf.wav", "text": "umstellman\u00f6ver vom papa acht sieben via charlie zwo ins gleis foxtrot acht drei antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/e7347b52-7fa0-4639-bb67-11641fbd8d7b.wav", "text": "rangierfahrt vom gleis mike zwei drei ins drei drei antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/15e24c9a-0d64-48d5-829d-5486ef1bf16a.wav", "text": "rangierfahrt von gleis f\u00fcnf acht nach gleis zwo sechs antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/38de7256-273b-4533-9223-173f14cf0de3.wav", "text": "rangierfahrt von gleis vier zwo ins gleis quebec zwo vier antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/de36f958-6779-4610-af11-51688c0f6fbe.wav", "text": "rangierfahrt von neun vier ins null sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/8d0f96c1-eb60-4a8c-9084-9505c7d05e89.wav", "text": "rangierfahrt von gleis f\u00fcnf acht nach gleis zwo sechs antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/89b061be-e3c3-4313-9ebf-3098c1c113d6.wav", "text": "umstellman\u00f6ver vom hotel acht zwo nach zwo sieben via golf sechs acht antworten", "duration": 18.5}
-{"audio_filepath": "dataset/human/audios/a3911df8-3d5c-4ebf-a8a5-ad1bbdcd097b.wav", "text": "umstellman\u00f6ver von drei zwo ins oscar f\u00fcnf f\u00fcnf via gleis zulu vier acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/627b2e12-3cc5-48b6-bb3f-7b23ea5f3b6d.wav", "text": "umstellman\u00f6ver von vier null ins gleis drei via whisky zwo neun antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/7c987ea1-5db8-4a06-a5c9-86ef73185318.wav", "text": "umstellman\u00f6ver vom acht sechs via tango sechs null nach gleis eins drei antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/c9b72c09-f330-4ec3-9227-232d54b0784a.wav", "text": "rangierfahrt vom gleis drei drei nach gleis lima zwo acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/440e53df-af06-4c03-bc9c-430c8078ddd6.wav", "text": "rangierfahrt von f\u00fcnf drei nach gleis charlie drei eins antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/80e4384b-787a-4a75-9a69-f5c8610630b5.wav", "text": "umstellman\u00f6ver vom gleis quebec sechs eins via echo acht sieben nach uniform f\u00fcnf sechs antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/f5714b44-c57d-4e2e-8a2f-0b526a6b88eb.wav", "text": "umstellman\u00f6ver von tango vier f\u00fcnf via gleis sechs drei ins gleis acht eins antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/495b08df-25ca-40e9-a09b-2edd46c3e426.wav", "text": "umstellman\u00f6ver von charlie zwo acht via zwo drei ins vier null antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/b0b6b7a3-ed37-485a-ba0e-398d2234cbcf.wav", "text": "umstellman\u00f6ver vom gleis f\u00fcnf eins via acht sieben ins bravo eins null antworten", "duration": 7.5}
-{"audio_filepath": "dataset/human/audios/aafeb337-c659-46b2-a089-37de4eb2115e.wav", "text": "rangierfahrt vom gleis sechs null ins gleis sechs f\u00fcnf antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/7951c6a4-40dd-46d1-a97f-ca542487f961.wav", "text": "rangierfahrt von gleis vier zwo ins gleis quebec zwo vier antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/bf85fc01-0dd9-4dd9-8878-8f228141c74b.wav", "text": "rangierfahrt von sechs zwei ins gleis romeo drei sieben antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/a31194f9-fc4e-4ba2-921f-682ca53ae866.wav", "text": "umstellman\u00f6ver von acht ins gleis mike sieben null via gleis lima zwei acht antworten", "duration": 18.5}
-{"audio_filepath": "dataset/human/audios/2ff51748-8895-4886-85f9-5e95cf74d48d.wav", "text": "rangierfahrt von hotel eins drei ins gleis papa f\u00fcnf vier antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/16ed80bc-cd07-4483-ad98-83ee7d9b0486.wav", "text": "rangierfahrt von f\u00fcnf drei nach gleis charlie drei eins antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/1f7b2cdc-caad-42b6-a402-7a85d474bf35.wav", "text": "umstellman\u00f6ver vom drei acht via gleis neun f\u00fcnf nach echo sieben sieben antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/f9f4b870-02ca-4774-9ebe-8ab3d6461f3a.wav", "text": "rangierfahrt vom gleis zwo zwo ins null sechs antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/cb8d60d5-2be7-4ee5-8134-bf71590c2c72.wav", "text": "rangierfahrt von gleis sechs neun ins gleis delta sieben antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/2f01de3a-dbe2-4a82-91f0-04a2534f339d.wav", "text": "umstellman\u00f6ver vom neun sieben nach gleis kilo zwo sieben via november null acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/38bc298a-30f1-49b0-a797-bd388f82d25d.wav", "text": "umstellman\u00f6ver vom zwo sieben ins sieben sieben via charlie zwo antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/c4a1f065-d91d-4095-ab70-5cb7563416a6.wav", "text": "umstellman\u00f6ver vom vier sieben via gleis acht f\u00fcnf ins gleis victor acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/e984edb2-d621-443a-8161-56afbb3b257c.wav", "text": "rangierfahrt von gleis mike eins zwo ins null eins antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/587789c0-b3a4-438f-a399-e8ddd29b34e2.wav", "text": "rangierfahrt von gleis sieben sieben ins eins zwo antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/04a43905-3444-47b6-a333-53f7a12ddfaa.wav", "text": "rangierfahrt von gleis sechs null nach gleis sechs antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/d5598fde-5cf8-4fb3-9ece-793ee8fd9242.wav", "text": "umstellman\u00f6ver von papa f\u00fcnf neun ins kilo drei f\u00fcnf via gleis india eins antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/179ee217-202f-407a-8978-df6ed376b445.wav", "text": "umstellman\u00f6ver vom gleis null acht via gleis acht neun ins juliet drei drei antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/327bfbc5-e868-4f3b-9e6c-803b94d09512.wav", "text": "umstellman\u00f6ver vom neun ins gleis zwei neun via f\u00fcnf drei antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/e974796e-d217-4bbd-8b60-b9a472ad072d.wav", "text": "umstellman\u00f6ver von gleis vier f\u00fcnf ins gleis foxtrot sechs drei via neun antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/1e5b9543-dc61-4752-8320-5cb9ea97e197.wav", "text": "umstellman\u00f6ver von november sechs nach sieben via delta vier und gleis uniform drei antworten", "duration": 17.5}
-{"audio_filepath": "dataset/human/audios/bb8c5718-a0df-4142-aa4e-532e912014ba.wav", "text": "rangierfahrt von gleis mike eins zwei ins null eins antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/fc9d2d7f-0885-4e74-aff0-ce55d7436c7d.wav", "text": "rangierfahrt von yankee neun eins ins vier acht antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/7feb048d-c9f3-481c-9d22-553fbbef6a7f.wav", "text": "rangierfahrt von gleis bravo f\u00fcnf sechs nach neun zwei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/cdcebeac-2209-41fc-9dd1-cff26782fee7.wav", "text": "umstellman\u00f6ver von gleis neun vier ins gleis null f\u00fcnf via gleis lima eins acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/07d36bf6-721e-4146-9840-ba8fa379bd47.wav", "text": "rangierfahrt vom hotel neun sieben ins juliet acht drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/5d4623db-f4fb-4950-90cb-abb1aeb3f23d.wav", "text": "umstellman\u00f6ver vom gleis golf neun acht via gleis uniform eins nach gleis bravo acht vier antworten", "duration": 19.5}
-{"audio_filepath": "dataset/human/audios/e05ff53b-5d31-4901-be1a-359546709019.wav", "text": "rangierfahrt von mike f\u00fcnf sieben nach gleis f\u00fcnf drei antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/f100a1a2-efae-4805-9929-e5b11c86ddb3.wav", "text": "rangierfahrt vom gleis zwei zwei ins null sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/c7a2a904-6863-4d7b-adcd-3420b3a5d52b.wav", "text": "rangierfahrt vom gleis kilo zwo eins ins gleis null neun antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/79ad798b-2b0c-4b66-9da7-b2950c7a1ed3.wav", "text": "umstellman\u00f6ver von echo drei drei via india neun sieben ins delta eins acht antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/d394cba4-5afc-49ca-aeb4-e2a6879edd4d.wav", "text": "rangierfahrt vom gleis sechs acht nach gleis acht sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/8999c899-acfc-418b-a84e-537391658dcc.wav", "text": "rangierfahrt von yankee neun eins ins vier acht antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/84280b20-edb3-4a6b-99e8-f378b711ce2d.wav", "text": "rangierfahrt vom null eins ins gleis drei neun antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/bc873b84-9ca7-4e96-96bd-5fb753031743.wav", "text": "umstellman\u00f6ver vom gleis bravo null null nach vier eins via gleis f\u00fcnf sechs antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/d34ef33e-4f07-4e25-99d3-30b2ffa810d2.wav", "text": "rangierfahrt vom gleis quebec eins eins ins gleis november sieben sechs antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/0cec477e-9750-40c4-99a9-0c943110d79c.wav", "text": "rangierfahrt von hotel eins drei ins gleis papa f\u00fcnf vier antworten", "duration": 17.0}
-{"audio_filepath": "dataset/human/audios/c162f68b-5f96-4e2d-82e3-a2d428dcdbe5.wav", "text": "rangierfahrt von eins ins gleis eins drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/42534ff1-f72c-4d23-b37e-aee794969a90.wav", "text": "rangierfahrt von null drei nach sierra neun zwei antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/e01bb5df-3bc6-4bea-acb8-2ff17201bf4b.wav", "text": "rangierfahrt vom gleis zulu sechs zwo nach gleis sieben eins antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/46c62646-eb47-4907-8b80-4604d02abb9d.wav", "text": "rangierfahrt vom gleis bravo eins vier nach foxtrot vier eins antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/3050512e-03d5-404d-8017-d4f2d5803dd9.wav", "text": "umstellman\u00f6ver von drei drei ins hotel eins f\u00fcnf via vier drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/38643075-552d-471f-b473-b27b6ead5fb6.wav", "text": "rangierfahrt von f\u00fcnf drei nach gleis charlie drei eins antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/eae40c02-269a-4a31-ad47-4d9ad88936c8.wav", "text": "rangierfahrt von gleis zulu vier sechs nach sieben zwei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/342aac6f-1707-4317-8ab7-27fffba7e4f6.wav", "text": "rangierfahrt von charlie null zwei nach gleis uniform f\u00fcnf neun antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/06209017-2b59-4473-9f3f-8b7382e99501.wav", "text": "umstellman\u00f6ver vom gleis null acht via gleis acht neun ins juliet drei drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/d63ff994-fa18-49b7-a664-57d52f9766ee.wav", "text": "umstellman\u00f6ver vom gleis echo vier acht ins victor drei null via papa drei eins antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/daac9a61-e08a-4a1d-819e-0a9d1e3cc23a.wav", "text": "rangierfahrt vom gleis quebec eins eins ins gleis november sieben sechs antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/89142be0-b00f-407a-bedb-53b49b6c9e24.wav", "text": "rangierfahrt von sieben drei ins sechs drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/9268f43a-fcba-44d4-8f4a-90364ce10455.wav", "text": "rangierfahrt von sierra neun f\u00fcnf ins eins acht antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/b5c6d954-de14-48cf-84e8-8677909fb911.wav", "text": "rangierfahrt von gleis sieben sieben ins eins zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/da3d7cc4-133d-4124-ab5e-dcf549b5f18d.wav", "text": "umstellman\u00f6ver vom gleis quebec neun acht ins zulu drei neun via vier sechs antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/c1c81415-a943-4c13-94dc-b4238a25aeb2.wav", "text": "rangierfahrt von gleis foxtrot acht vier nach gleis tango vier drei antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/179462b1-0b91-4d2b-aea4-aa6df961c6a4.wav", "text": "umstellman\u00f6ver von gleis sieben ins gleis sechs neun via gleis yankee vier zwo antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/8adb10c6-91b9-4cca-934f-d87ce9ee4425.wav", "text": "rangierfahrt von india drei acht ins gleis sieben eins antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/2ba6ccc6-3d7a-40fd-b8c5-2625a738db0b.wav", "text": "umstellman\u00f6ver vom gleis sierra eins vier nach gleis hotel null eins via golf neun acht antworten", "duration": 18.0}
-{"audio_filepath": "dataset/human/audios/2be14fe0-975b-4a41-92c5-9ab0797fea48.wav", "text": "umstellman\u00f6ver vom charlie f\u00fcnf vier via gleis neun f\u00fcnf ins gleis neun drei antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/04ae35fb-c45d-4ef4-b93b-e4c55c7000c6.wav", "text": "umstellman\u00f6ver vom gleis quebec vier null nach gleis oscar vier neun via gleis delta zwei neun antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/57cd6c3d-239d-410f-9d7a-613391e6894f.wav", "text": "umstellman\u00f6ver vom gleis sierra eins vier nach gleis hotel null eins via golf neun acht antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/9444fc39-af43-4676-aedc-de6cff12f11b.wav", "text": "umstellman\u00f6ver vom acht sieben via gleis november eins sechs ins gleis golf eins sieben antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/a61fd165-04cf-4559-bd46-714707a940f7.wav", "text": "rangierfahrt von gleis bravo f\u00fcnf sechs nach neun zwo antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/bef39db1-7d15-4ed8-82f1-6484b0ce12a1.wav", "text": "rangierfahrt von mike f\u00fcnf sieben nach gleis f\u00fcnf drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/0d42e180-5461-4ff0-a81e-58f08cf1b2a4.wav", "text": "rangierfahrt vom eins null ins sechs eins antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/c020bdaf-8556-4b43-a7fa-6fc0ef1ca661.wav", "text": "umstellman\u00f6ver vom acht sechs via tango sechs null nach gleis eins drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/c74ca9f4-28f9-44d2-b14b-78a8636d3963.wav", "text": "umstellman\u00f6ver vom gleis quebec neun acht ins zulu drei neun via vier sechs antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/af7df9f7-ad9a-4166-8574-9f51aa2c7465.wav", "text": "umstellman\u00f6ver vom gleis sechs ins sieben f\u00fcnf via gleis xray null und gleis sieben antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/e55f0c1b-21d5-47ba-a9d2-1e57e6ede11b.wav", "text": "umstellman\u00f6ver vom zulu sechs eins via gleis acht sechs nach sierra eins neun antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/968be160-2b2e-4593-8a70-df8641ff87ad.wav", "text": "rangierfahrt von alpha zwo sieben sieben nach oscar null neun f\u00fcnf", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/2d5624d5-e69f-4486-9e69-40d8d706a935.wav", "text": "rangierfahrt von zwo neun nach gleis papa null f\u00fcnf antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/c79a0ac4-7ae8-410c-9e94-5bf2bd0aeab8.wav", "text": "rangierfahrt von gleis eins f\u00fcnf nach gleis oscar null zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/c9b8ac26-cdd9-4177-9543-5b4bb0d9b0d1.wav", "text": "umstellman\u00f6ver von gleis vier acht nach quebec null sechs via sierra eins zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/1e99061b-9d89-47a9-b0a6-f46ef61a59a5.wav", "text": "rangierfahrt vom victor null f\u00fcnf nach gleis neun vier antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/abf2570d-6ddd-4de2-b36e-4bc42b8c8aaa.wav", "text": "umstellman\u00f6ver von gleis vier drei via gleis drei neun ins vier sieben antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/52fe205d-9cb2-4323-b6dd-dfc21d988d0b.wav", "text": "rangierfahrt von sechs zwo ins gleis romeo drei sieben antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/62ae3a4a-2ed6-4200-b821-b2cfa919954b.wav", "text": "rangierfahrt von drei zwei nach sechs neun antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/9eebb874-2f33-47a6-b3d7-e8e9ca7e1a2d.wav", "text": "umstellman\u00f6ver von gleis sieben ins gleis sechs neun via gleis yankee vier zwo antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/6a7da9f7-070c-4b2b-a593-49f20062d9ed.wav", "text": "rangierfahrt von charlie null zwo nach gleis uniform f\u00fcnf neun antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/3f297374-59b8-405a-8e90-d549ad6331be.wav", "text": "rangierfahrt vom gleis f\u00fcnf f\u00fcnf nach oscar zwei null antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/ff88c1cc-9c6d-4726-b3e3-9fd7426f421a.wav", "text": "umstellman\u00f6ver vom gleis f\u00fcnf eins via acht sieben ins bravo eins null antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/eb05d581-4f6c-42a4-9085-04fbbf5b05c3.wav", "text": "rangierfahrt vom gleis neun acht ins juliet sechs drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/932477c2-208d-47f0-a74f-6dec995941d8.wav", "text": "rangierfahrt vom acht null nach gleis zulu acht zwei antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/0f8e945b-c914-4fcf-94c6-7c349b3fd9b4.wav", "text": "rangierfahrt vom gleis sechs null ins gleis sechs f\u00fcnf antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/58e523c5-27f7-47f8-b5d2-00265deb985c.wav", "text": "umstellman\u00f6ver von sieben zwo via gleis neun sechs nach gleis whisky null sechs antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/489e1236-2f93-4996-ba84-dff20f8052ad.wav", "text": "rangierfahrt vom gleis mike zwo drei ins drei drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/c62ab362-70fb-48d3-b220-dbb6d5f0dc50.wav", "text": "umstellman\u00f6ver von drei drei ins hotel eins f\u00fcnf via vier drei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/218e9873-a3a5-45c9-a85c-3bed450893e5.wav", "text": "rangierfahrt von sechs ins delta acht sechs antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/85263d93-e35b-4b20-8a62-d2f350580b1b.wav", "text": "rangierfahrt von yankee vier nach sechs sechs antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/be732f9d-14d5-4b31-9c75-bbc321b90d62.wav", "text": "umstellman\u00f6ver von drei zwo ins oscar f\u00fcnf f\u00fcnf via gleis zulu vier acht antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/39a23d2b-9973-46b7-9469-03e4aad05bf2.wav", "text": "rangierfahrt vom gleis delta null sechs nach yankee drei eins antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/71c13da6-df50-4169-8d6d-b8388cbc296e.wav", "text": "rangierfahrt von f\u00fcnf zwei nach gleis lima sieben zwei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/ac6f95d6-40eb-4e35-8864-b19745996b90.wav", "text": "umstellman\u00f6ver von gleis delta acht neun nach neun eins via tango acht f\u00fcnf antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/964a7f0b-978d-4dc6-9ea2-39aad346780f.wav", "text": "umstellman\u00f6ver vom neun neun via gleis victor null vier nach sieben neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/0b68a8a5-c4aa-4478-8b12-d6113d69d63c.wav", "text": "umstellman\u00f6ver vom zwei vier via victor sechs f\u00fcnf ins november drei zwei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/299c2fef-8623-4d48-93fd-fd9a9c615078.wav", "text": "umstellman\u00f6ver vom nach zwo antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/74981b38-c8ef-45c7-9b26-e670cb03a349.wav", "text": "umstellman\u00f6ver von sieben zwo via gleis neun sechs nach gleis whisky null sechs antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/b035cc56-989b-4655-8b30-fbc5cb82056b.wav", "text": "umstellman\u00f6ver vom vier via sieben eins ins neun f\u00fcnf antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/9d163612-c057-43c8-8a43-a6ddff09407b.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/933eb14a-b47a-4df0-bc87-82f1b70a0412.wav", "text": "umstellman\u00f6ver vom sechs drei nach kilo sieben neun via foxtrot vier zwo antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/52a3f519-0b23-4a18-ade8-1c1ee3b6e177.wav", "text": "rangierfahrt von foxtrot f\u00fcnf null ins gleis sieben sieben antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/ef2e1fad-322b-4b76-9f21-2a58893cccf8.wav", "text": "umstellman\u00f6ver vom neun sieben nach gleis kilo zwo sieben via november null acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/6757ab63-2787-4df3-a2e8-4a47b5d4e0ce.wav", "text": "umstellman\u00f6ver von drei drei ins hotel eins f\u00fcnf via vier drei antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/00d08a29-5b22-4448-8b2b-25f40194acb8.wav", "text": "rangierfahrt vom gleis kilo zwo eins ins gleis null neun antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/ce83e83c-ee2c-4449-a3ce-118eadb06110.wav", "text": "rangierfahrt von gleis hotel sieben null nach gleis vier neun antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/fc577a1b-5d00-4a64-a1a6-93e127d63c56.wav", "text": "rangierfahrt von sechs zwo ins gleis romeo drei sieben antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/193ee1e2-881e-4cfb-ad5d-632f361d206c.wav", "text": "rangierfahrt von f\u00fcnf zwei ins gleis xray null antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/d29d7821-57a6-46ac-8620-b256f81db14b.wav", "text": "rangierfahrt von india drei acht ins gleis sieben eins antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/73ca425c-133d-4655-a8cd-d66af951891f.wav", "text": "umstellman\u00f6ver vom foxtrot acht nach gleis neun acht via sechs acht antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/46bc0a42-6e64-4cf4-acf7-5f4b8cafff77.wav", "text": "umstellman\u00f6ver von charlie drei zwei via gleis victor sechs neun ins gleis golf zwei vier antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/de78c1d9-7935-43e2-b8a8-d17c0591481c.wav", "text": "umstellman\u00f6ver vom sechs drei nach kilo sieben neun via foxtrot vier zwo antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/e3801a17-bcf1-4699-baab-2af1c620180d.wav", "text": "umstellman\u00f6ver vom neun sieben nach gleis kilo zwo sieben via november null acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/52b56ab4-8e43-45d5-88b9-4358155b6877.wav", "text": "umstellman\u00f6ver vom zwo vier via victor sechs f\u00fcnf ins november drei zwo antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/b962eba9-e0b7-4212-b073-cde24a6dc420.wav", "text": "rangierfahrt vom drei drei nach zwo antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/2af46a9b-4b13-4c20-86b7-f3fad000f4c1.wav", "text": "rangierfahrt vom india sechs f\u00fcnf nach gleis uniform sieben antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/72256be0-d31d-4fdc-b775-f6e1a9e08238.wav", "text": "umstellman\u00f6ver vom neun ins gleis zwei neun via f\u00fcnf drei antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/bdb26394-a947-471a-8bfb-a037216740ae.wav", "text": "umstellman\u00f6ver vom gleis hotel eins acht via juliet eins acht ins delta f\u00fcnf sieben antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/71de517a-669f-4e1b-8518-f9533ac39d8c.wav", "text": "rangierfahrt von gleis zulu vier sechs nach sieben zwei antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/ac18025d-2a00-4117-ae6b-2dae32ffcec7.wav", "text": "rangierfahrt von sierra neun f\u00fcnf ins eins acht antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/840b3a11-7e5d-486b-ac40-83d990fa7188.wav", "text": "umstellman\u00f6ver von eins via india zwo drei nach gleis zwo f\u00fcnf antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/5a91ebfc-045e-4c1d-870d-ed75d9d7020c.wav", "text": "umstellman\u00f6ver vom gleis quebec neun acht ins zulu drei neun via vier sechs antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/43523e72-ecb6-4a50-aa9c-65fc279d9f2f.wav", "text": "umstellman\u00f6ver vom gleis sechs ins sieben f\u00fcnf via gleis xray null und gleis sieben antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/6bbe42f3-9dde-43dc-b877-0b7e7c2f286b.wav", "text": "umstellman\u00f6ver vom gleis quebec sechs eins via echo acht sieben nach uniform f\u00fcnf sechs antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/78d88a6b-84f0-47ac-b6ca-70d2db5be40e.wav", "text": "rangierfahrt vom yankee eins neun ins f\u00fcnf f\u00fcnf antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/e83f3556-a737-46e3-88e9-d93caef550db.wav", "text": "umstellman\u00f6ver vom hotel acht zwo nach zwo sieben via golf sechs acht antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/5dbd634c-0b2e-4e90-a12d-ee2a073c942f.wav", "text": "umstellman\u00f6ver vom gleis f\u00fcnf eins via acht sieben ins bravo eins null antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/a22af7be-36fa-486a-92f3-bb89fd14bf9f.wav", "text": "umstellman\u00f6ver von charlie drei zwo via gleis victor sechs neun ins gleis golf zwo vier antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/e3c9b9d4-49a6-4e73-bc05-c26d68c319b8.wav", "text": "umstellman\u00f6ver von gleis vier f\u00fcnf ins gleis foxtrot sechs drei via neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/5b34a554-a724-4ff0-b53f-49223a44d5f9.wav", "text": "umstellman\u00f6ver vom gleis xray eins null ins sechs acht via gleis sieben null antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/8376518f-914e-40cc-b851-917e98d71e40.wav", "text": "rangierfahrt von gleis neun eins nach gleis papa zwei zwei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/bf07a4fa-646c-450f-a3e1-c6650e00d8a6.wav", "text": "umstellman\u00f6ver vom zwo vier via victor sechs f\u00fcnf ins november drei zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/3856c074-51e6-4de2-8684-304ba494727c.wav", "text": "rangierfahrt von gleis romeo eins neun ins lima eins vier antworten", "duration": 17.0}
-{"audio_filepath": "dataset/human/audios/b1b1f833-906c-4d07-8195-276de87259b9.wav", "text": "rangierfahrt vom kilo zwei sieben ins vier sieben antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/a074a627-ee8f-4b28-96d6-3fa51c314586.wav", "text": "umstellman\u00f6ver von sechs null via acht vier ins golf eins vier antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/0992dc82-f39b-49db-ba8c-74b2640cf3a6.wav", "text": "umstellman\u00f6ver von vier f\u00fcnf via gleis lima eins vier nach acht neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/0c1e1e95-7158-4c03-8c32-582cf3d864ba.wav", "text": "umstellman\u00f6ver vom null acht via gleis sieben acht ins gleis f\u00fcnf eins antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/60655220-337d-469c-b1a3-718542b8bae6.wav", "text": "umstellman\u00f6ver vom charlie f\u00fcnf vier via gleis neun f\u00fcnf ins gleis neun drei antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/bb4f79d8-b52d-4a71-bced-6e8b932b4bf9.wav", "text": "umstellman\u00f6ver von gleis bravo drei via vier eins nach drei sieben antworten", "duration": 19.5}
-{"audio_filepath": "dataset/human/audios/cf7f605d-c2c7-487a-b5fd-4d9782902ad0.wav", "text": "rangierfahrt von gleis bravo neun sieben ins drei sechs antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/b88c1363-cc28-405e-b954-8fac92cda971.wav", "text": "rangierfahrt von india sieben f\u00fcnf ins foxtrot acht acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/8bba1a1c-4618-4794-9cbc-66763eaf2157.wav", "text": "umstellman\u00f6ver von gleis delta acht neun nach neun eins via tango acht f\u00fcnf antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/d5664581-4b01-40d2-b8c0-9673b175aafb.wav", "text": "umstellman\u00f6ver vom bravo null sieben via gleis vier drei nach neun zwo antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/2fcb895c-0415-4b6d-b920-5bf5eb35a8d8.wav", "text": "umstellman\u00f6ver von gleis sieben ins gleis sechs neun via gleis yankee vier zwo antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/7d1acd07-11db-4a2c-9793-e4a35167c1fa.wav", "text": "rangierfahrt von gleis sieben neun nach sechs f\u00fcnf antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/b9cbeedd-56ee-40fd-a779-b66effda1f0d.wav", "text": "umstellman\u00f6ver von sechs null via acht vier ins golf eins vier antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/e382545a-1793-43bf-ab73-988fc86f32ce.wav", "text": "rangierfahrt von xray vier eins nach bravo neun null antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/ee1cfc4c-d21b-406f-a865-58d341c30743.wav", "text": "rangierfahrt vom romeo sieben sechs ins gleis acht antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/38f34ce7-0707-4a54-af4e-71f924f3e911.wav", "text": "umstellman\u00f6ver vom gleis quebec vier null nach gleis oscar vier neun via gleis delta zwo neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/b99111b7-7650-4d54-bb55-d8d37666ae75.wav", "text": "umstellman\u00f6ver vom xray neun vier via mike sieben zwo nach gleis uniform neun drei antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/759d55be-ec18-4179-8983-5bc9618b4282.wav", "text": "rangierfahrt vom drei drei nach zwei antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/64d139d2-3d7b-4119-954d-05ee2ee0bbd3.wav", "text": "umstellman\u00f6ver vom papa acht sieben via charlie zwo ins gleis foxtrot acht drei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/d35ed8f0-8817-4fff-abbb-15bcd5047870.wav", "text": "umstellman\u00f6ver vom eins acht ins gleis quebec neun zwo via gleis juliet null neun antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/41cd5642-70b6-45eb-9d49-6bf56a37eeea.wav", "text": "rangierfahrt vom victor null f\u00fcnf nach gleis neun vier antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/2ff8b4fe-e215-41bc-a437-150f87dd3c3e.wav", "text": "umstellman\u00f6ver vom gleis sieben via gleis zulu acht und via gleis zwo ins gleis null null antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/4c348230-aa2b-4538-a393-947bfd2399dd.wav", "text": "rangierfahrt vom gleis neun acht ins juliet sechs drei antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/a3bddc3a-79d0-4633-b9e1-5c9d3204084b.wav", "text": "rangierfahrt vom gleis kilo zwo eins ins gleis null neun antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/80a8f667-2226-4126-a37e-b36a836bc018.wav", "text": "umstellman\u00f6ver vom f\u00fcnf eins ins gleis papa sechs drei via gleis vier sechs antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/b5657fb1-fef0-49f8-8993-97c12d1b7438.wav", "text": "umstellman\u00f6ver vom f\u00fcnf via gleis vier vier nach gleis yankee null null antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/75572155-6bed-4445-bae1-11bad4dc60a8.wav", "text": "umstellman\u00f6ver vom gleis sieben via gleis zulu acht und via gleis zwei ins gleis null null antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/90ded691-197a-4fcd-a8d2-1e48fd6db5cc.wav", "text": "umstellman\u00f6ver von eins via india zwo drei nach gleis zwo f\u00fcnf antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/286e12f7-d147-4002-98d0-ae268f961425.wav", "text": "rangierfahrt von juliet vier sieben ins gleis sechs sieben antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/381bde0a-4553-45f1-8420-8261d38224df.wav", "text": "rangierfahrt von victor acht null nach gleis neun antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/f7d26a85-47ef-410e-b0cc-e4641319a020.wav", "text": "umstellman\u00f6ver von eins via india zwo drei nach gleis zwo f\u00fcnf antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/d54aa5f2-5dc7-4fcb-b578-8c2c19ad6c20.wav", "text": "rangierfahrt vom oscar sechs acht nach gleis foxtrot zwo neun antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/4ee3eb23-e5a9-455a-9708-242499af3c64.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/b1e421bc-ea83-4355-9270-4f2ef8d558a2.wav", "text": "rangierfahrt von gleis drei null ins eins f\u00fcnf antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/c00905cc-3be3-4989-9737-5cfd1e7df2d1.wav", "text": "umstellman\u00f6ver vom echo sieben eins ins gleis sieben acht via gleis null neun antworten", "duration": 17.5}
-{"audio_filepath": "dataset/human/audios/c8f16d6f-1bbc-4174-94e0-590432bb3628.wav", "text": "umstellman\u00f6ver vom gleis papa zwei sieben nach victor sechs sieben via vier antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/c3c45d6d-43e9-46ec-b004-4ef577474210.wav", "text": "rangierfahrt vom whisky neun zwo nach drei sieben antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/69b49d1c-2549-466f-aab3-29f999b92b13.wav", "text": "umstellman\u00f6ver von papa f\u00fcnf neun ins kilo drei f\u00fcnf via gleis india eins antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/3d4db516-1952-4043-a0b4-0122a7b98a31.wav", "text": "umstellman\u00f6ver vom gleis quebec neun acht ins zulu drei neun via vier sechs antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/141843ea-abb6-4c79-8f0a-57fcaf614201.wav", "text": "umstellman\u00f6ver von sieben zwei via gleis neun sechs nach gleis whisky null sechs antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/7229932d-9dee-4132-80ad-ab9ef771dd66.wav", "text": "rangierfahrt vom romeo sieben sechs ins gleis acht antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/6872007d-8cc7-47fb-a119-33a0c3e30792.wav", "text": "umstellman\u00f6ver von charlie drei zwei via gleis victor sechs neun ins gleis golf zwei vier antworten", "duration": 21.5}
-{"audio_filepath": "dataset/human/audios/89affe40-3eab-439f-9f25-1fc60165ebe3.wav", "text": "rangierfahrt vom yankee eins neun ins f\u00fcnf f\u00fcnf antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/bccb60c8-419d-4829-9952-b7c2077227f5.wav", "text": "umstellman\u00f6ver von gleis vier f\u00fcnf ins gleis foxtrot sechs drei via neun antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/10d09ac5-65b5-4004-bc79-736aad1231cb.wav", "text": "rangierfahrt von gleis neun eins nach gleis papa zwo zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/2e3e7a93-39fd-4430-9647-407690327259.wav", "text": "umstellman\u00f6ver vom acht sieben via gleis november eins sechs ins gleis golf eins sieben antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/dce9a8ee-83f7-403f-9c05-1e8ca268789d.wav", "text": "umstellman\u00f6ver vom mike zwo null via gleis xray null sechs ins gleis eins sieben antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/556a0df7-1ece-4e9b-bc3b-8c41f30e1cb5.wav", "text": "rangierfahrt von gleis acht neun nach papa zwo antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/80c668fd-da13-4fcd-8a4b-929f2aba6767.wav", "text": "rangierfahrt von gleis sechs null nach gleis sechs antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/0d05672e-b8c0-4313-a979-5a330d50a555.wav", "text": "umstellman\u00f6ver vom gleis papa zwei sieben nach victor sechs sieben via vier antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/d4cad7f4-570b-48fe-a11f-1a8bec348bd5.wav", "text": "rangierfahrt vom victor null f\u00fcnf nach gleis neun vier antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/b397c552-9f19-417b-a07a-3f56a024ed2c.wav", "text": "rangierfahrt vom null zwo ins gleis kilo f\u00fcnf null antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/6920b27b-1ded-4c3a-bef0-2902b0905fd0.wav", "text": "umstellman\u00f6ver von gleis vier acht nach quebec null sechs via sierra eins zwo antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/8015fc9f-b46b-401e-9359-2c793ffb0ddf.wav", "text": "rangierfahrt von juliet vier sieben ins gleis sechs sieben antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/2c8d0412-48b7-4078-8034-f496d4a62d28.wav", "text": "umstellman\u00f6ver vom vier via sieben eins ins neun f\u00fcnf antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/a4486bf5-e1a4-497c-85f7-51eefc61bf55.wav", "text": "rangierfahrt vom whisky acht vier ins gleis sechs null antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/0fdba8ca-2da7-4e62-a68f-9cefea4d408e.wav", "text": "rangierfahrt vom gleis papa f\u00fcnf f\u00fcnf ins delta zwei null antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/4c3a2417-c44c-4555-aa8d-3acba82a6531.wav", "text": "rangierfahrt von null vier nach alpha null acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/a07de0ec-01df-492d-9249-b843575fecb3.wav", "text": "umstellman\u00f6ver vom acht sechs via tango sechs null nach gleis eins drei antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/83d88650-57ad-445b-a85f-97b0c51e3637.wav", "text": "umstellman\u00f6ver von gleis bravo drei via vier eins nach drei sieben antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/383eb7e9-b63b-419e-999e-90faf5e642ec.wav", "text": "umstellman\u00f6ver vom drei vier ins gleis drei null via tango f\u00fcnf zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/17039121-8d38-4660-b4db-a29c37c3528d.wav", "text": "rangierfahrt vom romeo sieben sechs ins gleis acht antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/f2da5298-8bdd-4064-aec7-09c8b8a0fd82.wav", "text": "rangierfahrt von eins ins gleis eins drei antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/5e4496a6-7a11-47c4-aab3-cccfbb37aced.wav", "text": "rangierfahrt von quebec f\u00fcnf acht ins gleis oscar sieben drei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/327ff9a2-5c19-4d97-96de-63cf82af89ea.wav", "text": "umstellman\u00f6ver von november neun nach f\u00fcnf via gleis tango vier und romeo drei antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/113d93a6-7ee2-4775-aa03-fb9547e0d95e.wav", "text": "umstellman\u00f6ver von acht ins gleis mike sieben null via gleis lima zwo acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/272abb4f-614c-4f42-8935-c41203d28e81.wav", "text": "rangierfahrt von india drei acht ins gleis sieben eins antworten", "duration": 19.0}
-{"audio_filepath": "dataset/human/audios/d2ba05b1-9459-496b-938b-8afae1cf7312.wav", "text": "rangierfahrt von india drei acht ins gleis sieben eins antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/13827dc8-e3ff-4b77-bc8f-75a022471ee4.wav", "text": "rangierfahrt von gleis romeo neun drei ins kilo sieben null antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/4e96b3e3-d361-4799-b897-ea19321db485.wav", "text": "umstellman\u00f6ver von drei zwo ins oscar f\u00fcnf f\u00fcnf via gleis zulu vier acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/4d8822ad-0f86-4dd8-854d-7e72eefb2a60.wav", "text": "umstellman\u00f6ver vom sechs vier via gleis eins drei nach gleis alpha f\u00fcnf null antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/c02bd693-086c-49ee-a324-024752f30720.wav", "text": "umstellman\u00f6ver vom vier zwo via echo acht eins ins gleis foxtrot f\u00fcnf eins antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/a80d5552-5544-4402-8be8-03304faa1828.wav", "text": "rangierfahrt vom eins null ins sechs eins antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/ecaccb21-2ccd-4629-8d51-2126c5290548.wav", "text": "umstellman\u00f6ver von sieben zwo via gleis neun sechs nach gleis whisky null sechs antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/a57df972-39b3-44f2-9b5b-7bb0e03d0ccf.wav", "text": "umstellman\u00f6ver von november neun nach f\u00fcnf via gleis tango vier und romeo drei antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/da8f355b-7fca-426d-90c8-4b612ac4e587.wav", "text": "rangierfahrt von alpha null sieben nach oscar eins acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/69c493c6-c732-434a-ba83-3159d2973868.wav", "text": "rangierfahrt vom hotel neun sieben ins juliet acht drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/d89447d9-d6ba-4e0d-82f8-dbd8cd2caea4.wav", "text": "rangierfahrt vom null eins ins gleis drei neun antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/c311704c-03ac-40e6-a117-d4cd7f8ad926.wav", "text": "umstellman\u00f6ver vom zulu sechs eins via gleis acht sechs nach sierra eins neun antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/e0321f7a-aec4-4b21-8184-3616018fb935.wav", "text": "umstellman\u00f6ver vom null sechs ins kilo f\u00fcnf neun via gleis charlie neun vier antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/a122c5e4-1b93-4942-8a5c-28521003e242.wav", "text": "rangierfahrt von null vier nach alpha null acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/91da85fa-e38d-457e-82d9-40eee6bb89ba.wav", "text": "rangierfahrt vom drei drei nach zwo antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/9b5cb9fe-9521-4f21-96a5-2398405fa6fa.wav", "text": "umstellman\u00f6ver vom gleis xray eins null ins sechs acht via gleis sieben null antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/eea420de-39cd-48e9-839a-be5099372c07.wav", "text": "umstellman\u00f6ver vom november vier null via gleis romeo drei f\u00fcnf ins gleis india sechs acht antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/0786cdf0-1103-4853-80a0-96214c4ba9e9.wav", "text": "rangierfahrt von f\u00fcnf drei nach gleis charlie drei eins antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/885fa861-330a-401e-ba4a-0959f48da266.wav", "text": "rangierfahrt vom kilo zwo sieben ins vier sieben antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/ad2d9485-67c2-4fc5-9b30-0b889be8823e.wav", "text": "rangierfahrt von gleis sieben neun nach sechs f\u00fcnf antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/daff9c32-49fc-42d6-a286-cb8b5821213a.wav", "text": "rangierfahrt vom gleis sechs acht nach gleis acht sechs antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/d18835bc-1451-4a45-b375-bfca422c200b.wav", "text": "rangierfahrt vom gleis null null nach eins eins antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/93f63e25-a787-4a80-b74b-62bd8f43bad6.wav", "text": "rangierfahrt vom gleis papa f\u00fcnf f\u00fcnf ins delta zwei null antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/de7e9a91-20b5-4613-b08b-e70740945e69.wav", "text": "rangierfahrt vom gleis romeo vier f\u00fcnf nach gleis hotel zwo antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/0f3ce7df-110a-459a-88f9-eb5f56175268.wav", "text": "rangierfahrt von sieben drei ins sechs drei antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/c517db59-3e1c-4a83-8c15-a8753c1d8e73.wav", "text": "rangierfahrt von gleis vier zwei ins gleis quebec zwei vier antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/ff98446e-4ee3-484b-86c1-84f1add8e3a1.wav", "text": "umstellman\u00f6ver von gleis vier drei via gleis drei neun ins vier sieben antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/369d94ac-8934-4df1-a26f-2e5dbd1aeebe.wav", "text": "umstellman\u00f6ver vom gleis quebec neun acht ins zulu drei neun via vier sechs antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/9d43ae34-b9f0-433a-81cf-45a5fe655a89.wav", "text": "umstellman\u00f6ver vom gleis zwo null via gleis neun und via gleis eins nach sieben zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/9cd333ec-a053-490d-a7c4-8883e7ed5614.wav", "text": "umstellman\u00f6ver vom alpha f\u00fcnf sieben via gleis sieben nach victor drei null antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/9d5ebadf-ba69-4ec6-a2a4-027caa969eb7.wav", "text": "rangierfahrt von gleis romeo eins neun ins lima eins vier antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/35af7957-3700-4b82-b1b8-88d94488f77b.wav", "text": "umstellman\u00f6ver vom nach zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/b49f1f8b-dd34-4d42-99cf-7d9ddbefb0b7.wav", "text": "rangierfahrt von uniform neun nach sechs vier antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/3f7b8e76-102d-48e0-a45b-9e10b6c8e13f.wav", "text": "umstellman\u00f6ver von gleis quebec null sechs via gleis xray sechs drei ins gleis drei zwo antworten", "duration": 18.0}
-{"audio_filepath": "dataset/human/audios/5b3b7a8d-c340-4489-80e9-a8b750221b1d.wav", "text": "rangierfahrt von foxtrot f\u00fcnf null ins gleis sieben sieben antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/c09ad40d-dddb-4de3-b754-d562735aaf49.wav", "text": "umstellman\u00f6ver von vier null ins gleis drei via whisky zwei neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/d7fef101-4416-4eeb-b375-00af162eddcb.wav", "text": "rangierfahrt von sechs zwei ins gleis romeo drei sieben antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/a47748d7-c3ed-4a6a-8bf1-d927959fe3ce.wav", "text": "umstellman\u00f6ver vom mike zwo null via gleis xray null sechs ins gleis eins sieben antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/e6c0095c-84e6-4b0a-8af4-2c06cf29ed0c.wav", "text": "umstellman\u00f6ver vom gleis mike acht neun via vier f\u00fcnf nach zwo vier antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/0de798c9-f0c1-4233-8a49-695757299476.wav", "text": "rangierfahrt von charlie null neun ins drei zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/a2fb5c9c-21ed-4ca1-8e88-6418c09a6bdb.wav", "text": "umstellman\u00f6ver vom vier zwo via echo acht eins ins gleis foxtrot f\u00fcnf eins antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/443c938a-32e2-4c87-b57c-3ef2f6cf094d.wav", "text": "rangierfahrt von tango eins sechs ins delta sieben acht antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/eadca0bb-cbf5-4696-8e28-1b50eb4dc6d0.wav", "text": "umstellman\u00f6ver vom gleis quebec sechs eins via echo acht sieben nach uniform f\u00fcnf sechs antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/a8ea8908-8e8f-45d4-ba53-9d4d791b4bcf.wav", "text": "rangierfahrt von yankee neun eins ins vier acht antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/81dfa713-15ee-4d0d-97b5-f10787c09ec2.wav", "text": "rangierfahrt vom gleis sieben via zulu acht ins gleis null null antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/64ca7aa1-9f7e-4ef0-ac3d-565d533576b5.wav", "text": "rangierfahrt von drei zwei nach sechs neun antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/b4928f0d-cd75-42d2-bc4a-8910e02e52b9.wav", "text": "rangierfahrt von tango f\u00fcnf eins ins whisky vier vier antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/ec14de70-1757-40a0-9e9c-e3555f1ec205.wav", "text": "umstellman\u00f6ver vom lima sechs via uniform sechs und sieben ins zwo antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/03a108e2-451b-4a29-88ad-2df6b91a895f.wav", "text": "rangierfahrt von yankee neun eins ins vier acht antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/5d950b40-be77-4329-8927-1d6d34f4f515.wav", "text": "umstellman\u00f6ver vom acht neun nach gleis hotel null sieben via gleis eins eins antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/a80c89cc-9d2f-4c20-aaa2-d379c57c0e7d.wav", "text": "umstellman\u00f6ver von november sechs nach sieben via delta vier und gleis uniform drei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/eca5b850-6fc3-4785-9775-e0fb26bcb2ea.wav", "text": "umstellman\u00f6ver vom gleis null acht via gleis acht neun ins juliet drei drei antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/df61a4d2-88c5-460f-9c0c-3f4733d90c54.wav", "text": "umstellman\u00f6ver vom null sechs ins kilo f\u00fcnf neun via gleis charlie neun vier antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/87971bec-0a61-4617-8a76-03bec28eb2bc.wav", "text": "rangierfahrt von gleis vier zwo ins gleis quebec zwo vier antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/3a10e257-c387-4f72-afcd-ee4990fe7805.wav", "text": "rangierfahrt von gleis charlie eins null nach gleis vier vier antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/54d5a085-9e4d-4ff0-b570-9d3677935061.wav", "text": "rangierfahrt von gleis sieben sieben ins eins zwo antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/1f2907f7-75f0-4aa0-aeb6-4dbb7e1855f5.wav", "text": "umstellman\u00f6ver von mike acht f\u00fcnf via gleis eins acht ins gleis delta f\u00fcnf f\u00fcnf antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/3a322c1e-8bb5-4aa7-bb8b-13240242860c.wav", "text": "rangierfahrt von gleis november sieben nach golf zwo sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/3a290def-1501-41d4-ac32-b45f59843f62.wav", "text": "rangierfahrt von null drei nach sierra neun zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/ff35dd31-57a4-4018-8af9-b327005f6cd8.wav", "text": "umstellman\u00f6ver von zwei via gleis oscar eins eins nach gleis charlie null eins antworten", "duration": 16.5}
-{"audio_filepath": "dataset/human/audios/04f09095-7430-4f81-994b-0118f296861e.wav", "text": "umstellman\u00f6ver vom gleis papa zwo sieben nach victor sechs sieben via vier antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/c86028b7-92a6-4719-861b-f54acb36c352.wav", "text": "rangierfahrt vom gleis kilo zwei eins ins gleis null neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/1003da69-6fe7-454d-b00f-a30f9ede4153.wav", "text": "umstellman\u00f6ver von whisky f\u00fcnf f\u00fcnf ins gleis sierra null sechs via gleis oscar f\u00fcnf neun antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/b7759b85-cf53-44a8-a8eb-4a234c78025a.wav", "text": "umstellman\u00f6ver vom echo sieben eins ins gleis sieben acht via gleis null neun antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/c2995b2d-93ef-4f44-be15-b1072e46e5e0.wav", "text": "rangierfahrt von gleis vier sechs ins gleis acht acht antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/79de9fd6-b076-430f-9119-34f653626ee6.wav", "text": "umstellman\u00f6ver vom zulu sechs eins via gleis acht sechs nach sierra eins neun antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/152cf1c5-d2a1-4adf-ae24-18113ce46140.wav", "text": "rangierfahrt von juliet vier sieben ins gleis sechs sieben antworten", "duration": 10.0}
-{"audio_filepath": "dataset/human/audios/0d5bd72a-108e-4a84-90ac-179c05496a2e.wav", "text": "umstellman\u00f6ver von gleis sechs acht nach gleis acht sechs via sierra sechs f\u00fcnf antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/e64595c7-baf4-4ca7-8c2b-c03805b56ec3.wav", "text": "umstellman\u00f6ver von vier f\u00fcnf via gleis lima eins vier nach acht neun antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/aaeafee4-d92b-46b6-8e7f-2375f52c78d5.wav", "text": "umstellman\u00f6ver von gleis bravo drei via vier eins nach drei sieben antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/b6eef754-da94-465a-b7bb-e773554ffae7.wav", "text": "rangierfahrt vom gleis quebec eins eins ins gleis november sieben sechs antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/9c5180f6-b562-4753-880c-33ece6d8b4ce.wav", "text": "rangierfahrt vom gleis sechs null ins gleis sechs f\u00fcnf antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/be491efa-d7ff-4b3a-abaf-8f25db6eff23.wav", "text": "rangierfahrt von gleis f\u00fcnf acht nach gleis zwo sechs antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/1394229a-029d-4a08-b03d-a6da0055e90c.wav", "text": "umstellman\u00f6ver von whisky f\u00fcnf f\u00fcnf ins gleis sierra null sechs via gleis oscar f\u00fcnf neun antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/a28a2c3b-e035-4534-9a75-e5c805db0df7.wav", "text": "umstellman\u00f6ver von eins drei nach gleis kilo eins sechs via lima eins sieben antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/3b7435cd-260a-4acc-b38b-27918ff61996.wav", "text": "umstellman\u00f6ver vom vier sieben via gleis acht f\u00fcnf ins gleis victor acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/ee6f4443-3669-48cc-b1e1-b85f488b5485.wav", "text": "rangierfahrt von yankee vier nach sechs sechs antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/4f3ddc3e-7940-46de-b592-14767d7c3c62.wav", "text": "rangierfahrt von charlie null neun ins drei zwo antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/b2770346-1571-4c2a-adb1-0b0bc9e571db.wav", "text": "rangierfahrt von gleis foxtrot acht vier nach gleis tango vier drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/88f30204-34b6-412d-be8b-7416d25d5196.wav", "text": "umstellman\u00f6ver vom mike zwei null via gleis xray null sechs ins gleis eins sieben antworten", "duration": 21.0}
-{"audio_filepath": "dataset/human/audios/b2d0f1fb-7bc9-4a18-a299-e8ee5ff53ff0.wav", "text": "rangierfahrt von gleis sechs sieben ins gleis vier neun antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/cdc0232f-de15-4006-ba6b-67dcb1ad299e.wav", "text": "umstellman\u00f6ver vom romeo f\u00fcnf via november sieben und acht drei nach gleis xray f\u00fcnf antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/c9823ae8-4598-46fe-9878-1d478647a027.wav", "text": "umstellman\u00f6ver vom gleis sierra eins vier nach gleis hotel null eins via golf neun acht antworten", "duration": 17.0}
-{"audio_filepath": "dataset/human/audios/5d4d5f43-4655-4d40-a426-a93c4702333a.wav", "text": "umstellman\u00f6ver vom gleis xray eins null ins sechs acht via gleis sieben null antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/ec2201be-766f-4738-a388-a1a36b81afb0.wav", "text": "rangierfahrt von charlie null zwo nach gleis uniform f\u00fcnf neun antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/32ef74ee-77ef-4413-bdc7-7b664f20ce09.wav", "text": "umstellman\u00f6ver vom gleis sechs ins drei via gleis yankee f\u00fcnf und via november drei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/4a340b6e-7487-4830-9971-79b6fd1596b2.wav", "text": "umstellman\u00f6ver vom gleis alpha eins null nach mike vier zwei via romeo f\u00fcnf f\u00fcnf antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/898cf5de-1f02-4ac2-b429-733a451590c4.wav", "text": "rangierfahrt vom romeo sieben sechs ins gleis acht antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/233fb96a-13d4-4d16-a0e3-7911a040bc61.wav", "text": "umstellman\u00f6ver von gleis vier f\u00fcnf ins gleis foxtrot sechs drei via neun antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/b08bbd10-81d5-4012-9102-02f39574acf8.wav", "text": "umstellman\u00f6ver vom gleis juliet vier f\u00fcnf nach sieben acht via vier acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/69f3b133-2b0c-42ac-8aff-ea4fc6115f33.wav", "text": "umstellman\u00f6ver vom drei eins ins zulu f\u00fcnf neun via acht drei antworten", "duration": 11.5}
-{"audio_filepath": "dataset/human/audios/f62d5b39-115d-4928-bcd6-4f5ac0fc4426.wav", "text": "umstellman\u00f6ver von gleis delta acht neun nach neun eins via tango acht f\u00fcnf antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/0558c73f-3810-4538-b2a7-afa73a53f0dc.wav", "text": "umstellman\u00f6ver vom hotel neun via acht eins nach alpha sieben vier antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/c5261e6b-ef8e-4241-9f42-fcc9fcf45286.wav", "text": "rangierfahrt vom null neun ins uniform sieben sieben antworten", "duration": 10.5}
-{"audio_filepath": "dataset/human/audios/5cb1f123-cfea-4fd6-bb81-55f23ae9f99e.wav", "text": "rangierfahrt von quebec f\u00fcnf acht ins gleis oscar sieben drei antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/ed5023b7-b1cf-4955-b1c8-5a9e4ff26706.wav", "text": "umstellman\u00f6ver von charlie zwo acht via zwo drei ins vier null antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/db3e76c9-75fc-45fa-878d-3f7795933d93.wav", "text": "umstellman\u00f6ver vom echo sieben eins ins gleis sieben acht via gleis null neun antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/ee13190a-91af-44fa-bfe8-fa20248518bc.wav", "text": "umstellman\u00f6ver vom f\u00fcnf eins ins gleis papa sechs drei via gleis vier sechs antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/7927262a-a823-4d7a-a851-c515cee43c8a.wav", "text": "umstellman\u00f6ver von drei drei ins hotel eins f\u00fcnf via vier drei antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/7932c01e-40db-4755-9297-8d91fc806e99.wav", "text": "umstellman\u00f6ver von papa f\u00fcnf neun ins kilo drei f\u00fcnf via gleis india eins antworten", "duration": 13.0}
-{"audio_filepath": "dataset/human/audios/68c786a0-e71e-422e-87e9-ea7dc4d57a18.wav", "text": "umstellman\u00f6ver vom gleis sechs ins drei via gleis yankee f\u00fcnf und via november drei antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/c67499f6-47d3-4888-bed9-e300e65d02b1.wav", "text": "umstellman\u00f6ver vom gleis null acht via gleis acht neun ins juliet drei drei antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/d045d6e4-b326-4314-8230-ae0290bdd3bd.wav", "text": "umstellman\u00f6ver vom gleis f\u00fcnf eins via acht sieben ins bravo eins null antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/965c6c5b-94e7-414e-be01-25a4e7205fb1.wav", "text": "rangierfahrt vom drei sechs nach echo f\u00fcnf acht antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/13580ab6-3fc0-4375-bea1-c7a3b8002060.wav", "text": "umstellman\u00f6ver vom drei eins ins zulu f\u00fcnf neun via acht drei antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/77b77dd2-452c-480b-b951-d7dd1eb7052d.wav", "text": "umstellman\u00f6ver vom hotel neun via acht eins nach alpha sieben vier antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/bd304fc6-0eef-437b-a420-32789369743c.wav", "text": "umstellman\u00f6ver von gleis sechs acht nach gleis acht sechs via sierra sechs f\u00fcnf antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/f2ebd713-30e8-4711-b60d-71dcbd44bd6e.wav", "text": "rangierfahrt von eins ins gleis eins drei antworten", "duration": 18.0}
-{"audio_filepath": "dataset/human/audios/7f567b08-edf9-4ad9-a2a3-28122ff75a63.wav", "text": "rangierfahrt gleis ins gleis antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/20aaec27-c6be-4698-816f-74effc1a1c7f.wav", "text": "umstellman\u00f6ver von vier f\u00fcnf via gleis lima eins vier nach acht neun antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/6dab278e-3dc8-415c-8712-45709e41859b.wav", "text": "rangierfahrt von sechs ins delta acht sechs antworten", "duration": 11.0}
-{"audio_filepath": "dataset/human/audios/c3a17f10-0161-4d95-ba2d-022d641f3b11.wav", "text": "umstellman\u00f6ver vom vier zwei via echo acht eins ins gleis foxtrot f\u00fcnf eins antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/e34c83ff-3241-4f06-a4e8-880f56d6243e.wav", "text": "umstellman\u00f6ver vom gleis india eins vier ins sierra acht f\u00fcnf via gleis bravo zwei eins antworten", "duration": 14.5}
-{"audio_filepath": "dataset/human/audios/3c3f4da0-ebd6-4fbf-b7e4-9176c6ac5ef0.wav", "text": "rangierfahrt vom gleis zwo zwo ins null sechs antworten", "duration": 9.5}
-{"audio_filepath": "dataset/human/audios/cf611154-45fb-4359-96b9-ebb8e7c964ed.wav", "text": "rangierfahrt von gleis drei null ins eins f\u00fcnf antworten", "duration": 15.0}
-{"audio_filepath": "dataset/human/audios/7518d27e-9178-4962-93cf-8c5d61096e78.wav", "text": "umstellman\u00f6ver von november neun nach f\u00fcnf via gleis tango vier und romeo drei antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/5b676659-48e5-48f7-b49f-11e6a2938cd8.wav", "text": "umstellman\u00f6ver von whisky f\u00fcnf f\u00fcnf ins gleis sierra null sechs via gleis oscar f\u00fcnf neun antworten", "duration": 15.5}
-{"audio_filepath": "dataset/human/audios/6c02016e-5590-40c9-b126-2879121df35f.wav", "text": "umstellman\u00f6ver vom gleis whisky drei f\u00fcnf ins uniform drei acht via gleis eins sechs antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/eac80499-5b1b-4797-a62d-7460a0c80990.wav", "text": "umstellman\u00f6ver vom null sechs ins kilo f\u00fcnf neun via gleis charlie neun vier antworten", "duration": 16.0}
-{"audio_filepath": "dataset/human/audios/bd1c4d3a-b1c3-4557-a7ad-7eb1e149eb13.wav", "text": "rangierfahrt vom gleis xray drei acht nach india acht zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/7325d82e-4423-422e-8e4b-2bb360204262.wav", "text": "umstellman\u00f6ver vom gleis sechs ins sieben f\u00fcnf via gleis xray null und gleis sieben antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/648beb0a-0c78-485c-a902-f9eaa8481b2d.wav", "text": "rangierfahrt von gleis romeo neun drei ins kilo sieben null antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/f47d664f-87be-4001-be18-930b1d10ba75.wav", "text": "rangierfahrt vom sechs sechs nach gleis sechs zwo antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/e6978e9e-f20a-4e1e-8e86-4581977a8a36.wav", "text": "rangierfahrt von yankee neun eins ins vier acht antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/316e6922-7677-47c2-bd9f-68535ae7d7a5.wav", "text": "umstellman\u00f6ver vom gleis quebec vier null nach gleis oscar vier neun via gleis delta zwei neun antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/d9bbbb48-1c08-49b2-a887-a1a6db11457c.wav", "text": "umstellman\u00f6ver vom vier sieben via gleis acht f\u00fcnf ins gleis victor acht antworten", "duration": 19.5}
-{"audio_filepath": "dataset/human/audios/ada12ef8-ebc5-4af6-b291-755957c544b6.wav", "text": "rangierfahrt vom drei sechs nach echo f\u00fcnf acht antworten", "duration": 12.5}
-{"audio_filepath": "dataset/human/audios/a8a8f829-ccb7-438d-b41f-6908db0cc5f3.wav", "text": "rangierfahrt vom oscar sechs acht nach gleis foxtrot zwei neun antworten", "duration": 18.5}
-{"audio_filepath": "dataset/human/audios/6dde6ece-f4c7-446b-8c3e-70727dd681e0.wav", "text": "umstellman\u00f6ver vom gleis xray eins null ins sechs acht via gleis sieben null antworten", "duration": 14.0}
-{"audio_filepath": "dataset/human/audios/d2f3ce5e-ffa8-40f7-b6a9-caa5bb3322cb.wav", "text": "umstellman\u00f6ver von gleis null drei via null eins nach alpha vier zwo antworten", "duration": 13.5}
-{"audio_filepath": "dataset/human/audios/9ea102da-2fa1-40a8-a866-03cd51c7327d.wav", "text": "rangierfahrt von f\u00fcnf zwo ins gleis xray null antworten", "duration": 12.0}
-{"audio_filepath": "dataset/human/audios/b6aa8f85-d0cb-4c28-9f37-6624966103fe.wav", "text": "umstellman\u00f6ver vom bravo null sieben via gleis vier drei nach neun zwo antworten", "duration": 15.0}
+{"audio_filepath": "sbb_test/Audios/7ce2f587-2338-4b64-aa54-83b97472419f.wav", "text": "rangierfahrt von tango eins sechs ins delta sieben acht antworten", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/3d2b6af8-7cd7-4892-b83d-af0b36093143.wav", "text": "rangierfahrt vom gleis drei drei nach gleis lima zwei acht antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/4e3158e6-931a-4e8f-9c4a-d704d2b0e1dd.wav", "text": "umstellman\u00f6ver von november sechs nach sieben via delta vier und gleis uniform drei antworten", "duration": 16.0}
+{"audio_filepath": "sbb_test/Audios/14a422c9-1092-491b-bca0-c6df3aed90d5.wav", "text": "umstellman\u00f6ver vom gleis xray eins null ins sechs acht via gleis sieben null antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/6dd228ce-5ac7-4376-acdb-b03efd3dfc1f.wav", "text": "rangierfahrt vom drei sechs nach echo f\u00fcnf acht antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/09be14bc-b5d8-4358-a3d7-0b09c1b7f396.wav", "text": "rangierfahrt von f\u00fcnf zwo ins gleis xray null antworten", "duration": 16.5}
+{"audio_filepath": "sbb_test/Audios/2ac16eb0-102e-4217-b33c-4c0ef933544e.wav", "text": "umstellman\u00f6ver vom null acht via gleis sieben acht ins gleis f\u00fcnf eins antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/6ceac550-bfec-4ea8-bdfc-430a4fe8cbee.wav", "text": "umstellman\u00f6ver vom null acht via gleis sieben acht ins gleis f\u00fcnf eins antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/4ee3eb23-e5a9-455a-9708-242499af3c64.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/1bf25eec-1e5c-44b1-95df-11f50c67d43a.wav", "text": "umstellman\u00f6ver vom drei sechs nach gleis xray vier sieben via null vier antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/0bde7226-3acb-4a2d-a512-fbefab68fe39.wav", "text": "umstellman\u00f6ver vom gleis sieben via gleis zulu acht und via gleis zwei ins gleis null null antworten", "duration": 15.0}
+{"audio_filepath": "sbb_test/Audios/3a10e257-c387-4f72-afcd-ee4990fe7805.wav", "text": "rangierfahrt von gleis charlie eins null nach gleis vier vier antworten", "duration": 14.5}
+{"audio_filepath": "sbb_test/Audios/19aa48c8-5860-4d85-ae96-f696e41ae951.wav", "text": "umstellman\u00f6ver vom drei acht via gleis neun f\u00fcnf nach echo sieben sieben antworten", "duration": 17.0}
+{"audio_filepath": "sbb_test/Audios/0a017a9c-1f05-472f-b8c2-d9c464d01923.wav", "text": "umstellman\u00f6ver von eins drei nach gleis kilo eins sechs via lima eins sieben antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/0fb771d5-0441-40b3-9538-ff703f74b7e9.wav", "text": "umstellman\u00f6ver von eins drei nach gleis kilo eins sechs via lima eins sieben antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/9bf2ddde-ea6d-49aa-9f5e-563dfecd8d34.wav", "text": "rangierfahrt von yankee neun eins ins vier acht antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/2b5d5900-70af-4088-bf02-1ae1006b8263.wav", "text": "rangierfahrt von gleis foxtrot acht vier nach gleis tango vier drei antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/2afd42bc-fd2b-4ce2-b6bb-5dae30cfb122.wav", "text": "umstellman\u00f6ver vom f\u00fcnf via gleis vier vier nach gleis yankee null null antworten", "duration": 15.5}
+{"audio_filepath": "sbb_test/Audios/7feb048d-c9f3-481c-9d22-553fbbef6a7f.wav", "text": "rangierfahrt von gleis bravo f\u00fcnf sechs nach neun zwei antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/9a12ca44-0544-4a99-8801-b483b4755e6f.wav", "text": "umstellman\u00f6ver von gleis sieben ins gleis sechs neun via gleis yankee vier zwo antworten", "duration": 16.0}
+{"audio_filepath": "sbb_test/Audios/6e2cd943-95f5-4b4a-b8d8-e26d878dce03.wav", "text": "umstellman\u00f6ver von neun zwei via whisky vier sechs ins gleis sierra sechs eins antworten", "duration": 15.0}
+{"audio_filepath": "sbb_test/Audios/9d456c56-be90-49e7-ad8a-ae369a661c47.wav", "text": "rangierfahrt von gleis acht neun nach papa zwei antworten", "duration": 14.5}
+{"audio_filepath": "sbb_test/Audios/8a669f42-9fdd-46ba-85fb-120463ad4907.wav", "text": "rangierfahrt von mike f\u00fcnf sieben nach gleis f\u00fcnf drei antworten", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/6d0f376c-b7d6-4efd-9c16-b7ddb6f2e6d4.wav", "text": "umstellman\u00f6ver vom gleis sieben via gleis zulu acht und via gleis zwo ins gleis null null antworten", "duration": 15.0}
+{"audio_filepath": "sbb_test/Audios/5dbd634c-0b2e-4e90-a12d-ee2a073c942f.wav", "text": "umstellman\u00f6ver vom gleis f\u00fcnf eins via acht sieben ins bravo eins null antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/6b574148-8aa9-4817-800a-bf64a5134e03.wav", "text": "umstellman\u00f6ver vom kilo f\u00fcnf sieben nach sechs zwo via gleis neun sechs antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/03b36f84-4783-4898-93a5-4a3880e1b34e.wav", "text": "umstellman\u00f6ver vom papa acht sieben via charlie zwo ins gleis foxtrot acht drei antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/5a91ebfc-045e-4c1d-870d-ed75d9d7020c.wav", "text": "umstellman\u00f6ver vom gleis quebec neun acht ins zulu drei neun via vier sechs antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/7b0ced74-f729-491e-aab9-068482bb81c8.wav", "text": "rangierfahrt von gleis bravo neun sieben ins drei sechs antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/8e4590a3-d1c4-44e1-b9e7-635490870c96.wav", "text": "rangierfahrt von sierra neun f\u00fcnf ins eins acht antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/5ebbaf0e-4ccb-4191-96fe-89f802f51358.wav", "text": "rangierman\u00f6ver von gleis echo sieben eins ins gleis sieben sechs drei antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/08b67d2c-bef4-49b2-97d3-0479d62d7a1a.wav", "text": "rangierfahrt vom gleis neun acht ins juliet sechs drei antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/8b3fd246-ef95-4d15-988e-106995293767.wav", "text": "rangierfahrt vom gleis romeo vier f\u00fcnf nach gleis hotel zwei antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/1ae884f1-1d3d-4ba6-86a0-3e44d10b2672.wav", "text": "umstellman\u00f6ver vom gleis mike acht neun via vier f\u00fcnf nach zwo vier antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/8ef57651-5b18-435d-907c-4850d75e228a.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 16.5}
+{"audio_filepath": "sbb_test/Audios/6bb039d0-93d1-4584-b5de-7c0c31e8f276.wav", "text": "umstellman\u00f6ver von mike acht f\u00fcnf via gleis eins acht ins gleis delta f\u00fcnf f\u00fcnf antworten", "duration": 16.5}
+{"audio_filepath": "sbb_test/Audios/6bd616e0-a9e6-4d39-ac61-862b0fd061db.wav", "text": "umstellman\u00f6ver vom vier sechs nach gleis drei zwo via hotel null vier antworten", "duration": 14.5}
+{"audio_filepath": "sbb_test/Audios/1a9044da-f3a6-4b98-81d7-0940c65602fe.wav", "text": "rangierfahrt vom whisky acht vier ins gleis sechs null antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/7d2cc077-e448-4038-b0f9-18b7491b96ed.wav", "text": "umstellman\u00f6ver vom drei eins ins zulu f\u00fcnf neun via acht drei antworten", "duration": 15.5}
+{"audio_filepath": "sbb_test/Audios/1dcc3e4c-96f2-4011-b5ff-45ecd9214aa9.wav", "text": "rangierfahrt vom tango zwo zwo nach zwo neun antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/2f62c8e5-52e4-4e68-a39e-e33ae0f6a4a3.wav", "text": "umstellman\u00f6ver von tango neun acht ins gleis whisky zwo drei via gleis zwo f\u00fcnf antworten", "duration": 17.5}
+{"audio_filepath": "sbb_test/Audios/7ff77ee6-3f6c-4199-ae3d-a19183c7eb48.wav", "text": "rangierfahrt von gleis yankee eins neun ins null neun antworten", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/6dde6ece-f4c7-446b-8c3e-70727dd681e0.wav", "text": "umstellman\u00f6ver vom gleis xray eins null ins sechs acht via gleis sieben null antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/06f931b4-611c-419b-98b0-9e23a4c3fe47.wav", "text": "rangierfahrt vom eins null ins sechs eins antworten", "duration": 17.0}
+{"audio_filepath": "sbb_test/Audios/6d7a2d81-af11-4741-be6f-5380d3e9d6ce.wav", "text": "rangierfahrt von charlie null neun ins drei zwo antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/1f22d0fb-e322-40bf-8b4e-6f9b92214f92.wav", "text": "rangierfahrt vom null eins ins gleis drei neun antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/6fc167a1-88f0-4090-8cd9-738b12dd3251.wav", "text": "rangierfahrt von gleis november sieben nach golf zwo sechs antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/4e88d86c-af36-4823-8c12-12839d28db5f.wav", "text": "rangierfahrt von victor acht null nach gleis neun antworten", "duration": 10.0}
+{"audio_filepath": "sbb_test/Audios/3bac6426-4787-4726-b29f-c217c04537cf.wav", "text": "rangierfahrt von foxtrot f\u00fcnf null ins gleis sieben sieben antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/7d1eced0-7fb4-4d80-b92d-1ed77c6d3fde.wav", "text": "rangierfahrt vom whisky neun zwei nach drei sieben antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/01f9260b-4239-4915-b028-ebbf511769e3.wav", "text": "umstellman\u00f6ver vom f\u00fcnf via gleis vier vier nach gleis yankee null null antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/9d163612-c057-43c8-8a43-a6ddff09407b.wav", "text": "umstellman\u00f6ver vom null vier via sechs drei ins gleis sieben null antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/6f0b373d-9495-47ef-9086-a85ad9f6da00.wav", "text": "rangierfahrt vom drei sechs nach echo f\u00fcnf acht antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/5a78d37e-f4f9-479b-962f-4e08985a6413.wav", "text": "umstellman\u00f6ver vom gleis whisky drei f\u00fcnf ins uniform drei acht via gleis eins sechs antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/9a87f5df-e9ac-4b79-ae29-e71488d2846a.wav", "text": "rangierfahrt von f\u00fcnf zwo ins gleis xray null antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/2d5624d5-e69f-4486-9e69-40d8d706a935.wav", "text": "rangierfahrt von zwo neun nach gleis papa null f\u00fcnf antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/0df168b6-8892-4d52-872a-8a1460ac8bd1.wav", "text": "umstellman\u00f6ver vom acht sechs via tango sechs null nach gleis eins drei antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/9aa6ea60-08ff-40aa-8527-06cc62818cc5.wav", "text": "umstellman\u00f6ver vom acht neun nach gleis hotel null sieben via gleis eins eins antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/1c384ed6-7157-4478-ad44-269c251ee59f.wav", "text": "umstellman\u00f6ver vom mike zwei null via gleis xray null sechs ins gleis eins sieben antworten", "duration": 14.5}
+{"audio_filepath": "sbb_test/Audios/9f040fce-b882-4002-a47b-2f8bb646cc8d.wav", "text": "rangierfahrt von charlie null neun ins drei zwei antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/02ce1d11-8e9f-4f10-9008-88cdb871b1bb.wav", "text": "rangierfahrt von f\u00fcnf zwei nach gleis lima sieben zwei antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/8bedd944-6c0e-4daa-8b56-8f5c93b0f839.wav", "text": "rangierfahrt vom eins null ins sechs eins antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/09bfeabf-b1e8-4960-9634-7769e458bafb.wav", "text": "rangierfahrt vom gleis drei drei nach gleis lima zwo acht antworten", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/7dac8ea2-b5bc-47d1-8810-157c92baf896.wav", "text": "umstellman\u00f6ver vom bravo null sieben via gleis vier drei nach neun zwo antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/8a621367-5bac-4edb-b678-2f51d4eb1341.wav", "text": "rangierfahrt vom null eins ins gleis drei neun antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/4ccb6c7e-3ae3-4f76-bb36-e83744f2fbc4.wav", "text": "umstellman\u00f6ver vom gleis quebec sechs eins via echo acht sieben nach uniform f\u00fcnf sechs antworten", "duration": 15.5}
+{"audio_filepath": "sbb_test/Audios/0b267823-e682-4820-9fe3-1e11bb257276.wav", "text": "umstellman\u00f6ver vom foxtrot acht nach gleis neun acht via sechs acht antworten", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/06b3e773-a3c5-4248-bdba-345bdb02f6e1.wav", "text": "rangierfahrt von gleis hotel sieben null nach gleis vier neun antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/7a97f3bb-3738-4161-94b9-d7e01501f2e3.wav", "text": "rangierfahrt vom drei vier ins alpha sechs sechs antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/7d833a29-8fab-427f-a044-32f01ccf2fe9.wav", "text": "umstellman\u00f6ver von vier null ins gleis drei via whisky zwei neun antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/6b9fbd86-02d2-4be3-b4e8-0caaddcf1bb6.wav", "text": "rangierfahrt vom yankee eins neun ins f\u00fcnf f\u00fcnf antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/7f1861f5-51b7-42c3-b434-6fa0482e27dd.wav", "text": "umstellman\u00f6ver vom papa acht sieben via charlie zwei ins gleis foxtrot acht drei antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/0ac4a763-a234-45de-b3eb-791fe078eb03.wav", "text": "rangierfahrt von victor acht null nach gleis neun antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/6d5b59fb-e209-422a-b4cd-f39bd44f7cb1.wav", "text": "rangierfahrt von india sieben f\u00fcnf ins foxtrot acht acht antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/1c88d691-af88-46f1-98ac-04131530317c.wav", "text": "umstellman\u00f6ver vom gleis alpha eins null nach mike vier zwo via romeo f\u00fcnf f\u00fcnf antworten", "duration": 14.5}
+{"audio_filepath": "sbb_test/Audios/2b6e34a8-547f-4991-9baf-e32394dee76a.wav", "text": "umstellman\u00f6ver vom gleis echo vier acht ins victor drei null via papa drei eins antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/7cd25822-fe78-43ea-a584-4c42834d9b44.wav", "text": "umstellman\u00f6ver vom neun ins gleis zwei neun via f\u00fcnf drei antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/5ab93098-0844-4d1e-8d63-fb3dc617c6b7.wav", "text": "umstellman\u00f6ver von gleis sieben ins gleis sechs neun via gleis yankee vier zwei antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/7cd8b176-0e81-44b4-bc7f-3e79bceed3cd.wav", "text": "umstellman\u00f6ver vom gleis hotel eins acht via juliet eins acht ins delta f\u00fcnf sieben antworten", "duration": 14.5}
+{"audio_filepath": "sbb_test/Audios/8d880068-a914-452e-9413-43f0e6a97b34.wav", "text": "umstellman\u00f6ver vom lima sechs via uniform sechs und sieben ins zwo antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/8c769e29-7e1a-4080-a98c-bc2e5d8a4860.wav", "text": "rangierfahrt von hotel eins drei ins gleis papa f\u00fcnf vier antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/2ff8b4fe-e215-41bc-a437-150f87dd3c3e.wav", "text": "umstellman\u00f6ver vom gleis sieben via gleis zulu acht und via gleis zwo ins gleis null null antworten", "duration": 15.5}
+{"audio_filepath": "sbb_test/Audios/19ca726b-fab7-4cdf-89aa-3a359bca52d6.wav", "text": "umstellman\u00f6ver von tango vier f\u00fcnf via gleis sechs drei ins gleis acht eins antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/2a01a232-ee37-4b3c-b1a6-588c4b6a849b.wav", "text": "umstellman\u00f6ver von gleis vier f\u00fcnf ins gleis foxtrot sechs drei via neun antworten", "duration": 21.5}
+{"audio_filepath": "sbb_test/Audios/5aef642b-1e72-4788-a0df-7991f8509db2.wav", "text": "umstellman\u00f6ver vom acht sieben via gleis november eins sechs ins gleis golf eins sieben antworten", "duration": 14.5}
+{"audio_filepath": "sbb_test/Audios/0ef8d923-31cd-4831-af29-eba7c91358f4.wav", "text": "rangierfahrt vom gleis sechs acht nach gleis acht sechs antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/7c0dce3d-7d18-47d7-ae19-631bad8e5603.wav", "text": "rangierfahrt von alpha zwei sieben sieben nach oscar null neun f\u00fcnf", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/3d5b41f1-666d-4ffb-b76e-f2f7ef046f42.wav", "text": "rangierfahrt zwo vier vier golf drei", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/02d1e8b5-bd20-4a19-87e1-b91ca373803e.wav", "text": "umstellman\u00f6ver vom gleis null acht via gleis acht neun ins juliet drei drei antworten", "duration": 18.5}
+{"audio_filepath": "sbb_test/Audios/8b471337-3992-4e6b-8360-adc098e78921.wav", "text": "rangierfahrt von quebec f\u00fcnf acht ins gleis oscar sieben drei antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/2fcb895c-0415-4b6d-b920-5bf5eb35a8d8.wav", "text": "umstellman\u00f6ver von gleis sieben ins gleis sechs neun via gleis yankee vier zwo antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/9b0a0c58-6b68-4579-ba7c-b0d68bb0410e.wav", "text": "rangierfahrt von charlie null neun ins drei zwei antworten", "duration": 9.5}
+{"audio_filepath": "sbb_test/Audios/9dad0e11-136e-4033-95e6-7a32974bdca0.wav", "text": "rangierfahrt vom victor null f\u00fcnf nach gleis neun vier antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/4c6cc9da-d20f-420d-b505-82f86fa6938c.wav", "text": "rangierfahrt von gleis charlie eins null nach gleis vier vier antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/3ccd98f2-3a25-4f2c-a7d2-fd2e1290ea14.wav", "text": "umstellman\u00f6ver von neun zwo via whisky vier sechs ins gleis sierra sechs eins antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/8b833949-5e17-4789-bba1-f3b4676da4c2.wav", "text": "rangierfahrt gleis ins gleis antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/8e1a175e-29c7-45bb-831f-77d90b63870e.wav", "text": "rangierfahrt vom gleis null antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/5fc125f5-bec2-49ab-b3fc-e5d5379051ce.wav", "text": "umstellman\u00f6ver von charlie zwo acht via zwo drei ins vier null antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/0ab80b89-aa32-4514-8882-28db77aee027.wav", "text": "umstellman\u00f6ver von tango neun acht ins gleis whisky zwo drei via gleis zwo f\u00fcnf antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/4c2ae831-6ec8-4af4-82c4-9a7d634b4b07.wav", "text": "rangierfahrt vom gleis zulu sechs zwo nach gleis sieben eins antworten", "duration": 12.0}
+{"audio_filepath": "sbb_test/Audios/9ee70662-2ae0-4198-aaf4-e54f50609fcc.wav", "text": "rangierfahrt von xray vier eins nach bravo neun null antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/4e2ff735-f0db-456d-9bfb-8a00455d9485.wav", "text": "rangierfahrt von gleis f\u00fcnf acht nach gleis zwo sechs antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/0e26ba66-7cf9-42b3-baa7-6bdfd7d4e5c1.wav", "text": "umstellman\u00f6ver vom acht sechs via tango sechs null nach gleis eins drei antworten", "duration": 15.5}
+{"audio_filepath": "sbb_test/Audios/3ee0c259-561f-4876-99d0-ac781e770bd7.wav", "text": "rangierfahrt von uniform neun nach sechs vier antworten", "duration": 11.0}
+{"audio_filepath": "sbb_test/Audios/8a95412a-6367-4a7a-b8fb-2ee1f0fdea7f.wav", "text": "umstellman\u00f6ver vom gleis hotel eins acht via juliet eins acht ins delta f\u00fcnf sieben antworten", "duration": 17.5}
+{"audio_filepath": "sbb_test/Audios/9d43ae34-b9f0-433a-81cf-45a5fe655a89.wav", "text": "umstellman\u00f6ver vom gleis zwo null via gleis neun und via gleis eins nach sieben zwo antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/1cbfc197-3b6b-4cc7-af28-63fccae00e81.wav", "text": "umstellman\u00f6ver vom vier zwo via echo acht eins ins gleis foxtrot f\u00fcnf eins antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/8dd44308-7410-4938-8868-1fa056e3dcab.wav", "text": "umstellman\u00f6ver vom gleis quebec sechs eins via echo acht sieben nach uniform f\u00fcnf sechs antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/4b5b80e0-aa2e-43d3-b958-92693a085c54.wav", "text": "rangierfahrt von gleis echo vier ins gleis null acht antworten", "duration": 10.0}
+{"audio_filepath": "sbb_test/Audios/2f6f7394-2a5e-4835-aa9b-7613be8b7e60.wav", "text": "umstellman\u00f6ver vom drei sechs nach gleis xray vier sieben via null vier antworten", "duration": 15.5}
+{"audio_filepath": "sbb_test/Audios/3e67f54a-6ef7-4598-aae4-fc0d41ec4923.wav", "text": "umstellman\u00f6ver von sechs null via acht vier ins golf eins vier antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/7ecc6e7a-e568-485c-b5a9-a9dcc861c4a5.wav", "text": "rangierfahrt von sierra neun f\u00fcnf ins eins acht antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/4a56b87e-c41d-41a1-b9dc-ad562ef28bdc.wav", "text": "umstellman\u00f6ver vom acht acht via zwo null ins alpha f\u00fcnf vier antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/3b9e01d1-fd2d-478a-a5be-5e76868f7e4c.wav", "text": "umstellman\u00f6ver vom gleis sechs ins sieben f\u00fcnf via gleis xray null und gleis sieben antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/9e7ccdfb-f6b3-474e-b25d-6efbf7443240.wav", "text": "umstellman\u00f6ver von gleis vier acht nach quebec null sechs via sierra eins zwo antworten", "duration": 13.5}
+{"audio_filepath": "sbb_test/Audios/18c1d207-6bb1-4f5d-8eae-9e329fcf975d.wav", "text": "rangierfahrt von india sieben f\u00fcnf ins foxtrot acht acht antworten", "duration": 10.5}
+{"audio_filepath": "sbb_test/Audios/9a282cbe-9167-477b-8ec6-2103f26149dc.wav", "text": "rangierfahrt von gleis bravo drei sechs nach gleis golf f\u00fcnf antworten", "duration": 12.5}
+{"audio_filepath": "sbb_test/Audios/7b1f5b41-8fb7-4464-bf26-d0eb010b6c9d.wav", "text": "rangierfahrt von india drei acht ins gleis sieben eins antworten", "duration": 10.0}
+{"audio_filepath": "sbb_test/Audios/6f8e2185-c64b-44b3-bca5-5d3d42011e03.wav", "text": "rangierfahrt von gleis sieben neun nach sechs f\u00fcnf antworten", "duration": 11.5}
+{"audio_filepath": "sbb_test/Audios/3f0edce8-4956-415e-853c-5573f6512314.wav", "text": "rangierfahrt von gleis bravo f\u00fcnf sechs nach neun zwei antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/8ebef9e4-2dea-4e85-925e-f51646f2aa2c.wav", "text": "rangierfahrt vom null neun ins uniform sieben sieben antworten", "duration": 14.0}
+{"audio_filepath": "sbb_test/Audios/6c5b5498-4dd3-489d-b929-48e2400ed18a.wav", "text": "umstellman\u00f6ver vom sechs drei nach kilo sieben neun via foxtrot vier zwo antworten", "duration": 13.0}
+{"audio_filepath": "sbb_test/Audios/7d7aeb8f-282e-4f37-ad24-57cfbe33347a.wav", "text": "umstellman\u00f6ver von gleis null drei via null eins nach alpha vier zwo antworten", "duration": 14.5}

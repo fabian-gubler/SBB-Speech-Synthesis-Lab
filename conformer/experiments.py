@@ -11,7 +11,7 @@ from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
 val_manifest_path = "../sbb/conformer/output/val_manifest.json"
 test_manifest_path = "../sbb/conformer/output/test_manifest.json"
-project_name = "conformer_test_01"
+project_name = "conformer_test_02"
 
 def load_manifests(train_manifest_path, val_manifest_path, test_manifest_path):
     train_manifest = []
@@ -93,7 +93,7 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
 #     train_manifest_path = f"./output/train_manifest_{i}.json"
 #     sweep_iteration(train_manifest_path, i)
 
-for i in range(1, 5):
+for i in range(0, 5):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_german_{i}.json"
     sweep_iteration(train_manifest_path, i)
 

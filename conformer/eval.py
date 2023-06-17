@@ -32,7 +32,7 @@ def evaluate(model, manifest_path, save_path=None):
     # Calculate evaluation metrics
     wer = jiwer.wer(references, predictions)
     cer = jiwer.cer(references, predictions)
-    ser = jiwer.ser(references, predictions)
+    # ser = jiwer.ser(references, predictions)
     # word_accuracy = model.calc_word_errors(hypotheses=predictions, references=references, use_cer=False)
 
     # Print the evaluation results

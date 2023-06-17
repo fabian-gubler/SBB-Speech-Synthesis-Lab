@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import nemo.collections.asr as nemo_asr
-from nemo.collections.asr.metrics.wer import WERMetric
+import jiwer
 
 def load_model(model_path):
     # Load the trained ASR model from the NEMO file
@@ -19,8 +19,6 @@ def evaluate(model, manifest_path, save_path=None):
     references = []
     predictions = []
 
-    wer_metric = WERMetric()
-
     for entry in manifest:
         audio_path = entry['audio_filepath']
         reference = entry['text']
@@ -31,11 +29,8 @@ def evaluate(model, manifest_path, save_path=None):
         references.append(reference)
         predictions.append(predicted_text)
 
-        # Update the WER metric
-        wer_metric.add_batch(hypotheses=[predicted_text], references=[reference])
-
     # Calculate evaluation metrics
-    wer = wer_metric.compute()
+    wer = jiwer.wer(references, predictions)
     cer = model.calc_cer(hypotheses=predictions, references=references)
     ser = model.calc_ser(hypotheses=predictions, references=references)
     word_accuracy = model.calc_word_errors(hypotheses=predictions, references=references, use_cer=False)

@@ -31,15 +31,15 @@ def evaluate(model, manifest_path, save_path=None):
 
     # Calculate evaluation metrics
     wer = jiwer.wer(references, predictions)
-    cer = model.calc_cer(hypotheses=predictions, references=references)
-    ser = model.calc_ser(hypotheses=predictions, references=references)
-    word_accuracy = model.calc_word_errors(hypotheses=predictions, references=references, use_cer=False)
+    cer = jiwer.cer(references, predictions)
+    ser = jiwer.ser(references, predictions)
+    # word_accuracy = model.calc_word_errors(hypotheses=predictions, references=references, use_cer=False)
 
     # Print the evaluation results
     print(f"Word Error Rate (WER): {wer}")
     print(f"Character Error Rate (CER): {cer}")
     print(f"Sentence Error Rate (SER): {ser}")
-    print(f"Word-level Accuracy: {word_accuracy}")
+    # print(f"Word-level Accuracy: {word_accuracy}")
 
     # Create a confusion matrix
     labels = sorted(list(set(references)))

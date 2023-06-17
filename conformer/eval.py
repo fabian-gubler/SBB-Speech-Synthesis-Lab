@@ -65,7 +65,7 @@ def evaluate(model, manifest_path, save_path=None):
 
 if __name__ == '__main__':
     # Define the paths to the model and manifest file
-    model_path = './models/model_conformer_0_20230616_134433.nemo'
+    model_path = './models/model_conformer_10_20230616_154826.nemo'
     manifest_path = './output/test_manifest.json'
     save_path = 'confusion_matrix.png'
 

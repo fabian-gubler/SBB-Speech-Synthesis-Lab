@@ -38,7 +38,15 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     wandb.init(project=project_name, name=run_name, reinit=True)
     wandb_logger = WandbLogger(log_model='all')
 
-    checkpoint_callback = ModelCheckpoint(monitor='val_wer', mode='min')
+    checkpoint_callback = ModelCheckpoint(
+        monitor='val_loss',
+        mode='min',
+        dirpath='./checkpoints',
+        filename=f'{run_name}' + '-{epoch:02d}-{val_loss:.2f}',
+        save_top_k=1,
+        save_last=True,
+        verbose=True
+    )
 
     trainer = pl.Trainer(max_epochs=10, logger=wandb_logger, callbacks=[checkpoint_callback], gpus=[2], accelerator="gpu")
 
@@ -56,6 +64,10 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model.cfg.test_ds.batch_size = 8
 
     model.setup_training_data(model.cfg.train_ds)
+
+    # Shuffle the train_manifest
+    random.shuffle(model.cfg.train_ds.manifest)
+
     model.setup_validation_data(model.cfg.validation_ds)
     model.setup_test_data(model.cfg.test_ds)
 

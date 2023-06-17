@@ -8,7 +8,7 @@ from pydub.utils import mediainfo
 from tqdm import tqdm
 
 # Directories for the audio samples and the labels
-base_dir = 'dataset/human/'
+base_dir = 'dataset/hsg/'
 samples_dir = base_dir + 'audios/'
 labels_dir = base_dir + 'labels/'
 

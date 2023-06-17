@@ -11,9 +11,13 @@
 
 ### Training
 
-1. Randomness of Values (Possible Explanations)
-	- Model initialized randomly
-	- Data shuffling
+- Files created overlap
+    - Extract function -> manually create .json files
+- Make script faster (e.g. batch size, epochs)
+
+Alternative Solutions
+- Test saved models on hsg samples
+
 
 
 ### Important Notes

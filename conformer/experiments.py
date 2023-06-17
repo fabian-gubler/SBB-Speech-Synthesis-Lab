@@ -62,11 +62,9 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model.cfg.train_ds.batch_size = 8
     model.cfg.validation_ds.batch_size = 8
     model.cfg.test_ds.batch_size = 8
+    model.cfg.train_ds.shuffle = True
 
     model.setup_training_data(model.cfg.train_ds)
-
-    # Shuffle the train_manifest
-    random.shuffle(model.cfg.train_ds.manifest)
 
     model.setup_validation_data(model.cfg.validation_ds)
     model.setup_test_data(model.cfg.test_ds)

@@ -93,7 +93,7 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
 #     train_manifest_path = f"./output/train_manifest_{i}.json"
 #     sweep_iteration(train_manifest_path, i)
 
-for i in range(0, 5):
+for i in range(1, 5):
     train_manifest_path = f"./output/train_manifest_german{i}.json"
     sweep_iteration(train_manifest_path, i)
 

@@ -9,8 +9,8 @@ import pytorch_lightning as pl
 import nemo.collections.asr as nemo_asr
 from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
-val_manifest_path = "./output/val_manifest.json"
-test_manifest_path = "./output/test_manifest.json"
+val_manifest_path = "../sbb/conformer/output/val_manifest.json"
+test_manifest_path = "../sbb/conformer/output/test_manifest.json"
 project_name = "conformer_test_01"
 
 def load_manifests(train_manifest_path, val_manifest_path, test_manifest_path):

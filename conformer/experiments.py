@@ -7,6 +7,7 @@ import wandb
 from pytorch_lightning.loggers import WandbLogger
 import pytorch_lightning as pl
 import nemo.collections.asr as nemo_asr
+from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
 val_manifest_path = "./output/val_manifest.json"
 test_manifest_path = "./output/test_manifest.json"
@@ -48,7 +49,19 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
         verbose=True
     )
 
-    trainer = pl.Trainer(max_epochs=10, logger=wandb_logger, callbacks=[checkpoint_callback], gpus=[2], accelerator="gpu")
+    early_stopping_callback = EarlyStopping(
+        monitor='val_wer',
+        mode='min',
+        patience=3  # Number of epochs with no improvement after which training will be stopped
+    )
+
+    trainer = pl.Trainer(
+        max_epochs=10,
+        logger=wandb_logger,
+        callbacks=[checkpoint_callback, early_stopping_callback],
+        gpus=[2],
+        accelerator="gpu"
+    )
 
     model = nemo_asr.models.ASRModel.from_pretrained(model_name="stt_de_conformer_ctc_large")
 

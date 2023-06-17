@@ -72,19 +72,19 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model.setup_test_data(model.cfg.test_ds)
 
     trainer.fit(model)
-    test_result = trainer.test(model)
+    trainer.test(model)
 
-    # Get the test word error rate
-    test_wer = test_result[0]['test_wer']
-
-    # Check if the current iteration has a lower word error rate
-    if test_wer < min_wer:
-        min_wer = test_wer
-
-    # Save the minimum word error rate to a text file
-    result_file = f"results/{project_name}_iteration_{synthetic_data_increment}.txt"
-    with open(result_file, 'w') as f:
-        f.write(f"Minimum Word Error Rate: {min_wer}")
+    # # Get the test word error rate
+    # test_wer = test_result[0]['test_wer']
+    #
+    # # Check if the current iteration has a lower word error rate
+    # if test_wer < min_wer:
+    #     min_wer = test_wer
+    #
+    # # Save the minimum word error rate to a text file
+    # result_file = f"results/{project_name}_iteration_{synthetic_data_increment}.txt"
+    # with open(result_file, 'w') as f:
+    #     f.write(f"Minimum Word Error Rate: {min_wer}")
 
     model_path = f"models/{project_name}_model_{run_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
     model.save_to(model_path)

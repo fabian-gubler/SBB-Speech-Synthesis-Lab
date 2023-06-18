@@ -9,7 +9,10 @@
 
 ## Training Todo
 - Rerun german_30
-- (optional) further Evaluation script
+
+1. Scientific Convention
+2. What is still to be done?
+3. Latex that contains code for figures & tables
 
 ## Insights
 

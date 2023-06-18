@@ -93,11 +93,11 @@ train_manifest_path = f"../sbb/conformer/output/train_manifest_0.json"
 sweep_iteration(train_manifest_path, 0)
 
 # Sweep over synthetic data
-for i in range(1, 6):
+for i in range(1, 5):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_{i}.json"
     sweep_iteration(train_manifest_path, i)
 
 # Sweep over synthetic data for german
-for i in range(1, 6):
+for i in range(1, 5):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_german_{i}.json"
     sweep_iteration(train_manifest_path, i)

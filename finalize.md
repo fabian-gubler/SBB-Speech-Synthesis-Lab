@@ -7,17 +7,31 @@
 	- Declaration on page 13
 - IMRAD Structure
 
-## Experiments
+## Training Todo
+- Rerun german_30
+- (optional) further Evaluation script
 
-### Training
+## Insights
 
-- Files created overlap
-    - Extract function -> manually create .json files
-- Make script faster (e.g. batch size, epochs)
+### Methods
+- Distribution of Speakers
+    - Highly skewed
+    - Unique Test set (to better represent real life scenario)
 
-Alternative Solutions
-- Test saved models on hsg samples
+- Silence was added before the samples
 
+### Results & Discussion
+Issue 1: Data Quality - Small Variation of texts
+
+Issue 2: Data Quality - Small selection of speakers & accents
+- Highly Skewed, show distribution
+- Test set is unique with speakers
+
+Issue 3: Conformer CTC already provides a lot
+
+Discussion
+- Our model with synthetic may be better at generalizing, but this with the given dataset
+  could not be tested
 
 
 ### Important Notes
@@ -28,6 +42,7 @@ Alternative Solutions
 		- Validation set: 15% Human
 		- Test set: 15% Human
 		- 0% - 100% Synthetic Data (10% Increments)
+
 
 ## Report Writing
 

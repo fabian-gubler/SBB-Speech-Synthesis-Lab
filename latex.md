@@ -1,25 +1,52 @@
-# Results (TODO)
+Great! I have have successfully ran the experiments (now synthetic only with german samples,
+later I will also run all the samples). Help me develop the first draft of the results
+section. For this I will first provide you with the results. Secondly, I will provide you
+with the notes that could help in developing this section. Also, I will provide figures
+and added evaluation that could be relevant for this section. Your task is to help me
+develop this section. If there are any additional results you need or clarification
+questions before providing the final output please let me know beforehand. Please
+clearly indicate in sections where I did not yet provide sufficient information or
+context. Note that you should not develop the figures yet for the initial draft - only include placeholders and a short
+description of what the figure should show.
 
-## Figures to include
+--- 
+# Preliminary Results
 
-- Table 1: A table comparing the Word Error Rate (WER) of the model at different stages: baseline (0 shot), training with human-recorded samples only, and various levels of synthetic data inclusion.
-- Figure 7: A bar or line graph showing the change in performance (WER) as the amount of synthetic data used in training is increased. This would provide a visual representation of the trend.
-- Figure 9: A confusion matrix to visually show where the model tends to make errors, in terms of predicting certain words incorrectly.
-- Figure 10: An example of the model's prediction, with the original text, the predicted text, and highlighting errors, could serve as a case study to underline the strengths and weaknesses.
+The following lists results from several experiments when training the conformer ctc
+model for speech recognition on our dataset. All experiments contain human samples (70%
+of entire dataset), where incrementally synthetic samples are added to the training
+set. The results are reflecting word error rate in percentage
 
-## Added Evaluation:
+- Baseline Conformer CTC pretrained (no Training on dataset): 39.48%
+- 0% synthetic added - Baseline Human (Only human samples): 10.07%
 
-Quantiative Analysis:
+- 10% synthetic added:  7.688%
+- 20% synthetic added:  6.639%
+- 30% synthetic added:  8.272%
+- 40% synthetic added:  5.395%
+- 50% synthetic added:  5.487%
+- 60% synthetic added:  5.5%
+- 70% synthetic added:  7.283%
+- 80% synthetic added:  7.028%
+- 90% synthetic added:  6.489%
+- 100% synthetic added: 7.598%
 
-- Confusion Matrix: This analysis could be useful to visualize the model's performance and understand which words are often confused with each other.
+# Preliminary Results with accented samples (not finished)
 
-Qualitative Analysis:
+- 10% synthetic added:  6.594%
+- 20% synthetic added:  6.399%
+- 30% synthetic added:  6.489%
+- 40% synthetic added:  5.575%
+- 50% synthetic added:  [still running]
+- 60% synthetic added:  [still running]
+- 70% synthetic added:  [still running]
+- 80% synthetic added:  [still running]
+- 90% synthetic added:  [still running]
+- 100% synthetic added:  [still running]
 
-- Manual Error Analysis: You could manually review a subset of the transcriptions to understand the nature of the errors made by the model. This could be insightful, especially when the model makes mistakes that are not captured by the metrics.
+---
 
-- Case Studies: You could present specific examples where the model performed exceptionally well or poorly. This could provide more context to the quantitative results and make the findings more tangible. This includes looking at specific foreign accents.
-
-# Results
+# Results Notes
 
 The results section serves to present the key findings of the project and primarily focuses on the performance comparison of the Conformer-CTC model under various training conditions. It delineates the model's performance when trained with different types and amounts of synthetic data, and how this compares to both the baseline model and the model trained only with human-recorded samples.
 
@@ -94,3 +121,25 @@ Conclude the discussion section by summarizing the main points, reaffirming the 
 
 For instance: 
 "In conclusion, our research illustrates the transformative potential of synthetic data augmentation in advancing automatic speech recognition tasks. Despite the challenges of diverse accents and limited data, we demonstrated that it's possible to achieve significant improvements using an innovative data augmentation strategy..."
+
+--- Additional Information:
+
+## Figures that could be include
+
+- Table 1: A table comparing the Word Error Rate (WER) of the model at different stages: baseline (0 shot), training with human-recorded samples only, and various levels of synthetic data inclusion.
+- Figure 7: A bar or line graph showing the change in performance (WER) as the amount of synthetic data used in training is increased. This would provide a visual representation of the trend.
+- Figure 9: A confusion matrix to visually show where the model tends to make errors, in terms of predicting certain words incorrectly.
+- Figure 10: An example of the model's prediction, with the original text, the predicted text, and highlighting errors, could serve as a case study to underline the strengths and weaknesses.
+
+## Added Evaluation that could be included:
+
+Quantiative Analysis:
+
+- Confusion Matrix: This analysis could be useful to visualize the model's performance and understand which words are often confused with each other.
+
+Qualitative Analysis:
+
+- Manual Error Analysis: You could manually review a subset of the transcriptions to understand the nature of the errors made by the model. This could be insightful, especially when the model makes mistakes that are not captured by the metrics.
+
+- Case Studies: You could present specific examples where the model performed exceptionally well or poorly. This could provide more context to the quantitative results and make the findings more tangible. This includes looking at specific foreign accents.
+

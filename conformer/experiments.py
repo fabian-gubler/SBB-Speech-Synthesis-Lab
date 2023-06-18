@@ -89,7 +89,7 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model.save_to(model_path)
 
 for i in range(0, 11):
-    train_manifest_path = f"./output/train_manifest_{i}.json"
+    train_manifest_path = f"../sbb/conformer/output/train_manifest_{i}.json"
     sweep_iteration(train_manifest_path, i)
 
 for i in range(1, 11):

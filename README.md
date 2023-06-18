@@ -7,11 +7,7 @@
 - [Contents of this Repository](#contents-of-this-repository)
 - [Installation & Usage](#installation--usage)
   - [Generating Speech samples](#generating-speech-samples)
-    - [Prerequisites](#prerequisites)
-    - [Steps](#steps)
   - [Conformer](#conformer)
-    - [Prerequisites](#prerequisites-1)
-    - [Note](#note)
 - [Acknowledgements](#acknowledgements)
 
 

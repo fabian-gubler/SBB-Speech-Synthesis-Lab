@@ -6,8 +6,6 @@
 - [Overview and Motivation](#overview-and-motivation)
 - [Contents of this Repository](#contents-of-this-repository)
 - [Installation & Usage](#installation--usage)
-  - [Generating Speech samples](#generating-speech-samples)
-  - [Conformer](#conformer)
 - [Acknowledgements](#acknowledgements)
 
 

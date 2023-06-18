@@ -88,10 +88,16 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model_path = f"models/{project_name}_model_{run_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.nemo"
     model.save_to(model_path)
 
-for i in range(0, 11):
+# Baseline without synthetic data
+train_manifest_path = f"../sbb/conformer/output/train_manifest_0.json"
+sweep_iteration(train_manifest_path, 0)
+
+# Sweep over synthetic data
+for i in range(1, 11):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_{i}.json"
     sweep_iteration(train_manifest_path, i)
 
+# Sweep over synthetic data for german
 for i in range(1, 11):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_german_{i}.json"
     sweep_iteration(train_manifest_path, i)

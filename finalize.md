@@ -10,32 +10,27 @@
 ## Training Todo
 - Rerun german_30
 
-1. Scientific Convention
-2. What is still to be done?
-3. Latex that contains code for figures & tables
+## Latex Todo
 
-## Insights
+Wait until 15.15 (GPT Limit)
 
-### Methods
-- Distribution of Speakers
-    - Highly skewed
-    - Unique Test set (to better represent real life scenario)
+Write:
 
-- Silence was added before the samples
+1. Adapt Abstract
+2. Write Speaker Separation Description
+3. Include added evaluation technique (qualitative)
 
-### Results & Discussion
-Issue 1: Data Quality - Small Variation of texts
+Figures:
 
-Issue 2: Data Quality - Small selection of speakers & accents
-- Highly Skewed, show distribution
-- Test set is unique with speakers
+1. Create & add missing figures (ask gpt for tool)
+    1. Speaker Distribution
+    2. Spectogram
+    3. Change in performance
+2. Decrease Table font size
 
-Issue 3: Conformer CTC already provides a lot
+Finalize:
 
-Discussion
-- Our model with synthetic may be better at generalizing, but this with the given dataset
-  could not be tested
-
+1. Add final values
 
 ### Important Notes
 - Test loss !~ validation loss

@@ -1,15 +1,12 @@
 # Introduction
-This project aims to enhance the performance of Automatic Speech Recognition (ASR) systems by incorporating synthetic data in the training process.
 
-Automatic Speech Recognition is a field of study that involves training machines to recognize and translate spoken language into written text. ASR technology plays a crucial role in various applications such as transcription services, voice assistants, and automated customer services. Despite significant advancements in this field, handling diverse accents and limited data remain persistent challenges that hinder the performance of ASR systems.
+Automatic Speech Recognition (ASR) is pivotal in numerous applications, from transcription services to voice assistants. However, it faces challenges regarding accent diversity and data limitation. Our project seeks to overcome these hurdles by using synthetic data augmentation, a technique effective in various machine learning tasks.
 
-Our goal in this project was to overcome these challenges by using synthetic data augmentation. Data augmentation has proven to be an effective strategy in various machine learning tasks to improve model performance, and we believe it holds great promise for ASR as well.
+Our synthetic data, generated using Text-to-Speech (TTS) technology, expands our training set's diversity and variety. By introducing more variations in speaker characteristics and commandos, it enhances the ability of our ASR model to generalize to unseen data.
 
-Our synthetic data, which was created using Text-to-Speech (TTS) technology, expands the diversity and variety of our training set. It introduces more variations in speaker characteristics and commandos, thereby allowing our ASR model to better generalize to unseen data.
+We utilized the Conformer-CTC model, known for its efficacy in ASR tasks. We investigated its performance with different levels of synthetic data integrated into the training set, comparing it against a baseline model and one trained only on human-recorded samples.
 
-In our work, we focused on the Conformer-CTC model due to its suitability for ASR tasks. We evaluated the model's performance with varying levels of synthetic data added to the training set and compared it against a baseline model as well as a model trained with only human-recorded samples.
-
-The results from our experiments offer compelling evidence of the potential of synthetic data augmentation in improving ASR performance. This project, therefore, provides a meaningful contribution towards making ASR systems more robust and effective in real-world applications.
+The outcomes of our experiments demonstrate the potential of synthetic data augmentation in improving ASR performance, thereby offering a substantial contribution to the robustness and effectiveness of real-world ASR systems.
 
 ## Contents of this Repository
 

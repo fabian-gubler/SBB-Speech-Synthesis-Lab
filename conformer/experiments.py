@@ -89,19 +89,16 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model.save_to(model_path)
 
 # Baseline without synthetic data
-train_manifest_path = f"../sbb/conformer/output/train_manifest_5.json"
-sweep_iteration(train_manifest_path, 5)
-
-train_manifest_path = f"../sbb/conformer/output/train_manifest_german_5.json"
-sweep_iteration(train_manifest_path, 5)
+# train_manifest_path = f"../sbb/conformer/output/train_manifest_5.json"
+# sweep_iteration(train_manifest_path, 5)
 
 # Sweep over synthetic data for german
 # for i in range(6, 11):
 #     train_manifest_path = f"../sbb/conformer/output/train_manifest_german_{i}.json"
 #     sweep_iteration(train_manifest_path, i)
-#
-# # Sweep over synthetic data
-# for i in range(6, 11):
-#     train_manifest_path = f"../sbb/conformer/output/train_manifest_{i}.json"
-#     sweep_iteration(train_manifest_path, i)
+
+# Sweep over synthetic data
+for i in range(6, 11):
+    train_manifest_path = f"../sbb/conformer/output/train_manifest_{i}.json"
+    sweep_iteration(train_manifest_path, i)
 

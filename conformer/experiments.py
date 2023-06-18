@@ -52,11 +52,11 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     early_stopping_callback = EarlyStopping(
         monitor='val_wer',
         mode='min',
-        patience=3  # Number of epochs with no improvement after which training will be stopped
+        patience=2  # Number of epochs with no improvement after which training will be stopped
     )
 
     trainer = pl.Trainer(
-        max_epochs=10,
+        max_epochs=5,
         logger=wandb_logger,
         callbacks=[checkpoint_callback, early_stopping_callback],
         gpus=[2],
@@ -72,9 +72,9 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     model.cfg.test_ds.manifest_filepath = test_manifest_path
     model.cfg.train_ds.is_tarred = False
 
-    model.cfg.train_ds.batch_size = 8
-    model.cfg.validation_ds.batch_size = 8
-    model.cfg.test_ds.batch_size = 8
+    model.cfg.train_ds.batch_size = 16
+    model.cfg.validation_ds.batch_size = 16
+    model.cfg.test_ds.batch_size = 16
     model.cfg.train_ds.shuffle = True
 
     model.setup_training_data(model.cfg.train_ds)
@@ -93,11 +93,11 @@ train_manifest_path = f"../sbb/conformer/output/train_manifest_0.json"
 sweep_iteration(train_manifest_path, 0)
 
 # Sweep over synthetic data
-for i in range(1, 11):
+for i in range(1, 6):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_{i}.json"
     sweep_iteration(train_manifest_path, i)
 
 # Sweep over synthetic data for german
-for i in range(1, 11):
+for i in range(1, 6):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_german_{i}.json"
     sweep_iteration(train_manifest_path, i)

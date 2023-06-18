@@ -53,7 +53,7 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
         random.shuffle(train_manifest)
 
         # Save train manifest for this iteration
-        train_manifest_path = os.path.join(output_dir, f"train_manifest_german_{i}.json")
+        train_manifest_path = os.path.join(output_dir, f"train_manifest_{i}.json")
         with open(train_manifest_path, 'w') as f:
             for entry in train_manifest:
                 json.dump(entry, f)
@@ -63,7 +63,7 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
 
 # Example usage
 human_manifest_path = '../dataset/human/manifest_above_100_filtered.json'
-synthetic_manifest_path = '../dataset/synthetic/manifest_german.json'
+synthetic_manifest_path = '../dataset/synthetic/manifest_with_silence.json'
 output_dir = './output'
 train_percent = 0.7
 val_percent = 0.15

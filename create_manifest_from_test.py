@@ -1,14 +1,11 @@
-# NOTE: to filter out dirty samples, use the following command:
-# grep -P '"text": "(rangierfahrt|umstellman\\u00f6ver)' manifest_source.json > manifest.json
-
 import os
 import json
-# import librosa
 from pydub.utils import mediainfo
 from tqdm import tqdm
+from collections import Counter
 
 # Directories for the audio samples and the labels
-base_dir = 'dataset/hsg/'
+base_dir = 'dataset/human/'
 samples_dir = base_dir + 'audios/'
 labels_dir = base_dir + 'labels/'
 
@@ -17,25 +14,42 @@ def get_audio_duration(file_path):
     duration = float(audio_info['duration'])
     return duration
 
-# Open the manifest file to write in the base directory
-with open(base_dir + 'manifest.json', 'w') as manifest_file:
-    # List all the json files in the labels directory
-    label_files = [file for file in os.listdir(labels_dir) if file.endswith('.json')]
-    for file in tqdm(label_files, desc="Processing files"):
-            # Open each json file and load the content
-            with open(labels_dir + file) as label_file:
-                data = json.load(label_file)
-                
-                # Prepare the data in the required format
-                # 'uuid' field is used as the filename (with .wav added)
-                # 'sampleId' field is used as the text
-                audio_filepath = samples_dir + data['sampleId'] + '.wav'
-                text = data['sentence'].lower()
+# Initialize counters for speaker ids
+speaker_counter = Counter()
 
-                # Load audio file and calculate its duration
-                # y, sr = librosa.load(audio_filepath)
-                # duration = librosa.get_duration()
-                duration = get_audio_duration(audio_filepath)
-                
-                # Write the data to the manifest file
-                manifest_file.write(json.dumps({'audio_filepath': audio_filepath, 'text': text, 'duration': duration}) + '\n')
+# List all the json files in the labels directory
+label_files = [file for file in os.listdir(labels_dir) if file.endswith('.json')]
+
+# First pass through files to count speaker occurrences
+for file in label_files:
+    with open(labels_dir + file) as label_file:
+        data = json.load(label_file)
+        speaker_id = data.get('speakerId')
+        if speaker_id:
+            speaker_counter[speaker_id] += 1
+
+# Open the manifest files to write in the base directory
+with open(base_dir + 'manifest_above_100.json', 'w') as manifest_file_above_100, \
+     open(base_dir + 'manifest_below_100.json', 'w') as manifest_file_below_100:
+
+    # Second pass to write to corresponding manifest file based on count
+    for file in tqdm(label_files, desc="Processing files"):
+        with open(labels_dir + file) as label_file:
+            data = json.load(label_file)
+            speaker_id = data.get('speakerId')
+
+            # Prepare the data in the required format
+            # 'uuid' field is used as the filename (with .wav added)
+            # 'sampleId' field is used as the text
+            audio_filepath = samples_dir + data['sampleId'] + '.wav'
+            text = data['sentence'].lower()
+
+            # Load audio file and calculate its duration
+            duration = get_audio_duration(audio_filepath)
+            
+            # Write the data to the corresponding manifest file
+            output_line = json.dumps({'audio_filepath': audio_filepath, 'text': text, 'duration': duration, 'speaker_id': speaker_id}) + '\n'
+            if speaker_counter[speaker_id] > 100:
+                manifest_file_above_100.write(output_line)
+            else:
+                manifest_file_below_100.write(output_line)

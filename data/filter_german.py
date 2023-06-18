@@ -22,8 +22,8 @@ def save_data(file_path, data):
         for sample in data:
             f.write(json.dumps(sample, ensure_ascii=True) + '\n')
 
-train_path = "dataset_train/manifest.json"
-eval_path = "dataset_eval/manifest.json"
+train_path = "../dataset_train/manifest.json"
+eval_path = "../dataset_eval/manifest.json"
 
 # filter data
 train_data = filter_data(train_path)

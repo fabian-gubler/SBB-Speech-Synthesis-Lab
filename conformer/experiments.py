@@ -56,7 +56,7 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
     )
 
     trainer = pl.Trainer(
-        max_epochs=5,
+        max_epochs=6,
         logger=wandb_logger,
         callbacks=[checkpoint_callback, early_stopping_callback],
         gpus=[2],
@@ -92,12 +92,13 @@ def sweep_iteration(train_manifest_path, synthetic_data_increment):
 train_manifest_path = f"../sbb/conformer/output/train_manifest_0.json"
 sweep_iteration(train_manifest_path, 0)
 
+# Sweep over synthetic data for german
+for i in range(1, 5):
+    train_manifest_path = f"../sbb/conformer/output/train_manifest_german_{i}.json"
+    sweep_iteration(train_manifest_path, i)
+
 # Sweep over synthetic data
 for i in range(1, 5):
     train_manifest_path = f"../sbb/conformer/output/train_manifest_{i}.json"
     sweep_iteration(train_manifest_path, i)
 
-# Sweep over synthetic data for german
-for i in range(1, 5):
-    train_manifest_path = f"../sbb/conformer/output/train_manifest_german_{i}.json"
-    sweep_iteration(train_manifest_path, i)

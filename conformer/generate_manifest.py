@@ -5,17 +5,6 @@ import os
 
 SEED = 1337
 
-def data_split(data, train_percent, val_percent):
-    total_samples = len(data)
-    train_samples = int(total_samples * train_percent)
-    val_samples = int(total_samples * val_percent)
-
-    train_data = data[:train_samples]
-    val_data = data[train_samples:train_samples + val_samples]
-    test_data = data[train_samples + val_samples:]
-
-    return train_data, val_data, test_data
-
 def generate_train_manifests(human_manifest_path, synthetic_manifest_path, output_dir, train_percent, val_percent):
     # Load human and synthetic data
     with open(human_manifest_path) as f:
@@ -33,10 +22,9 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
     train_samples = int(total_samples * train_percent)
     val_samples = int(total_samples * val_percent)
 
-    # Split human data into train, val, and test sets
+    # Split human data into train and val sets
     train_data = human_data[:train_samples]
     val_data = human_data[train_samples:train_samples + val_samples]
-    test_data = human_data[train_samples + val_samples:]
 
     # Save baseline train manifest
     train_manifest_baseline_path = os.path.join(output_dir, "train_manifest_0.json")
@@ -45,16 +33,10 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
             json.dump(entry, f)
             f.write('\n')
 
-    # Save val and test manifests
+    # Save val manifest
     val_manifest_path = os.path.join(output_dir, "val_manifest.json")
     with open(val_manifest_path, 'w') as f:
         for entry in val_data:
-            json.dump(entry, f)
-            f.write('\n')
-
-    test_manifest_path = os.path.join(output_dir, "test_manifest.json")
-    with open(test_manifest_path, 'w') as f:
-        for entry in test_data:
             json.dump(entry, f)
             f.write('\n')
 
@@ -71,7 +53,7 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
         random.shuffle(train_manifest)
 
         # Save train manifest for this iteration
-        train_manifest_path = os.path.join(output_dir, f"train_manifest_{i}.json")
+        train_manifest_path = os.path.join(output_dir, f"train_manifest_german_{i}.json")
         with open(train_manifest_path, 'w') as f:
             for entry in train_manifest:
                 json.dump(entry, f)
@@ -80,8 +62,8 @@ def generate_train_manifests(human_manifest_path, synthetic_manifest_path, outpu
     print("Manifest files generated successfully.")
 
 # Example usage
-human_manifest_path = '../dataset/human/manifest_unfiltered.json'
-synthetic_manifest_path = '../dataset/synthetic/manifest.json'
+human_manifest_path = '../dataset/human/manifest_above_100_filtered.json'
+synthetic_manifest_path = '../dataset/synthetic/manifest_german.json'
 output_dir = './output'
 train_percent = 0.7
 val_percent = 0.15
